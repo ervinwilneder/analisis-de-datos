@@ -1,0 +1,22 @@
+# Tests de hipótesis
+
+#### Lectura
+
+- [Decisiones en el campo de la estadística (_Estadística para Todos_: pág. 231 a 241)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
+- [Pruebas de hipótesis de una muestra (_Estadística Aplicada a los Negocios y la Economía_: pág. 333 a 346)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
+- [Pruebas de hipótesis estadísticas (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 303 a 346)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
+- [Hypothesis Testing for One-Sample Proportion (_STAT 500 | Applied Statistics_: lesson 6a)](https://online.stat.psu.edu/stat500/lesson/6a)
+- [Hypothesis Testing for One-Sample Mean (_STAT 500 | Applied Statistics_: lesson 6b)](https://online.stat.psu.edu/stat500/lesson/6b)
+    
+#### Actividades:
+ 
+- Considere el dataset [Breast Cancer Data](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Asuma que es resultado de un muestreo aleatorio, llevado a cabo en el marco de una investigación, y responda/realice lo siguiente:
+    - Defina población y unidad de análisis.
+    - Detalle las posibles características del procedimiento de muestreo llevado adelante.
+    - Realice un breve análisis exploratorio.
+    - Plantee al menos 3 preguntas relevantes para la investigación y que puedan ser respondidas a partir de dichos datos.
+    - A partir de las preguntas, defina las pruebas de hipótesis correspondientes y calcule los estimadores necesarios.
+- (<span style="color:red">**ENTREGA OBLIGATORIA**</span>) Vuelque todo lo anterior en un informe (máx. 10 páginas). Incluya:
+    - Un resumen del trabajo realizado a modo de introducción, considerando supuestos, planteamientos y resultados.
+    - Una sección con el análisis de los datos y procedimientos correspondientes. Explique y justifique cada paso.
+    - Un apartado final donde exponga conclusiones acerca de su trabajo, formule interrogantes acerca de la validez de sus conclusiones y presente posibles caminos de acción para subsanar/mejorar/ampliar la investigación.

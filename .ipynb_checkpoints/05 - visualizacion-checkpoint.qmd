@@ -1,0 +1,33 @@
+# Visualización de datos
+
+#### Lectura
+
+##### Vizualización de cantidades, proporciones y distribuciones
+
+- [Fundamentals of Data Visualization (Part I: Cap. 2, 5, 6, 7 y 10)](https://clauswilke.com/dataviz) (complementar con el resto de la bibliografía habitual de ser necesario)
+
+##### Conceptos básicos de storytelling y presentaciones efectivas
+
+- [Fundamentals of Data Visualization (Part III: Cap. 28 y 29)](https://clauswilke.com/dataviz)
+   
+#### Actividades
+
+- Considere el dataset _French Bakery Daily Sales_. Realice visualizaciones que puedan responder a las siguientes preguntas:
+    - ¿Cuál fue el total de baguettes tradicionales vendidas en el período Sep-2022?
+    - ¿Cuánto representa la anterior cantidad respecto a todo tipo de baguettes?
+    - ¿Ha habido cambios en esas proporciones respecto a Sep-2021?
+    - ¿Cuál fue el día de semana y horario de mayor ganancia?
+    - ¿Cuánto representa la venta de baguettes tradicionales en dicha ganancia?
+    - ¿Cuál es la variación respecto a unidades vendidas para todo tipo de baguette a lo largo del año 2021?
+    - ¿Cuál es el mayor incremento intermensual de baguettes tradicionales vendidas?
+    - ¿En qué precio se encuentran la mayoría de los productos? ¿y el 80% de los productos?
+- (<span style="color:red">**ENTREGA OBLIGATORIA**</span>) Considere el dataset [French Bakery Daily Sales](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Asuma que usted es un analista de datos recientemente contratada/o por la panadería francesa. El dueño busca entender el potencial de venta de la baguette tradicional. Realice una presentación de negocio con las visualizaciones anteriores que considere relevantes (modifíque ó cree otras si considera necesario) con el objetivo de describir la situación histórica y actual de la venta de dicho producto. No utilice más de 5 gráficos/diapositivas, debe ser breve y comunicar sólo cuestiones claves. Extraiga una conclusión/recomendación para el dueño.
+
+#### Resumen
+
+En el área de análisis de datos, puede llegar a ser un rol aparte el de aquel que realiza visualizaciones. Es un área que **implica no sólo conocimiento técnico en datos, sino en diseño**. Sino se tiene esta formación puntual, muchas veces se adquiere con la experiencia, y aún así, frente a una presentación, el contenido y la forma **dependerá de quién reciba la información**. Lo recomendable es inicialmente **partir de un diseño mínimo, replicable y tomar referencias de otras presentaciones**. Complementar y mejorar luego en función de la asimilación de principios básicos del diseño, colores e incluso tendencias.
+
+En cuanto a los datos, las visualizaciones estarán dadas por la **cantidad de variables y su tipo**. Suele ser buen hábito recurrir a una _galería de visualizaciones_ para corrobar cuál gráfico encaja con lo que se tiene disponible o se quiere mostrar (ej: [Python Graph Gallery](https://www.python-graph-gallery.com/)). Siempre adecuar la visualización a la **pregunta que debe responder** y evitar la sobrecarga / repetición de datos. Acompañar con el correspondiente título, referencias y leyenda, así como eventualmente, si fuese necesario, con una breve y sencilla explicación coloquial.
+
+Dicho esto, es posible realizar visualizacion tanto con herramientas pensadas para tal fin (Tableau, PowerBI, Looker), otras más genéricas de presentaciòn (PowerPoint, Google Slides) o con Python / R / Javascript (a través de las librerías adecuadas). En ese sentido, lo recomendable es adoptar una en particular y profundizar en su uso.
+

@@ -1,0 +1,36 @@
+# Descripción de variables
+
+#### Lectura
+
+##### Medidas de posición: promedio, mediana, cuantiles y moda
+
+- [Medidas Resumen (_Estadística para Todos_: pág. 120 a 125)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
+- [Los valores que caracterizan al conjunto de datos (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 59 a 79)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
+- [Descripción de datos (_Estadística Aplicada a los Negocios y la Economía_: pág. 57 a 75)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
+- [Medidas numéricas descriptivas (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 11 a 14)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
+
+##### Medidas de dispersión: desviación estándar, coeficiente de variación y rango
+
+- [Medidas Resumen (_Estadística para Todos_: pág. 125 a 135)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
+- [Análisis de la variación y asimetría (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 85 a 97)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
+- [Descripción de datos (_Estadística Aplicada a los Negocios y la Economía_: pág. 75 a 84)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
+- [Medidas numéricas descriptivas (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 15 a 22)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
+
+##### Medidas de relación: razones, tasas y proporciones
+
+- [Razón, tasas y porcentajes (_Estadística para Todos_: pág. 15 a 19)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
+    
+#### Actividades
+- Considere el dataset [Best Movie by Year Netflix](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Calcule medidas de posición y dispersión para la variable _score_. Divida el set de datos a partir de algún criterio que considere de interés, calcule medidas de relación entre los grupos resultantes.
+
+#### Resumen
+
+En el proceso de caracterización / resumen de variables, el **análisis exploratorio de datos**, participan medidas de 3 cuestiones fundamentales: **posición, dispersión y relación**. 
+
+La posición esencialmente permite conocer **dónde se encuentran la mayor parte de los datos** y la dispersión, saber si los datos que conforman esa mayoría se encuentran _cerca_ unos de otros. Cuando la dispersión aumenta, las medidas de posición realmente no dicen mucho (aunque parezca que sí); por esto mismo, siempre deben estar ambas presentes. Justamente, como la dispersión impacta sobre la posición, se cuenta con una batería de posibles medidas que son más _robustas_ frente a una situación de gran dispersión ó dispersión particular de algunos datos. La más utilizada es la mediana, que a diferencia del promedio (media) logra mantenerse firme frente a **valores extremos**. 
+
+La **dispersión así también puede ser engañosa**, porque depende de las unidades en la que está medida. Por esto mismo, es recomendable el uso del coeficiente de variación, que es una relativización del desvío estándar frente al valor del promedio. Como su nombre lo indica, es un coeficiente y no tiene unidades. Un valor menor a 0.3 (30%) indica baja dispersión y, por ende, las medidas de posición serán _confiables_.
+
+Aún así, se verá en el próximo capítulo, que aún dándose esta última situación, **contar sólo con las medidas de posición no es 100% seguro**. Siempre debe recurrise a la **visualización** para lograr entender el comportamiento de una variable o conjunto de datos, acompañada de una tabla de frecuencias.
+
+Más allá del análisis de una variable por si sola, también puede presentarse la situación en la que se quiere comparar con otra o incluso comparar consigo misma en otra circunstancia (o en otro momento). Para ello, existen medidas de relación, que son habituales en todo tipo de informes. No se menciona en este capítulo el coeficiente de correlación, que merece un desarrollo más profundo de su uso e implicancias, lo cual se verá más adelante.

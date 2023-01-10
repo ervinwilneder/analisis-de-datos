@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Análisis de datos I - 3&nbsp; Tablas de frecuencias</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./04 - descripcion de variables.html" rel="next">
+<link href="./02 - datos unidades y variables.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Tablas de frecuencias</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Análisis de datos I</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Prefacio</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01 - conceptos y definiciones.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Conceptos y definiciones</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02 - datos unidades y variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Datos, unidades y variables de análisis</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03 - tablas de frecuencias.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Tablas de frecuencias</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04 - descripcion de variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Descripción de variables</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05 - visualizacion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Visualización de datos</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06 - origen y recoleccion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Origen y recolección de datos</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07 - probabilidad aplicada.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Probabilidad aplicada</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08 - estimacion puntual y por intervalos.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estimación puntual y por intervalos de confianza</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09 - tests de hipotesis.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tests de hipótesis</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10 - estadistica no parametrica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estadística NO paramétrica</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./11 - tecnicas de muestreo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Técnicas de muestreo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./12 - anova.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">ANOVA: Análisis de la varianza</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./13 - regresion lineal.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Lineal</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./14 - regresion logistica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Logística</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./15 - knn y cart.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">KNN y CART</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Tablas de frecuencias</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="lectura" class="level4">
+<h4 class="anchored" data-anchor-id="lectura">Lectura</h4>
+<ul>
+<li><a href="https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=sharing">Construcción de una tabla de frecuencias (<em>Estadística Aplicada a los Negocios y la Economía</em>: pág. 23 y 24)</a></li>
+<li><a href="https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=sharing">Construcción de distribuciones de frecuencias: datos cuantitativos (<em>Estadística Aplicada a los Negocios y la Economía</em>: pág. 29 a 34)</a></li>
+<li><a href="https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link">Problema de Trabajo e Investigación Estadística (<em>Estadística Aplicada a las Ciencias Sociales y Humanas</em>: pág. 12 y 13)</a></li>
+<li><a href="https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link">El Análisis de la Matriz de Datos (<em>Estadística Aplicada a las Ciencias Sociales y Humanas</em>: pág. 28)</a></li>
+<li><a href="https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link">Las Distribuciones de Frecuencias en el Análisis Univariado (<em>Estadística Aplicada a las Ciencias Sociales y Humanas</em>: pág. 29 a 45)</a></li>
+</ul>
+</section>
+<section id="actividades" class="level4">
+<h4 class="anchored" data-anchor-id="actividades">Actividades</h4>
+<ul>
+<li>Considere el set de datos <a href="https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link">Top Trends on TikTok &amp; YoutubeShorts</a>. Elabore tablas de frecuencias absolutas, relativas y acumuladas (si corresponde) para todas las variables.</li>
+<li>Releve el uso e implementación de <em>tablas pivote</em> en diferentes softwares/plataformas (ej: Excel, Google Sheets, Python, R, entre otros). Utilice alguno de los ejemplos sugeridos para realizar las anteriores tablas.</li>
+<li>Elabore al menos 3 preguntas de negocio que podrían ser respondidas con las anteriores tablas.</li>
+</ul>
+</section>
+<section id="resumen" class="level4">
+<h4 class="anchored" data-anchor-id="resumen">Resumen</h4>
+<p>La forma más básica de analizar / resumir un conjunto de datos es una tabla de frecuencias. Implica la <strong>operación de conteo de unidades de análisis o de sus variables, agrupadas por algún criterio, conformando categorías o clases excluyentes (sin solapamiento)</strong>. En las variables cualtitativas, suele ser bastante directo, siendo que las categorías se encuentran naturalmente identificadas; en las cuantitativas dependerá del análisis, pudiendo <strong>agrupar por intervalos del mismo o diferente tamaño</strong>, según se necesite.</p>
+<p>El resultado puntual del conteo para cada clase o intervalo se denomina <em>frecuencia</em> y el conjunto de éstas se conoce como <em>distribución de frecuencias</em>. La frecuencia puede ser <em>absoluta</em> o <em>relativa</em> (si es que se divide por el total de unidades o total de la variable), dando una mejor idea de cuán <em>relevante</em> es cierta clase respecto del total y además permitiendo comparar con otras variables. La suma de la columna con las frecuencias absolutas debe dar siempre como resultado el conteo de unidades total, mientras que la relativa debe dar siempre 1.</p>
+<p>Así, la tabla de frecuencias puede construirse inicialmente de la siguiente manera: una columna con las clases / categorías / intervalos, una columna con las frecuencias absolutas y otra columna con las relativas. Éstas 2 últimas suelen acompañarse de una fila con el total, de tal manera de verificar lo anteriormente dicho. Por sobre esta configuración básica, se puede agregar una columna con el punto medio de clase (habitualmente la diferencia entre valor máximo y mínimo de un intervalo, dividido 2) o punto máximo, lo cual ayuda a identifar rápidamente un intervalo sin recurrir a su definición por intervalo (ambos máximo y mínimo), y también siendo soporte para una posterior visualización. Adicionalmente, también puede utilizarse otra columna con el ancho de clase ó amplitud (diferencia entre valor máximo y mínimo).</p>
+<p>A continuación un <a href="https://docs.google.com/spreadsheets/d/1KAgg4uLBu2S_K7kJvb88BrgHKvCgWW8CdyCeQsziLXw/edit?usp=sharing">ejemplo</a>, realizado en Google Sheets, de la construcción de tablas de frecuencias con variable cualitativa y cuantitativa.</p>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTne-qv275uNHPDrpAuw_QbRSUGvK7m5J0JfKkiBpNzjXJoUSOECSSdiHfkhMv-klFi2kFxAs1Otp8L/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="900">
+</iframe>
+<p>Para responder algunas <strong>preguntas del análisis</strong> puede llegar a ser necesario el cálculo además de <strong>frecuencias acumuladas</strong> (esto únicamente para variables susceptibles de ordenamiento). Esencialmente, una vez ordenada la tabla por algún criterio, se procede a la suma fila por fila de las frecuencias absolutas y/o relativas. Sobre estas nuevas columnas no tiene sentido realizar una suma, pero sí se debe constatar que el resultado de la última fila sumada dé el total de la frecuencia absoluta o relativa, según se haya utilizada una u otra.</p>
+<p>Pudiendo realizarse de forma manual, en conjuntos grandes de datos, es posible recurrir al uso de <em>tablas pivote</em> o alguna implementación específica para tablas de frecuencia (ej: <a href="https://support.google.com/docs/answer/3094286?hl=es">función FREQUENCY en Google Sheets</a>).</p>
+<p>Finalizando lo referente a la construcción de la tabla de frecuencias, lo más importante a destacar es su flexibilidad y alcance frente a cualquier conjunto de datos. <strong>Se recomienda su implementación en cada análisis</strong>, para todas las variables, permitiendo posiblemente detectar problemáticas en las mismas o incluso sacar algunas primeras conclusiones. Además, serán necesarias para la realización de algunos tipos de análisis específicos vistos más adelante.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./02 - datos unidades y variables.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Datos, unidades y variables de análisis</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./04 - descripcion de variables.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Descripción de variables</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

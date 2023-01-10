@@ -1,0 +1,37 @@
+project:
+  type: book
+  preview:
+    host: 0.0.0.0
+    port: 4200
+    browser: false
+
+book:
+  title: "Análisis de datos I"
+  author: "Ervin Wilneder"
+  date: "1/9/2023"
+  chapters:
+    - index.qmd
+    - 01 - conceptos y definiciones.qmd
+    - 02 - datos unidades y variables.qmd
+    - 03 - tablas de frecuencias.qmd
+    - 04 - descripcion de variables.qmd
+    - 05 - visualizacion.qmd
+    - 06 - origen y recoleccion.qmd
+    - 07 - probabilidad aplicada.qmd
+    - 08 - estimacion puntual y por intervalos.qmd
+    - 09 - tests de hipotesis.qmd
+    - 10 - estadistica no parametrica.qmd
+    - 11 - tecnicas de muestreo.qmd
+    - 12 - anova.qmd
+    - 13 - regresion lineal.qmd
+    - 14 - regresion logistica.qmd
+    - 15 - knn y cart.qmd
+  page-navigation: true
+
+format:
+  html:
+    theme: default
+    toc: false
+    number-sections: false
+  pdf:
+    documentclass: scrreprt

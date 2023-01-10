@@ -1,0 +1,17 @@
+# Estimación puntual y por intervalos de confianza
+
+#### Lectura
+
+- [Estimación y parámetros (_Estadística para Todos_: pág. 55)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
+- [Variabilidad entre muestra y muestra (_Estadística para Todos_: pág. 58 a 63)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
+- [Teorema Central del Límite (_Estadística para Todos_: pág. 200 a 207)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
+- [Distribuciones de muestreo de estadísticas (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 218 a 238)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
+- [Estimación por intervalos (_Estadística para Todos_: pág. 214 a 228)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
+- [Estimación e intervalos de confianza (_Estadística Aplicada a los Negocios y la Economía_: pág. 297 a 315)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
+- [Propiedades deseables de los estimadores puntuales (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 251 a 261)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
+- [Confidence Intervales (_STAT 500 | Applied Statistics_: lesson 5)](https://online.stat.psu.edu/stat500/lesson/5)
+    
+#### Actividades
+
+- Considere el dataset [Pokemon](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link) y asuma que es el listado completo de todos los pokemones (es decir, la población). Use los parámetros obtenidos previamente y vuelva a calcular estimadores (utilizando las fórmulas adecuadas para cada caso, vistas en esta sección) pero realizando muestras aleatorias de manera sucesiva. Realice este mismo procedimiento con muestras de diferente tamaño. Grafique la distribución de los estimadores y saque conclusiones.
+- Retome lo realizado en la anterior clase y estime nuevamente los valores de media, varianza y proporción para las variables seleccionadas, utilizando diferentes niveles de confianza. Escriba una breve reseña con conclusiones acerca de los resultados obtenidos.

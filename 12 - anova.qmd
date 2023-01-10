@@ -1,0 +1,10 @@
+# ANOVA: Análisis de la varianza
+
+#### Lectura
+
+- [Análisis de la varianza (_Estadística Aplicada a los Negocios y la Economía_: pág. 410 a 440)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
+- [Introduction to ANOVA (_STAT 500 | Applied Statistics_: lesson 10)](https://online.stat.psu.edu/stat500/lesson/10)
+
+#### Actividades
+- Considere el dataset [CNC turning Experiment](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Identifique aquellos factores para los cuales la media de la fuerza (_force_), en al menos un grupo, sea significativamente diferente. Evalué en todos los casos los supuestos del análisis. Si para un grupo de factores encuentra diferencias, determine entre cuáles. Concluya cuáles factores son los que determinan la mayor fuerza posible alcanzada.
+- Lleve adelante una transformación de los datos tal que las réplicas de cada corrida (_run_id_) pasen a conformar las columnas r1 a r6 y además calcule la media y desvío estándar asociadas a las mismas.
