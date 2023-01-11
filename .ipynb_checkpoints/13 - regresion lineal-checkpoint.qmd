@@ -12,5 +12,3 @@
 - [In Depth: Linear Regression (Python Data Science Handbook)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.06-Linear-Regression.ipynb)
 
 #### Actividades
-- Considere el dataset [CNC turning Experiment](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Identifique aquellos factores para los cuales la media de la fuerza (_force_), en al menos un grupo, sea significativamente diferente. Evalué en todos los casos los supuestos del análisis. Si para un grupo de factores encuentra diferencias, determine entre cuáles. Concluya cuáles factores son los que determinan la mayor fuerza posible alcanzada.
-- Lleve adelante una transformación de los datos tal que las réplicas de cada corrida (_run_id_) pasen a conformar las columnas r1 a r6 y además calcule la media y desvío estándar asociadas a las mismas.
