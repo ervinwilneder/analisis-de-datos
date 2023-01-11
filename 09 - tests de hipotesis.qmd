@@ -8,7 +8,7 @@
 - [Hypothesis Testing for One-Sample Proportion (_STAT 500 | Applied Statistics_: lesson 6a)](https://online.stat.psu.edu/stat500/lesson/6a)
 - [Hypothesis Testing for One-Sample Mean (_STAT 500 | Applied Statistics_: lesson 6b)](https://online.stat.psu.edu/stat500/lesson/6b)
     
-#### Actividades:
+#### Actividades
  
 - Considere el dataset [Breast Cancer Data](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Asuma que es resultado de un muestreo aleatorio, llevado a cabo en el marco de una investigación, y responda/realice lo siguiente:
     - Defina población y unidad de análisis.
@@ -20,3 +20,11 @@
     - Un resumen del trabajo realizado a modo de introducción, considerando supuestos, planteamientos y resultados.
     - Una sección con el análisis de los datos y procedimientos correspondientes. Explique y justifique cada paso.
     - Un apartado final donde exponga conclusiones acerca de su trabajo, formule interrogantes acerca de la validez de sus conclusiones y presente posibles caminos de acción para subsanar/mejorar/ampliar la investigación.
+
+#### Resumen
+
+Partiendo de la base que se calculó determinado estimador (es decir, se obtiene una aproximación de alguna característica de una variable), muchas veces lo que se busca es **contrastar el resultado con alguna suposición acerca del valor real** o quizás contra un valor dado por cierto. Esa **puesta a prueba de lo conocido**, recibirá el nombre de **test de hipótesis**. El test de hipótesis, **haciendo uso de la evidencia (datos) relevada**, buscará rechazar (o no) lo que se considera verdadero hasta el momento. Cabe señalar que justamente así funciona la ciencia en términos conceptuales, por tanto, **los test de hipótesis son la herramienta por excelencia para la investigación científica**.
+
+Así como el cálculo de los estimadores, el resultado de un test de hipótesis dependerá de la calidad de los datos obtenidos, de la representatividad de la muestra. Esta obtención de datos debe ser aleatoria, al menos en algún punto del procedimiento general, y estará sujeta además a la suposición o no de que la variable (sobre la cual se testea) tenga determinada distribución. De no ser así, y al igual que con la estimación, se recurrirá a métodos no paramétricos.
+
+Por otro lado, las pruebas estadísticas (otra denominación para los tests) tendrán **diferentes variaciones** según se cuente con una o más muestras, una o más variables, variables independientes o apareadas (por ejemplo, la misma variable en dos momentos de tiempo diferentes), dispersión conocida o desconocida, entre otras cuestiones. Es una batería realmente extensa que dificilmente se pueda memorizar, con lo cual es recomendable más bien asimilar el **reconomiento de escenarios frente a los cuales se puede aplicar un test** y luego indagar en cuál sería el más apropiado para el mismo. En ese sentido, es una aproximación similar a la de la visualización de datos, pero para la cual se deberá ser mucho más precabido ya que, siendo **una herramienta crítica para la obtención de conclusiones**, puede conducir a acciones incorrectamente fundamentadas.
