@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
   preview:
     host: 0.0.0.0
     port: 4200
@@ -33,5 +34,3 @@ format:
     theme: default
     toc: false
     number-sections: false
-  pdf:
-    documentclass: scrreprt
