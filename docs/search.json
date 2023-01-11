@@ -61,5 +61,12 @@
     "title": "KNN y CART",
     "section": "",
     "text": "Lectura\n\nRelación entre variables (Estadística para Todos: pág. 168 a 196)\nEl estudio de la relación entre variables (Estadística Aplicada a las Ciencias Sociales y Humanas: pág. 105 a 130)\nRegresión lineal y correlación (Estadística Aplicada a los Negocios y la Economía: pág. 461 a 494)\nAnálisis de regresión: el modelo lineal simple (Probabilidad y Estadística | Aplicaciones y Métodos: pág. 443 a 478)\nFundamentals of Data Visualization (Part I: Cap. 12)\nLinear Regression Foundations (STAT 500 | Applied Statistics: lesson 9)\nIntroduction to Modeling Libraries in Python (Python for Data Analysis: cap. 12)\nIn Depth: Linear Regression (Python Data Science Handbook)\n\n\n\nActividades\n\nConsidere el dataset CNC turning Experiment. Identifique aquellos factores para los cuales la media de la fuerza (force), en al menos un grupo, sea significativamente diferente. Evalué en todos los casos los supuestos del análisis. Si para un grupo de factores encuentra diferencias, determine entre cuáles. Concluya cuáles factores son los que determinan la mayor fuerza posible alcanzada.\nLleve adelante una transformación de los datos tal que las réplicas de cada corrida (run_id) pasen a conformar las columnas r1 a r6 y además calcule la media y desvío estándar asociadas a las mismas."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Análisis de datos",
+    "section": "",
+    "text": "Prefacio\nEl presente libro es un compilado de lecturas y actividades sobre diferentes temas que son considerados fundamentales para el análisis de datos. Cada capítulo corresponde a un tema e incluye un resumen con ideas y conclusiones a destacar.\nEste material fue desarrollado exclusivamente para las materias Análisis de Datos I y II de la Diplomatura Universitaria en Programación de la UTN HAEDO, dictada inicialmente en 2023."
   }
 ]
