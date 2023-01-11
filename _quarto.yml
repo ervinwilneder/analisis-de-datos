@@ -7,7 +7,7 @@ project:
     browser: false
 
 book:
-  title: "Análisis de datos I"
+  title: "Análisis de datos"
   author: "Ervin Wilneder"
   date: "1/9/2023"
   chapters:
