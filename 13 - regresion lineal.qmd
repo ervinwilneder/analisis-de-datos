@@ -12,3 +12,5 @@
 - [In Depth: Linear Regression (Python Data Science Handbook)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.06-Linear-Regression.ipynb)
 
 #### Actividades
+
+- Considere el dataset [Real State Pricing](https://docs.google.com/spreadsheets/d/1oL2wRWJC-AdgSAOwBcw2_-3HdGvi_FgXyaW1VHy8SH4) y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Construya un modelo de regresión lineal múltiple para estimar el precio por unidad de las casas. Realice el correspondiente análisis exploratorio de los datos, identifique posibles problemáticas y evalúe los resultados, tanto de las estimaciones como de los residuos de las mismas. Utilice la librería _sklearn_ para el desarrollo de este análisis.
