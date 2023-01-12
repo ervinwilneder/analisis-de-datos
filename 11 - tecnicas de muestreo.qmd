@@ -13,7 +13,7 @@
 #### Actividades
 
 - Considere el dataset [LinkedIn Freelancer Survey Results](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Señale algunos aspectos claves a considerar en la realización de dicha encuesta (¿acaso podría implementarse un muestreo estratificado, por conglomerados o sistemático?) y haga una estimación del tamaño adecuado para la misma.
-- Considere el dataset [London Bike Sharing Dataset](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Asuma que es el total de registros por hora de viajes en bicicleta hasta el día de la fecha. Realice un análisis exploratorio de la variable _cnt_ (total de viajes), principalmente calculando la media y desvío estándar. Luego, implemente un muestreo sistemático de los datos, estime los paramétros correspondientes y compare. Realice la comparación considerando temporada (_season_) y fines de semana (_weekend_).
+- Considere el dataset [London Bike Sharing Dataset](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Asuma que es el total de registros (por hora) de viajes en bicicleta hasta el día de la fecha. Realice un análisis exploratorio de la variable _cnt_ (total de viajes), principalmente calculando la media y desvío estándar. Luego, implemente un muestreo sistemático de los datos, estime los paramétros correspondientes y compare. Realice dicha comparación en base a temporada (_season_) y fines de semana (_weekend_).
 
 #### Resumen
 

@@ -20,7 +20,7 @@
 
 Es adecuado pensar a un dato como aquello que puede colocarse dentro de una celda (de una planilla); esto es, un número, una letra, una palabra, un verdadero o falso. El hecho de considerar a _algo_ como un dato dependerá del análisis mismo, porque ese dato surgirá como resultado del entrecruzamiento de 2 conceptos sumamente importantes: **la unidad de análisis y la variable**.
 
-La unidad de análisis es el **objeto o sujeto** sobre el cual se lleva adelante el análisis. La variable es la **característica de interés** de ese objeto o sujeto, sobre el cual se observará o medirá un dato. La primera suele identificarse como cada una de las filas (de una planilla), la segunda como las columnas (ver imagen); aunque no siempre tiene por qué ser así. La lógica entonces de cualquier análisis de datos será **identificar la unidad de análisis, la o las variables de estudio y obtener de estas variables uno o más datos**. 
+La unidad de análisis es el **objeto o sujeto** sobre el cual se lleva adelante el análisis. La variable es la **característica de interés** de ese objeto o sujeto, sobre el cual se observará o medirá un dato. La primera suele identificarse como cada una de las filas (de una planilla), la segunda como las columnas (ver imagen); aunque no siempre tiene por qué ser así. Entonces, la secuencia inicial de cualquier análisis de datos será **identificar la unidad de análisis, la o las variables de estudio y obtener de estas variables uno o más datos**. 
 
 |          | variable 1 | variable 2 | variable 3 |
 |----------|:----------:|:----------:|:----------:|

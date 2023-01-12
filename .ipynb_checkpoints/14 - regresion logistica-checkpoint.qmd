@@ -7,7 +7,7 @@
 
 #### Actividades
 
-- Considere el dataset [Real State Pricing](https://docs.google.com/spreadsheets/d/1oL2wRWJC-AdgSAOwBcw2_-3HdGvi_FgXyaW1VHy8SH4) y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Transforme los datos de tal manera que pueda construir un modelo de regresión logística múltiple estimar si el precio por unidad de las casas estará por encima o debajo de los 50 USD. Evalúe los resultados utilizando la matriz de confusión e interprete. Utilice la librería _sklearn_ de Python para el desarrollo de este análisis.
+- Considere el dataset [Real State Pricing](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link) y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Transforme los datos de tal manera que pueda construir un modelo de regresión logística múltiple y luego estimar si el precio por unidad de las casas estará por encima o por debajo de los 50 USD. Evalúe los resultados utilizando una matriz de confusión y concluya cuáles podrían ser las consecuencias de aplicar el modelo en un caso real de estimación de precios. Utilice la librería _sklearn_ de Python para el desarrollo de este análisis.
 
 #### Resumen
 
