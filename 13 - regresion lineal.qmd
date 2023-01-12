@@ -14,3 +14,14 @@
 #### Actividades
 
 - Considere el dataset [Real State Pricing](https://docs.google.com/spreadsheets/d/1oL2wRWJC-AdgSAOwBcw2_-3HdGvi_FgXyaW1VHy8SH4) y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Construya un modelo de regresión lineal múltiple para estimar el precio por unidad de las casas. Realice el correspondiente análisis exploratorio de los datos, identifique posibles problemáticas y evalúe los resultados, tanto de las estimaciones como de los residuos de las mismas. Utilice la librería _sklearn_ de Python para el desarrollo de este análisis.
+
+
+#### Resumen
+
+Uno de los modelos más ampliamente difundidos, utilizado para la **estimación de una variable continua a partir de variables continuas**. Implica, primeramente, la estimación de ciertos **parámetros asociados a cada variable independiente**, que constituyen una expresión matemática a partir de la cual, estimados esos valores, se llega a una aproximación de la variable independiente.
+
+Sobre este aproximación, será relevante evaluar cuán _cerca_ se encuentra de los valores efectivamente observados y si los **residuos** resultantes de esa evaluación presentan un comportamiento particular, lo cual será una señal de cuán _bueno_ es dicho modelo, buscando ser una representación lo más completa posible del verdadero modelo que subyace a los datos.
+
+Cabe destacar que, como todo modelo, es una **simplificación matemática de la realidad**, con lo cual no necesariamente se llegue a los resultados esperados. Las estimaciones pueden estar lejos de ser las observadas, posiblemente porque se está dejando de lado otras variables que tienen impacto o bien porque la naturaleza del fenónemo en sí no es lineal (una incorrecta especificación del modelo). Retomando lo dicho al principio, es un modelo ampliamente utilizado, pero no por eso de manera correcta. **Los datos pueden presentar un conjunto de problemáticas** tales como multicolinealidad, heterocedasticidad, autocorrelación, que deben abordarse debidamente y con ello ahorrarnos tiempo en concluir que el modelo de regresión lineal en verdad no será adecuado.
+
+Se pueden encontrar **implementaciones muy completas tanto en python y R**, en múltiples librerías. En el ámbito de ciencia de datos / machine learning, es habitual el uso de _sklearn_, considerado incluso un estándar en cuanto a su formato de construcción de modelos. Esta librería será justamente la que se utilizará de aquí en adelante para el resto de los capítulos.

@@ -386,7 +386,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'La media MUESTRAL de la velocidad es: '</span>, data[<span class="st">'speed'</span>].sample(<span class="dv">100</span>).mean())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>La media MUESTRAL de la velocidad es:  69.5</code></pre>
+<pre><code>La media MUESTRAL de la velocidad es:  64.81</code></pre>
 </div>
 </div>
 <p>Ahora bien, al realizar varias muestras sucesivas, por ejemplo 100, obtendremos un conjunto de valores de medias muestrales que podemos representar gráficamente.</p>
@@ -399,7 +399,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(medias_muestrales, columns<span class="op">=</span>[<span class="st">'Distribución de la media muestral para la velocidad'</span>]).hist(bins<span class="op">=</span><span class="dv">30</span>, grid<span class="op">=</span><span class="va">False</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<p><img src="07 - probabilidad aplicada_files/figure-html/cell-4-output-1.png" width="558" height="432"></p>
+<p><img src="07 - probabilidad aplicada_files/figure-html/cell-4-output-1.png" width="566" height="432"></p>
 </div>
 </div>
 <p>Se observan que <strong>la mayoría de los valores se hayan en los alrededores de la media calculada inicialmente</strong>. Esta situación se presenta incluso si faltase una única unidad en el muestreo.</p>
@@ -425,7 +425,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(medias_muestrales, columns<span class="op">=</span>[<span class="st">'Distribución de la media muestral para la velocidad'</span>]).hist(bins<span class="op">=</span><span class="dv">30</span>, grid<span class="op">=</span><span class="va">False</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<p><img src="07 - probabilidad aplicada_files/figure-html/cell-6-output-1.png" width="575" height="432"></p>
+<p><img src="07 - probabilidad aplicada_files/figure-html/cell-6-output-1.png" width="583" height="432"></p>
 </div>
 </div>
 <p>Visualmente podemos concluir que, dado que se obtuviese una muestra de 100 unidades del conjunto de datos, es muy probable que el valor de la media calculado se encuentre entre 62 y 75. Esta conclusión podrá ser extendida al cálculo de cualquier media muestral y tomar valores determinados.</p>
