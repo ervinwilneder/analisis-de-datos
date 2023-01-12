@@ -2,5 +2,17 @@
 
 #### Lectura
 
+- [Logistic Regression  (_Introduction to Statistical Learning_: pág. 133 a 139)](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- [Logistic Regression (_Interpretable Machine Learning_: Cap. 5.2)](https://christophm.github.io/interpretable-ml-book/logistic.html)
 
 #### Actividades
+
+- Considere el dataset [Real State Pricing](https://docs.google.com/spreadsheets/d/1oL2wRWJC-AdgSAOwBcw2_-3HdGvi_FgXyaW1VHy8SH4) y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Transforme los datos de tal manera que pueda construir un modelo de regresión logística múltiple estimar si el precio por unidad de las casas estará por encima o debajo de los 50 USD. Evalúe los resultados utilizando la matriz de confusión e interprete. Utilice la librería _sklearn_ de Python para el desarrollo de este análisis.
+
+#### Resumen
+
+La regresión logística es, en esencia, un **modelo de clasificación binaria** (al menos en su forma básica), utilizado ampliamente en la industria crediticia desde hace muchos años y que cuenta con la particularidad de ser, al igual que la regresión lineal, **interpretable en cuanto a la toma de decisiones**. Las estimaciones de los parámetros obtenidos son accesibles y pueden establecerse conclusiones individuables sobre la importancia que conlleva cada variable sobre la estimación final de la variable dependiente.
+
+A diferencia de la regresión lineal, el resultado del modelo no será una cantidad en unidades medibles, sino más bien una **probabilidad**, estando ésta entre 0 y 1. En ese sentido, se pueden establecer diferentes criterios para finalmente optar por un valor u otro, utilizando habitualmente el punto medio (0.5) como punto de corte. Así también, suele presentarse el escenario en el cual se busca **clasificar correctamente en pos de una u otra categoría** (por ejemplo, en medicina donde es preferible decirle a un paciente que está enfermo a que no lo está) y para ello se buscará que el modelo se ajuste a obtener resultados propensos en una u otra dirección. Las medidas más utilizadas para ello son **la precisión, el recall**, la tasa de falsos y verdaderos positivos, y varias otras medidas disponibles a través de la construcción de la **matriz de confusión**, herramienta por excelencia para la evaluación, no sólo de la regresión logística, sino de los modelos de clasificación (o clasificadores) en general.
+
+Con el auge de la ciencia de datos / machine learning, la regresión logística ha ido dando lugar a otros modelos más sencillos de calcular / interpretar como los árboles de decisión ó random forests y que además no necesitan de tanto bagaje matemático / estadístico para su correcto uso y posterior elaboración de conclusiones. En el siguiente capítulo, se verán algunos de ellos.
