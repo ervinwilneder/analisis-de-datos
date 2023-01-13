@@ -3,3 +3,5 @@
 El presente libro es un compilado de lecturas y actividades sobre diferentes temas que son considerados fundamentales para el análisis de datos. Cada capítulo corresponde a un tema e incluye un resumen con ideas y conclusiones a destacar.
 
 Este material fue desarrollado exclusivamente para las materias _Análisis de Datos I_ y _II_ de la [Diplomatura Universitaria en Programación](https://www.frh.utn.edu.ar/cursoscursos_diplomatura) de la UTN HAEDO, dictada inicialmente en 2023.
+
+Por recomendaciones, correcciones u otras propuestas, por favor escribir a <ervinwilneder@gmail.com> o a través de mi [LinkedIn](https://linkedin.com/in/ervinwilneder).
