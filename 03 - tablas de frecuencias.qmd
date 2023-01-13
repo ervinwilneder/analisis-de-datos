@@ -1,6 +1,6 @@
 # Tablas de frecuencias
 
-#### Lectura
+## Lectura
 
 - [Construcción de una tabla de frecuencias (_Estadística Aplicada a los Negocios y la Economía_: pág. 23 y 24)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=sharing)
 - [Construcción de distribuciones de frecuencias: datos cuantitativos (_Estadística Aplicada a los Negocios y la Economía_: pág. 29 a 34)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=sharing)
@@ -8,12 +8,13 @@
 - [El Análisis de la Matriz de Datos (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 28)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
 - [Las Distribuciones de Frecuencias en el Análisis Univariado (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 29 a 45)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
 
-#### Actividades
+## Actividades
+
 - Considere el set de datos [Top Trends on TikTok & YoutubeShorts](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Elabore tablas de frecuencias absolutas, relativas y acumuladas (si corresponde) para todas las variables.
 - Releve el uso e implementación de _tablas pivote_ en diferentes softwares/plataformas (ej: Excel, Google Sheets, Python, R, entre otros). Utilice alguno de los ejemplos sugeridos para realizar las anteriores tablas.
 - Elabore al menos 3 preguntas de negocio que podrían ser respondidas con las anteriores tablas.
 
-#### Resumen
+## Resumen
 
 La forma más básica de analizar / resumir un conjunto de datos es una tabla de frecuencias. Implica la **operación de conteo de unidades de análisis o de sus variables, agrupadas por algún criterio, conformando categorías o clases excluyentes (sin solapamiento)**. En las variables cualtitativas, suele ser bastante directo, siendo que las categorías se encuentran naturalmente identificadas; en las cuantitativas dependerá del análisis, pudiendo **agrupar por intervalos del mismo o diferente tamaño**, según se necesite.
 

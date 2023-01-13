@@ -1,29 +1,30 @@
 # Descripción de variables
 
-#### Lectura
+## Lectura
 
-##### Medidas de posición: promedio, mediana, cuantiles y moda
+- Medidas de posición: promedio, mediana, cuantiles y moda
 
-- [Medidas Resumen (_Estadística para Todos_: pág. 120 a 125)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
-- [Los valores que caracterizan al conjunto de datos (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 59 a 79)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
-- [Descripción de datos (_Estadística Aplicada a los Negocios y la Economía_: pág. 57 a 75)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
-- [Medidas numéricas descriptivas (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 11 a 14)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
+    - [Medidas Resumen (_Estadística para Todos_: pág. 120 a 125)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
+    - [Los valores que caracterizan al conjunto de datos (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 59 a 79)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
+    - [Descripción de datos (_Estadística Aplicada a los Negocios y la Economía_: pág. 57 a 75)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
+    - [Medidas numéricas descriptivas (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 11 a 14)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
 
-##### Medidas de dispersión: desviación estándar, coeficiente de variación y rango
+- Medidas de dispersión: desviación estándar, coeficiente de variación y rango
 
-- [Medidas Resumen (_Estadística para Todos_: pág. 125 a 135)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
-- [Análisis de la variación y asimetría (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 85 a 97)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
-- [Descripción de datos (_Estadística Aplicada a los Negocios y la Economía_: pág. 75 a 84)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
-- [Medidas numéricas descriptivas (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 15 a 22)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
+    - [Medidas Resumen (_Estadística para Todos_: pág. 125 a 135)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
+    - [Análisis de la variación y asimetría (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 85 a 97)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
+    - [Descripción de datos (_Estadística Aplicada a los Negocios y la Economía_: pág. 75 a 84)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
+    - [Medidas numéricas descriptivas (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 15 a 22)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
 
-##### Medidas de relación: razones, tasas y proporciones
+- Medidas de relación: razones, tasas y proporciones
 
-- [Razón, tasas y porcentajes (_Estadística para Todos_: pág. 15 a 19)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
+    - [Razón, tasas y porcentajes (_Estadística para Todos_: pág. 15 a 19)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
     
-#### Actividades
+## Actividades
+
 - Considere el dataset [Best Movie by Year Netflix](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Calcule medidas de posición y dispersión para la variable _score_. Divida el set de datos a partir de algún criterio que considere de interés, calcule medidas de relación entre los grupos resultantes.
 
-#### Resumen
+## Resumen
 
 En el proceso de caracterización / resumen de variables, el **análisis exploratorio de datos**, participan medidas de 3 cuestiones fundamentales: **posición, dispersión y relación**. 
 

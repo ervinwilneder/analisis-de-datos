@@ -12,25 +12,35 @@ book:
   date: "1/9/2023"
   chapters:
     - index.qmd
-    - 01 - conceptos y definiciones.qmd
-    - 02 - datos unidades y variables.qmd
-    - 03 - tablas de frecuencias.qmd
-    - 04 - descripcion de variables.qmd
-    - 05 - visualizacion.qmd
-    - 06 - origen y recoleccion.qmd
-    - 07 - probabilidad aplicada.qmd
-    - 08 - estimacion puntual y por intervalos.qmd
-    - 09 - tests de hipotesis.qmd
-    - 10 - estadistica no parametrica.qmd
-    - 11 - tecnicas de muestreo.qmd
-    - 12 - anova.qmd
-    - 13 - regresion lineal.qmd
-    - 14 - regresion logistica.qmd
-    - 15 - knn y cart.qmd
+    - part: "Análisis exploratorio"
+      chapters:
+        - 01 - conceptos y definiciones.qmd
+        - 02 - datos unidades y variables.qmd
+        - 03 - tablas de frecuencias.qmd
+        - 04 - descripcion de variables.qmd
+        - 05 - visualizacion.qmd
+    - part: "Análisis inferencial"
+      chapters:
+        - 06 - origen y recoleccion.qmd
+        - 07 - probabilidad aplicada.qmd
+        - 08 - estimacion puntual y por intervalos.qmd
+        - 09 - tests de hipotesis.qmd
+        - 10 - estadistica no parametrica.qmd
+        - 11 - tecnicas de muestreo.qmd
+        - 12 - anova.qmd
+        - 13 - regresion lineal.qmd
+        - 14 - regresion logistica.qmd
+        - 15 - knn y cart.qmd
   page-navigation: true
+
+website:
+  reader-mode: true
 
 format:
   html:
     theme: default
-    toc: false
+    fontcolor: "#373a3c"
+    fontsize: 0.95em
+    linestretch: 1.7
+    mainfont: "Open Sans"
     number-sections: false

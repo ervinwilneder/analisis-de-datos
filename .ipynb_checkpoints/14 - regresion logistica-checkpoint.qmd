@@ -1,15 +1,15 @@
 # Regresión Logística
 
-#### Lectura
+## Lectura
 
 - [Logistic Regression  (_Introduction to Statistical Learning_: pág. 133 a 139)](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
 - [Logistic Regression (_Interpretable Machine Learning_: Cap. 5.2)](https://christophm.github.io/interpretable-ml-book/logistic.html)
 
-#### Actividades
+## Actividades
 
 - Considere el dataset [Real State Pricing](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link) y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Transforme los datos de tal manera que pueda construir un modelo de regresión logística múltiple y luego estimar si el precio por unidad de las casas estará por encima o por debajo de los 50 USD. Evalúe los resultados utilizando una matriz de confusión y concluya cuáles podrían ser las consecuencias de aplicar el modelo en un caso real de estimación de precios. Utilice la librería _sklearn_ de Python para el desarrollo de este análisis.
 
-#### Resumen
+## Resumen
 
 La regresión logística es, en esencia, un **modelo de clasificación binaria** (al menos en su forma básica), utilizado ampliamente en la industria crediticia desde hace muchos años y que cuenta con la particularidad de ser, al igual que la regresión lineal, **interpretable en cuanto a la toma de decisiones**. Las estimaciones de los parámetros obtenidos son accesibles y pueden establecerse conclusiones individuables sobre la importancia que conlleva cada variable sobre la estimación final de la variable dependiente.
 

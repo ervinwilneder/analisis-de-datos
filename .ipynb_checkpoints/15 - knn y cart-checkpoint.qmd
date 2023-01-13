@@ -1,6 +1,9 @@
 # KNN y CART
 
-#### Lectura
+## Lectura
 
 
-#### Actividades
+## Actividades
+
+
+## Resumen

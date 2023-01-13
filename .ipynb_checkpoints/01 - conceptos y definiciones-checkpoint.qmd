@@ -1,12 +1,13 @@
 # Conceptos y definiciones
 
-#### Lectura
+## Lectura
 
 - <https://aws.amazon.com/es/what-is/data-analytics/>
 - <https://www.intel.la/content/www/xl/es/artificial-intelligence/what-is-data-analytics.html>
 - <https://www.oracle.com/business-analytics/data-analytics/>
 
-#### Actividades
+## Actividades
+
 - ¿Qué es _Data Analytics_? ¿Considera que es lo mismo que _Análisis de Datos_?
 - ¿En qué se diferencia de _Big Data Analytics_?
 - ¿Cuáles son los pasos a seguir en un proceso de análisis de datos?
@@ -15,7 +16,7 @@
 - Relacione la anterior respuesta con los siguientes conceptos: _raw data_, _information_, _knowledge_, _insight_, _actionable insight_, _decision-making_, _model_
 - Diferencie brevemente _Machine Learning_, _Data Mining_, _Data Science_, _Business Intelligence_, _Data Analysis_ y _Data Analytics_
 
-#### Resumen
+## Resumen
 
 El análisis de datos es una actividad que se encuentra integrada a otras como **ingeniería y ciencia de datos** compartiendo conceptos y herramientas, y habitualmente superponiéndose en el día a día de muchas organizaciones. Por esto mismo, como profesional del área, es importante reconocer cuáles son las **incumbencias del análisis de datos** y cómo se relaciona con el resto del **ciclo de vida de los datos**. 
 

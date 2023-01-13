@@ -1,6 +1,6 @@
 # Estimación puntual y por intervalos de confianza
 
-#### Lectura
+## Lectura
 
 - [Estimación y parámetros (_Estadística para Todos_: pág. 55)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
 - [Variabilidad entre muestra y muestra (_Estadística para Todos_: pág. 58 a 63)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
@@ -11,12 +11,12 @@
 - [Propiedades deseables de los estimadores puntuales (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 251 a 261)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
 - [Confidence Intervales (_STAT 500 | Applied Statistics_: lesson 5)](https://online.stat.psu.edu/stat500/lesson/5)
     
-#### Actividades
+## Actividades
 
 - Considere el dataset [Pokemon](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link) y asuma que es el listado completo de todos los pokemones (es decir, la población). Use los parámetros obtenidos previamente y vuelva a calcular estimadores (utilizando las fórmulas adecuadas para cada caso, vistas en esta sección) pero realizando muestras aleatorias de manera sucesiva. Realice este mismo procedimiento con muestras de diferente tamaño. Grafique la distribución de los estimadores y saque conclusiones.
 - Estime nuevamente los valores de media, varianza y proporción para las variables seleccionadas, utilizando diferentes niveles de confianza. Escriba una breve reseña con conclusiones acerca de los resultados obtenidos.
 
-#### Resumen
+## Resumen
 
 Estimar es aproximar. Siendo que no se dispone, por razones operacionales o conceptuales, de toda la información disponible, habrá inevitablemente ciertas características de las variables que serán desconocidas; éstas pueden ser cualquiera de las medidas de posición, dispersión o relación vistas previamente. El verdadero valor de éstas es lo que recibirá el nombre de **parámetro**. 
 

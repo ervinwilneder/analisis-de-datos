@@ -1,45 +1,45 @@
 # Estadística NO paramétrica
 
-#### Lectura
+## Lectura
 
-##### Prueba sobre la mediana
+- Prueba sobre la mediana
 
-- [Prueba de los signos (_Estadística Aplicada a los Negocios y la Economía_: pág. 681 a 685)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
-- [Inference for the Population Median (_STAT 500 | Applied Statistics_: lesson 11.1)](https://online.stat.psu.edu/stat500/lesson/11/11.1)
-- [Distribution-Free Confidence Intervals for Percentiles (_STAT 415 | Introduction to Mathematical Statistics_: lesson 19)](https://online.stat.psu.edu/stat415/lesson/19)
+    - [Prueba de los signos (_Estadística Aplicada a los Negocios y la Economía_: pág. 681 a 685)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
+    - [Inference for the Population Median (_STAT 500 | Applied Statistics_: lesson 11.1)](https://online.stat.psu.edu/stat500/lesson/11/11.1)
+    - [Distribution-Free Confidence Intervals for Percentiles (_STAT 415 | Introduction to Mathematical Statistics_: lesson 19)](https://online.stat.psu.edu/stat415/lesson/19)
 
-##### Pruebas sobre distribuciones (bondad de ajuste / independencia / aleatoriedad)
+- Pruebas sobre distribuciones (bondad de ajuste / independencia / aleatoriedad)
 
-- [Métodos no paramétricos: pruebas de bondad de ajuste (_Estadística Aplicada a los Negocios y la Economía_: pág. 648 a 658)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
-- [Prueba de hipótesis de que la distribución de datos proviene de una población normal (_Estadística Aplicada a los Negocios y la Economía_: pág. 659 a 664)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
-- [Análisis de tablas de contingencia (_Estadística Aplicada a los Negocios y la Economía_: pág. 667 a 670)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
-- [La prueba de bondad de ajuste chi-cuadrada (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 363 a 368)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
-- [La estadística de Kolmogorov-Smirnov (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 368 a 370)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
-- [Chi-Square Test for Independence (_STAT 500 | Applied Statistics_: lesson 8)](https://online.stat.psu.edu/stat500/lesson/8)
-- [Chi-Square Goodness-of-Fit Tests (_STAT 415 | Introduction to Mathematical Statistics_: lesson 16)](https://online.stat.psu.edu/stat415/lesson/16)
-- [Contingency Tables (_STAT 415 | Introduction to Mathematical Statistics_: lesson 17)](https://online.stat.psu.edu/stat415/lesson/17)
-- [The Wilcoxon Tests (_STAT 415 | Introduction to Mathematical Statistics_: lesson 20)](https://online.stat.psu.edu/stat415/lesson/20)
-- [Run Test and Test for Randomness (_STAT 415 | Introduction to Mathematical Statistics_: lesson 21)](https://online.stat.psu.edu/stat415/lesson/21)
-- [Kolmogorov-Smirnov Goodness-of-Fit Test (_STAT 415 | Introduction to Mathematical Statistics_: lesson 22)](https://online.stat.psu.edu/stat415/lesson/22)
+    - [Métodos no paramétricos: pruebas de bondad de ajuste (_Estadística Aplicada a los Negocios y la Economía_: pág. 648 a 658)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
+    - [Prueba de hipótesis de que la distribución de datos proviene de una población normal (_Estadística Aplicada a los Negocios y la Economía_: pág. 659 a 664)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
+    - [Análisis de tablas de contingencia (_Estadística Aplicada a los Negocios y la Economía_: pág. 667 a 670)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
+    - [La prueba de bondad de ajuste chi-cuadrada (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 363 a 368)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
+    - [La estadística de Kolmogorov-Smirnov (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 368 a 370)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
+    - [Chi-Square Test for Independence (_STAT 500 | Applied Statistics_: lesson 8)](https://online.stat.psu.edu/stat500/lesson/8)
+    - [Chi-Square Goodness-of-Fit Tests (_STAT 415 | Introduction to Mathematical Statistics_: lesson 16)](https://online.stat.psu.edu/stat415/lesson/16)
+    - [Contingency Tables (_STAT 415 | Introduction to Mathematical Statistics_: lesson 17)](https://online.stat.psu.edu/stat415/lesson/17)
+    - [The Wilcoxon Tests (_STAT 415 | Introduction to Mathematical Statistics_: lesson 20)](https://online.stat.psu.edu/stat415/lesson/20)
+    - [Run Test and Test for Randomness (_STAT 415 | Introduction to Mathematical Statistics_: lesson 21)](https://online.stat.psu.edu/stat415/lesson/21)
+    - [Kolmogorov-Smirnov Goodness-of-Fit Test (_STAT 415 | Introduction to Mathematical Statistics_: lesson 22)](https://online.stat.psu.edu/stat415/lesson/22)
 
-##### Bootstrapping
+- Bootstrapping
 
-- [Introduction to Bootstrapping (_STAT 500 | Applied Statistics_: lesson 11.2)](https://online.stat.psu.edu/stat500/lesson/11/11.1)
-- [Bootstrapping Main Ideas!!! (_StatQuest YouTube Channel_)](https://www.youtube.com/watch?v=Xz0x-8-cgaQ)
+    - [Introduction to Bootstrapping (_STAT 500 | Applied Statistics_: lesson 11.2)](https://online.stat.psu.edu/stat500/lesson/11/11.1)
+    - [Bootstrapping Main Ideas!!! (_StatQuest YouTube Channel_)](https://www.youtube.com/watch?v=Xz0x-8-cgaQ)
     
-#### Actividades
+## Actividades
 
 - Considere el dataset [Wendy's Menu Nutrition Data](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Asuma que es resultado de un muestreo aleatorio de productos y responda/realice lo siguiente:
     - Realice la prueba de Kolmogorov-Smirnov sobre todas las variables y concluya cuáles de ellas no tienen distribución normal. Complemente con métodos gráficos si considera necesario.
     - Utilizando el método de boostrapping, lleve adelante la estimación de media, mediana y desviación estándar para todas aquellas variables.
     - Se ha afirmado que el 50% de los productos tiene más de 800 calorías. ¿Está usted de acuerdo? Evalúe y compare distintos métodos para llegar a una conclusión.
     - Se ha afirmado que la valoración de los productos está relacionada a su cantidad de grasa. ¿Está usted de acuerdo? Tenga en cuenta adecuar los datos para poder realizar el correspondiente análisis.
-    
-#### Resumen
+ 
+## Resumen
 
 Primero y principal, hay muchas hipótesis que escapan del simple cuestionamiento de si un valor (estimado) es igual a otro, como se vió en el capítulo anterior. Por ejemplo, se puede querer comprobar (rechazar o no) si una variable tiene o no cierta distribución, sin necesidad del conocimiento o estimación de sus parámetros. Bajo un concepto similar, quizás se pretenda corroborar (rechazar o no) si una variable es independiente de otra o si es incluso aleatoria, lo cuales son supuestos en gran parte de los análisis. Siendo así, que no se busca la obtención ni se recurre al uso o definición de algún parámetro de interés (al menos no uno asociado a una distribución conocida, como la mediana), surge una batería de métodos / tests / pruebas denominados no parámetricos.
 
-Así como con los tests parámetricos, la cantidad disponible de situaciones en los cuales pueden aplicarse son incontables, y es preferible disponer de la habilidad de reconocer cuándo o no es apropiado su uso y bajo qué condiciones. Cabe señalar que este tipo de pruebas, muy propias del ámbito estadístico, **suelen hallarse implementados de manera más completa o detallada en el lenguaje R**, y es recomendable su uso siendo que hay mayor cantidad de documentación e información académica disponible.
+Así como con los tests parámetricos, la cantidad disponible de situaciones en los cuales pueden aplicarse son incontables, y es preferible disponer de la habilidad de reconocer cuándo (o no) es apropiado su uso y bajo qué condiciones. Cabe señalar que este tipo de pruebas, muy propias del ámbito estadístico, **suelen hallarse implementadas de manera más completa o detallada en el lenguaje R**, y es recomendable su uso siendo que hay mayor cantidad de documentación e información académica disponible.
 
 En los últimos años, de la mano de la ciencia de datos y del incremento en la potencia de cálculo computacional, **se ha popularizado bastante el uso de un método no paramétrico en particular**: _boostrap_. En esencia, implica el remuestreo (es decir, la muestra de una muestra) con reposición, de tal manera de generar un conjunto de muestras mayor al que se dispone inicialmente (posiblemente una sola). Para cada muestra, se obtiene un estimador (de la manera habitual que ya se ha visto) y la distribución de valores estimados resultantes justamente pasa a ser el valor agregado de este método, que de otra manera se obtendría mediante muestras reales (operacionalmente imposible en la mayoría de los casos). Es importante señalar que, bajo este procedimiento, sumamente simple, **se puede estimar cualquier parámetro o característica de interés de una variable**. Solamente es necesario una muestra, la cual pasa a ser crucial en términos de calidad y representatividad, y un soporte para el remuestreo (una simulación por software). El bootstrapping se encuentra implementado en python / R, muy bien documentado y con muchos ejemplos, dada su uso frecuente hoy día.
 

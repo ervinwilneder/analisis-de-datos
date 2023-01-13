@@ -1,6 +1,6 @@
 # Origen y recolección de datos
 
-#### Lectura
+## Lectura
 
 - [Origen de los datos (_Estadística para Todos_: pág. 51 y 52)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
 - [Muestreo (_Estadística para Todos_: pág. 29 a 35)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
@@ -9,10 +9,11 @@
 - [Muestras aleatorias (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 214 a 217)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
 - [Métodos de recolección de datos para una investigación](https://drive.google.com/file/d/137b6XkFVYO_bT3jBDMTlPivu97vLftoR/view?usp=share_link)
         
-#### Actividades
+## Actividades
+
 - Considere el dataset [Pokemon](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Lleve adelante la descripción de 2 variables numéricas (cálculo de media y desvío estándar) y 2 categóricas (cálculo de alguna proporción de interés). Luego extraiga una serie de muestras bajo algún criterio que le resulte adecuado. Vuelva a calcular los valores anteriores, compare y extraiga conclusiones.
 
-#### Resumen
+## Resumen
 
 El origen y recolección de los datos determina las conclusiones que pueden extraerse de los mismos. Tener un **censo** (un relevamiento completo de las unidades de análisis) no será lo mismo que tener una **muestra** (un relevamiento parcial); la segunda lleva consigo la **incertidumbre propia de no contar con todos los datos**. Pero justamente será ese el escenario donde el análisis de datos estará más presente. 
 

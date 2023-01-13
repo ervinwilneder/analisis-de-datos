@@ -1,6 +1,6 @@
 # Regresión Lineal
 
-#### Lectura
+## Lectura
 
 - [Relación entre variables (_Estadística para Todos_: pág. 168 a 196)](https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link)
 - [El estudio de la relación entre variables (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 105 a 130)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
@@ -13,12 +13,12 @@
 - [Introduction to Modeling Libraries in Python (_Python for Data Analysis_: cap. 12)](https://wesmckinney.com/book/modeling.html)
 - [In Depth: Linear Regression (Python Data Science Handbook)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.06-Linear-Regression.ipynb)
 
-#### Actividades
+## Actividades
 
 - Considere el dataset [Real State Pricing](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link) y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Construya un modelo de regresión lineal múltiple para estimar el precio por unidad de las casas. Realice el correspondiente análisis exploratorio de los datos, identifique posibles problemáticas y evalúe los resultados, tanto de las estimaciones como de los residuos de las mismas. Utilice la librería _sklearn_ de Python para el desarrollo de este análisis.
 
 
-#### Resumen
+## Resumen
 
 Uno de los modelos más ampliamente difundidos, utilizado para la **estimación de una variable continua a partir de variables continuas y/o variables cualitativas (binarias)**. Implica, primeramente, la estimación de ciertos **parámetros asociados a cada variable independiente**, que constituyen una expresión matemática a partir de la cual, estimados esos valores, se llega a una aproximación de la variable independiente.
 

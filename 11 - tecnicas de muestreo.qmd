@@ -1,6 +1,6 @@
 # Técnicas de muestreo
 
-#### Lectura
+## Lectura
 
 - [Métodos de muestreo (_Estadística Aplicada a los Negocios y la Economía_: pág. 266 a 271)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
 - [Elección del tamaño adecuado de una muestra (_Estadística Aplicada a los Negocios y la Economía_: pág. 316 a 321)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
@@ -10,12 +10,12 @@
 - [Cluster and Systematic Sampling (_STAT 506 | Sampling Theory and Methods_: lessons 7 y 8)](https://online.stat.psu.edu/stat506/lesson/7)
 - [Multi-Stage Designs (_STAT 506 | Sampling Theory and Methods_: lesson 9)](https://online.stat.psu.edu/stat506/lesson/9)
 
-#### Actividades
+## Actividades
 
 - Considere el dataset [LinkedIn Freelancer Survey Results](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Señale algunos aspectos claves a considerar en la realización de dicha encuesta (¿acaso podría implementarse un muestreo estratificado, por conglomerados o sistemático?) y haga una estimación del tamaño adecuado para la misma.
 - Considere el dataset [London Bike Sharing Dataset](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Asuma que es el total de registros (por hora) de viajes en bicicleta hasta el día de la fecha. Realice un análisis exploratorio de la variable _cnt_ (total de viajes), principalmente calculando la media y desvío estándar. Luego, implemente un muestreo sistemático de los datos, estime los paramétros correspondientes y compare. Realice dicha comparación en base a temporada (_season_) y fines de semana (_weekend_).
 
-#### Resumen
+## Resumen
 
 Las situaciones reales para la obtención de datos dificilmente permiten que un muestreo aleatorio simple sea llevado adelante. Por ejemplo, cuestiones como los **costos operacionales** debido a la extensión de territorio son comunes en cualquier estudio de estadísticas sociales. Es así que han surgido diferentes técnicas de muestreo y estimadores asociadas a las mismas, de tal manera que la aproximación a los parámetros reales de la población sea la mejor (que es el objetivo de cualquier estimador).
 

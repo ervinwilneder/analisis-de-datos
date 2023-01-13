@@ -1,6 +1,6 @@
 # Datos, unidades y variables de análisis
 
-#### Lectura
+## Lectura
 
 - [Los Datos (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 13 a 15)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
 - [Las Variables (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 15 a 17)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
@@ -10,11 +10,12 @@
 - [Types of Data (_STAT 414 | Introduction to Probability Theory_: lesson 1.4)](https://online.stat.psu.edu/stat414/lesson/1/1.4)
 - [El concepto de variable aleatoria (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 52 y 53)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
 
-#### Actividades
+## Actividades
+
 - Busque y analice algún artículo que hable acerca de la diferencia entre datos, información y conocimiento. Provea un ejemplo propio que muestre dicha diferencia.
 - Considere el dataset [Top Trends on TikTok & YoutubeShorts](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Determine la unidad de análisis, las variables y su tipo. ¿Es alguna de ellas aleatoria?
 
-#### Resumen
+## Resumen
 
 **Los datos** son el insumo básico para el análisis de datos. La **mínima unidad de información**, la materia prima a partir de la cual se produce **conocimiento** y se pueden tomar acciones basadas en evidencia con cierto **grado medible de incertidumbre**. 
 
