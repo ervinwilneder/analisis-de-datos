@@ -34,4 +34,4 @@ Las variables pueden ser de 2 tipos: **cuantitativas o cualitativas**. Las prime
 
 Por otra parte, la clasificación de variables puede implicar no sólo su tipo, sino también **si es resultado o no de un proceso aleatorio**. Es decir, si es producto del azar en algún punto de su obtención. Esto traerá apareado un cambio completo en el modo de analizar a la variable, así como también de las conclusiones que pueden extraerse.
 
-Recapitulando, como analista de datos, es sumamente importante participar o tener conocimiento pleno en la definición exhaustiva de la unidad de análisis, del recocimiento de las variables y de la obtención de datos, ya que estos 3 puntos son la base sobre la cual se construye por completo cualquier análisis.
+Recapitulando, como analista de datos, es sumamente importante participar o tener conocimiento pleno en la definición exhaustiva de la unidad de análisis, del recocimiento de las variables y de la obtención y organización de los datos, ya que estos 3 puntos son la base sobre la cual se construye por completo cualquier análisis.
