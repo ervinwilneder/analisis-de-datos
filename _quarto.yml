@@ -9,7 +9,7 @@ project:
 book:
   title: "Análisis de datos"
   author: "Ervin Wilneder"
-  date: "1/13/2023"
+  date: "1/18/2023"
   chapters:
     - index.qmd
     - 01 - conceptos y definiciones.qmd
