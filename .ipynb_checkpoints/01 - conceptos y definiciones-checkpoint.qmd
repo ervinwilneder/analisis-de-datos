@@ -18,7 +18,7 @@
 
 ## Resumen
 
-El análisis de datos es una actividad que se encuentra integrada a otras como **ingeniería y ciencia de datos** compartiendo conceptos y herramientas, y habitualmente superponiéndose en el día a día de muchas organizaciones. Por esto mismo, como profesional del área, es importante reconocer cuáles son las **incumbencias del análisis de datos** y cómo se relaciona con el resto del **ciclo de vida de los datos**. 
+El análisis de datos es una actividad que se encuentra integrada a otras como **ingeniería y ciencia de datos**, compartiendo conceptos y herramientas, y habitualmente superponiéndose en el día a día de muchas organizaciones. Por esto mismo, como profesional del área, es importante reconocer cuáles son las **incumbencias del análisis de datos** y cómo se relaciona con el resto del **ciclo de vida de los datos**. 
 
 Surge entonces la necesidad de definir y comprender conceptos fundamentales para lograr esa distinción. Como suele suceder en otros rubros, varios de estos conceptos son asimilados del inglés y se utilizan diariamente de esta manera, lo que contribuye a la confunsión en algunos casos. Además, las definiciones no siempre son unísonas: dependen de cada autor y evolucionan en el tiempo. Implica así una **capacitación, actualización y reflexión constante**.
 

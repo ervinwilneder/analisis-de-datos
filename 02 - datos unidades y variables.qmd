@@ -5,6 +5,7 @@
 - [Los Datos (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 13 a 15)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
 - [Las Variables (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 15 a 17)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
 - [La Primera Organización de los Datos: la matriz de datos (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 25 a 27)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
+- [Tidy Data (_Journal of Statistical Software_: cap. 1, 2 y 3)](https://vita.had.co.nz/papers/tidy-data.pdf)
 - [Tipos de variables (_Estadística Aplicada a los Negocios y la Economía_: pág. 8 y 9)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
 - [Variables aleatorias (_Estadística Aplicada a los Negocios y la Economía_: pág. 189 y 190)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
 - [Types of Data (_STAT 414 | Introduction to Probability Theory_: lesson 1.4)](https://online.stat.psu.edu/stat414/lesson/1/1.4)
