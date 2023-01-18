@@ -209,12 +209,38 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="lectura" class="level2">
 <h2 class="anchored" data-anchor-id="lectura">Lectura</h2>
+<ul>
+<li>Conceptos generales
+<ul>
+<li><a href="https://christophm.github.io/interpretable-ml-book/agnostic.html">Model-Agnostic Methods (<em>Interpretable Machine Learning</em>: Cap. 6)</a></li>
+<li><a href="https://christophm.github.io/interpretable-ml-book/example-based.html">Example-Based Explanations (<em>Interpretable Machine Learning</em>: Cap. 7)</a></li>
+</ul></li>
+<li>KNN
+<ul>
+<li><a href="https://hastie.su.domains/ISLR2/ISLRv2_website.pdf">K-Nearest Neighbors (<em>Introduction to Statistical Learning</em>: pág. 39 a 42)</a></li>
+<li><a href="https://scikit-learn.org/stable/modules/neighbors.html">Nearest Neighbors (<em>sklearn User Guide</em>)</a></li>
+<li><a href="https://realpython.com/knn-python/">The k-Nearest Neighbors (kNN) Algorithm in Python (<em>Real Python site</em>)</a></li>
+<li><a href="https://hastie.su.domains/ISLR2/ISLRv2_website.pdf">Comparison of Linear Regression with K-Nearest Neighbors (<em>Introduction to Statistical Learning</em>: pág. 105 a 110)</a></li>
+</ul></li>
+<li>CART
+<ul>
+<li><a href="https://christophm.github.io/interpretable-ml-book/tree.html">Decision Tree (<em>Interpretable Machine Learning</em>: Cap. 5.4)</a></li>
+<li><a href="https://hastie.su.domains/ISLR2/ISLRv2_website.pdf">Tree-Based Methods (<em>Introduction to Statistical Learning</em>: pág. 327 a 339)</a></li>
+<li><a href="https://scikit-learn.org/stable/modules/tree.html">Decision Trees (<em>sklearn User Guide</em>)</a></li>
+</ul></li>
+</ul>
 </section>
 <section id="actividades" class="level2">
 <h2 class="anchored" data-anchor-id="actividades">Actividades</h2>
+<ul>
+<li>(<span style="color:red"><strong>ENTREGA OBLIGATORIA</strong></span>) Considere el dataset <a href="https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link">Real State Pricing</a> y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Estime el precio (por unidad de superficie) de las casas usando KNN y CART. Realice las transformaciones de datos que considere necesarias. Compare los resultados con los modelos previamente realizados (regresión lineal y logística). Utilice la librería <em>sklearn</em> de Python para el desarrollo de este análisis. El entregable de este trabajo debe ser una Jupyter notebook con los siguientes apartados: EDA, transformación de los datos, construcción de los modelos, comparación de resultados y conclusiones.</li>
+</ul>
 </section>
 <section id="resumen" class="level2">
 <h2 class="anchored" data-anchor-id="resumen">Resumen</h2>
+<p>Estos modelos, <strong>aplicables tanto para regresión como clasificación</strong>, son excelentes aproximaciones a los datos, sin contar necesariamente con conocimiento previo de su comportamiento ni realizar suposiciones acerca del modelo subyacente. Son útiles tanto en la etapa de <strong>exploración de datos</strong> o para construir <strong>modelos de base</strong> (porque en la práctica no son los suficimiente performantes como para implementar de manera productiva, por tanto sirven como punto de comparación para construir modelos que los superen).</p>
+<p>Al igual que la regresión lineal y logística, sus resultados <strong>son interpretables</strong>, aunque no cuentan con parámetros estimados que puedan analizarse posteriormente. Para el caso de los árboles de decisión, cuentan además con la ventaja de poder <strong>ingestar cualquier tipo de datos</strong>, ya que, en esencia, son reglas de “si o no” en función del poder discriminativo de los datos disponibles. En ese sentido, siendo que dependen exclusivamente de los datos, son muy sensibles a la calidad de los mismos y además al azar respecto al punto de partida seteado por el analista. Por tanto, debe tenerse en cuenta <strong>no establecer conclusiones apresuradas</strong> solamente a partir de estos modelos.</p>
+<p>Más adelante se verá que éstos son bloques a partir de los cuales se pueden construir modelos más complejos (muy utilizados en la industria, como <em>random forests</em>), con las mismas características, pero salvando las desventajas mencionadas. .</p>
 
 
 </section>

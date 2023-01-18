@@ -263,14 +263,14 @@
     "href": "13 - regresion lineal.html#lectura",
     "title": "Regresión Lineal",
     "section": "Lectura",
-    "text": "Lectura\n\nRelación entre variables (Estadística para Todos: pág. 168 a 196)\nEl estudio de la relación entre variables (Estadística Aplicada a las Ciencias Sociales y Humanas: pág. 105 a 130)\nRegresión lineal y correlación (Estadística Aplicada a los Negocios y la Economía: pág. 461 a 494)\nAnálisis de regresión múltiple (Estadística Aplicada a los Negocios y la Economía: pág. 513 a 542)\nAnálisis de regresión: el modelo lineal simple (Probabilidad y Estadística | Aplicaciones y Métodos: pág. 443 a 478)\nFundamentals of Data Visualization (Part I: Cap. 12)\nLinear Regression Foundations (STAT 500 | Applied Statistics: lesson 9)\nLinear Regression (Interpretable Machine Learning: Cap. 5.1)\nIntroduction to Modeling Libraries in Python (Python for Data Analysis: cap. 12)\nIn Depth: Linear Regression (Python Data Science Handbook)"
+    "text": "Lectura\n\nConceptos generales\n\nRelación entre variables (Estadística para Todos: pág. 168 a 196)\nEl estudio de la relación entre variables (Estadística Aplicada a las Ciencias Sociales y Humanas: pág. 105 a 130)\n\nRegresión lineal\n\nRegresión lineal y correlación (Estadística Aplicada a los Negocios y la Economía: pág. 461 a 494)\nAnálisis de regresión múltiple (Estadística Aplicada a los Negocios y la Economía: pág. 513 a 542)\nAnálisis de regresión: el modelo lineal simple (Probabilidad y Estadística | Aplicaciones y Métodos: pág. 443 a 478)\nFundamentals of Data Visualization (Part I: Cap. 12)\nLinear Regression Foundations (STAT 500 | Applied Statistics: lesson 9)\nLinear Regression (Interpretable Machine Learning: Cap. 5.1)\n\nImplementación en Python\n\nIntroduction to scikit-learn (Python for Data Analysis: cap. 12)\nLinear Regression in Python (Real Python site)\nIn Depth: Linear Regression (Python Data Science Handbook)"
   },
   {
     "objectID": "13 - regresion lineal.html#actividades",
     "href": "13 - regresion lineal.html#actividades",
     "title": "Regresión Lineal",
     "section": "Actividades",
-    "text": "Actividades\n\nConsidere el dataset Real State Pricing y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Construya un modelo de regresión lineal múltiple para estimar el precio por unidad de las casas. Realice el correspondiente análisis exploratorio de los datos, identifique posibles problemáticas y evalúe los resultados, tanto de las estimaciones como de los residuos de las mismas. Utilice la librería sklearn de Python para el desarrollo de este análisis."
+    "text": "Actividades\n\nConsidere el dataset Real State Pricing y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Construya un modelo de regresión lineal múltiple para estimar el precio (por unidad de superficie) de las casas. Realice el correspondiente análisis exploratorio de los datos, identifique posibles problemáticas y evalúe los resultados, tanto de las estimaciones como de los residuos de las mismas. Utilice la librería sklearn de Python para el desarrollo de este análisis."
   },
   {
     "objectID": "13 - regresion lineal.html#resumen",
@@ -284,41 +284,41 @@
     "href": "14 - regresion logistica.html#lectura",
     "title": "Regresión Logística",
     "section": "Lectura",
-    "text": "Lectura\n\nLogistic Regression (Introduction to Statistical Learning: pág. 133 a 139)\nLogistic Regression (Interpretable Machine Learning: Cap. 5.2)"
+    "text": "Lectura\n\nLogistic Regression (Introduction to Statistical Learning: pág. 133 a 139)\nLogistic Regression (Interpretable Machine Learning: Cap. 5.2)\nLogistic Regression (Introduction to Modern Statistics: Cap. 9)\nLogistic Regression in Python (Real Python site)"
   },
   {
     "objectID": "14 - regresion logistica.html#actividades",
     "href": "14 - regresion logistica.html#actividades",
     "title": "Regresión Logística",
     "section": "Actividades",
-    "text": "Actividades\n\nConsidere el dataset Real State Pricing y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Transforme los datos de tal manera que pueda construir un modelo de regresión logística múltiple y luego estimar si el precio por unidad de las casas estará por encima o por debajo de los 50 USD. Evalúe los resultados utilizando una matriz de confusión y concluya cuáles podrían ser las consecuencias de aplicar el modelo en un caso real de estimación de precios. Utilice la librería sklearn de Python para el desarrollo de este análisis."
+    "text": "Actividades\n\nConsidere el dataset Real State Pricing y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Transforme los datos de tal manera que pueda construir un modelo de regresión logística múltiple y luego estimar si el precio (por unidad de superficie) de las casas estará por encima o por debajo de los 50 USD. Evalúe los resultados utilizando una matriz de confusión y concluya cuáles podrían ser las consecuencias de aplicar el modelo en un caso real de estimación de precios. Utilice la librería sklearn de Python para el desarrollo de este análisis."
   },
   {
     "objectID": "14 - regresion logistica.html#resumen",
     "href": "14 - regresion logistica.html#resumen",
     "title": "Regresión Logística",
     "section": "Resumen",
-    "text": "Resumen\nLa regresión logística es, en esencia, un modelo de clasificación binaria (al menos en su forma básica), utilizado ampliamente en la industria crediticia desde hace muchos años y que cuenta con la particularidad de ser, al igual que la regresión lineal, interpretable en cuanto a la toma de decisiones. Las estimaciones de los parámetros obtenidos son accesibles y pueden establecerse conclusiones individuables sobre la importancia que conlleva cada variable sobre la estimación final de la variable dependiente.\nA diferencia de la regresión lineal, el resultado del modelo no será una cantidad en unidades medibles, sino más bien una probabilidad, estando ésta entre 0 y 1. En ese sentido, se pueden establecer diferentes criterios para finalmente optar por un valor u otro, utilizando habitualmente el punto medio (0.5) como punto de corte. Así también, suele presentarse el escenario en el cual se busca clasificar correctamente en pos de una u otra categoría (por ejemplo, en medicina donde es preferible decirle a un paciente que está enfermo a que no lo está) y para ello se buscará que el modelo se ajuste a obtener resultados propensos en una u otra dirección. Las medidas más utilizadas para ello son la precisión, el recall, la tasa de falsos y verdaderos positivos, y varias otras medidas disponibles a través de la construcción de la matriz de confusión, herramienta por excelencia para la evaluación, no sólo de la regresión logística, sino de los modelos de clasificación (o clasificadores) en general.\nCon el auge de la ciencia de datos / machine learning, la regresión logística ha ido dando lugar a otros modelos más sencillos de calcular / interpretar como los árboles de decisión ó random forests y que además no necesitan de tanto bagaje matemático / estadístico para su correcto uso y posterior elaboración de conclusiones. En el siguiente capítulo, se verán algunos de ellos."
+    "text": "Resumen\nLa regresión logística es, en esencia, un modelo de clasificación binaria (al menos en su forma básica), utilizado ampliamente en la industria crediticia desde hace muchos años y que cuenta con la particularidad de ser, al igual que la regresión lineal, interpretable en cuanto a la toma de decisiones. Es un modelo intrínsecamente lineal y las estimaciones de los parámetros obtenidos son accesibles, pudiendo establecerse conclusiones individuables sobre la importancia que conlleva cada variable sobre la estimación final de la variable dependiente así como también aplicar pruebas estadísticas sobre dichos parámetros.\nA diferencia de la regresión lineal, el resultado del modelo no será una cantidad en unidades medibles, sino más bien una probabilidad, estando ésta entre 0 y 1. En ese sentido, se pueden establecer diferentes criterios para finalmente optar por un valor u otro, utilizando habitualmente el punto medio (0.5) como punto de corte. Así también, suele presentarse el escenario en el cual se busca clasificar correctamente en pos de una u otra categoría (por ejemplo, en medicina donde es preferible decirle a un paciente que está enfermo a que no lo está) y para ello se buscará que el modelo se ajuste a obtener resultados propensos en una u otra dirección. Las medidas más utilizadas para ello son la precisión, el recall, la tasa de falsos y verdaderos positivos, y varias otras medidas disponibles a través de la construcción de la matriz de confusión, herramienta por excelencia para la evaluación, no sólo de la regresión logística, sino de los modelos de clasificación (o clasificadores) en general.\nCon el auge de la ciencia de datos / machine learning, la regresión logística ha ido dando lugar a otros modelos más sencillos de calcular / interpretar como los árboles de decisión ó random forests y que además no necesitan de supuestos sobre la distribución de los datos (el modelo en sí) para su uso y posterior elaboración de conclusiones. En el siguiente capítulo, se verán algunos de ellos."
   },
   {
     "objectID": "15 - knn y cart.html#lectura",
     "href": "15 - knn y cart.html#lectura",
     "title": "KNN y CART",
     "section": "Lectura",
-    "text": "Lectura"
+    "text": "Lectura\n\nConceptos generales\n\nModel-Agnostic Methods (Interpretable Machine Learning: Cap. 6)\nExample-Based Explanations (Interpretable Machine Learning: Cap. 7)\n\nKNN\n\nK-Nearest Neighbors (Introduction to Statistical Learning: pág. 39 a 42)\nNearest Neighbors (sklearn User Guide)\nThe k-Nearest Neighbors (kNN) Algorithm in Python (Real Python site)\nComparison of Linear Regression with K-Nearest Neighbors (Introduction to Statistical Learning: pág. 105 a 110)\n\nCART\n\nDecision Tree (Interpretable Machine Learning: Cap. 5.4)\nTree-Based Methods (Introduction to Statistical Learning: pág. 327 a 339)\nDecision Trees (sklearn User Guide)"
   },
   {
     "objectID": "15 - knn y cart.html#actividades",
     "href": "15 - knn y cart.html#actividades",
     "title": "KNN y CART",
     "section": "Actividades",
-    "text": "Actividades"
+    "text": "Actividades\n\n(ENTREGA OBLIGATORIA) Considere el dataset Real State Pricing y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Estime el precio (por unidad de superficie) de las casas usando KNN y CART. Realice las transformaciones de datos que considere necesarias. Compare los resultados con los modelos previamente realizados (regresión lineal y logística). Utilice la librería sklearn de Python para el desarrollo de este análisis. El entregable de este trabajo debe ser una Jupyter notebook con los siguientes apartados: EDA, transformación de los datos, construcción de los modelos, comparación de resultados y conclusiones."
   },
   {
     "objectID": "15 - knn y cart.html#resumen",
     "href": "15 - knn y cart.html#resumen",
     "title": "KNN y CART",
     "section": "Resumen",
-    "text": "Resumen"
+    "text": "Resumen\nEstos modelos, aplicables tanto para regresión como clasificación, son excelentes aproximaciones a los datos, sin contar necesariamente con conocimiento previo de su comportamiento ni realizar suposiciones acerca del modelo subyacente. Son útiles tanto en la etapa de exploración de datos o para construir modelos de base (porque en la práctica no son los suficimiente performantes como para implementar de manera productiva, por tanto sirven como punto de comparación para construir modelos que los superen).\nAl igual que la regresión lineal y logística, sus resultados son interpretables, aunque no cuentan con parámetros estimados que puedan analizarse posteriormente. Para el caso de los árboles de decisión, cuentan además con la ventaja de poder ingestar cualquier tipo de datos, ya que, en esencia, son reglas de “si o no” en función del poder discriminativo de los datos disponibles. En ese sentido, siendo que dependen exclusivamente de los datos, son muy sensibles a la calidad de los mismos y además al azar respecto al punto de partida seteado por el analista. Por tanto, debe tenerse en cuenta no establecer conclusiones apresuradas solamente a partir de estos modelos.\nMás adelante se verá que éstos son bloques a partir de los cuales se pueden construir modelos más complejos (muy utilizados en la industria, como random forests), con las mismas características, pero salvando las desventajas mencionadas. ."
   }
 ]
