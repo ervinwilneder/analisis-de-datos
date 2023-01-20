@@ -27,3 +27,5 @@ Para responder algunas **preguntas del análisis** puede llegar a ser necesario 
 Pudiendo realizarse de forma manual, en conjuntos grandes de datos, es posible recurrir al uso de _tablas pivote_ o alguna implementación específica para tablas de frecuencia (ej: [función FREQUENCY en Google Sheets](https://support.google.com/docs/answer/3094286?hl=es)).
 
 Finalizando lo referente a la construcción de la tabla de frecuencias, lo más importante a destacar es su flexibilidad y alcance frente a cualquier conjunto de datos. **Se recomienda su implementación en cada análisis**, para todas las variables, permitiendo posiblemente detectar problemáticas en las mismas o incluso sacar algunas primeras conclusiones. Además, serán necesarias para la realización de algunos tipos de análisis específicos vistos más adelante.
+
+## Implementaciones

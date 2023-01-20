@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Análisis de datos - 5&nbsp; Visualización de datos</title>
+<title>Análisis de datos - 8&nbsp; Probabilidad aplicada</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./06 - origen y recoleccion.html" rel="next">
-<link href="./04 - descripcion de variables.html" rel="prev">
+<link href="./11 - estimacion puntual y por intervalos.html" rel="next">
+<link href="./08 - origen y recoleccion.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Visualización de datos</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Probabilidad aplicada</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -98,81 +98,116 @@ ul.task-list li input[type="checkbox"] {
   <a href="./index.html" class="sidebar-item-text sidebar-link">Prefacio</a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Fundamentos</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./01 - conceptos y definiciones.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Conceptos y definiciones</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02 - datos unidades y variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Datos, unidades y variables de análisis</span></a>
+  <a href="./02 - entorno de trabajo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Entorno de trabajo</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03 - tablas de frecuencias.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tablas de frecuencias</span></a>
+  <a href="./04 - datos unidades y variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Datos, unidades y variables de análisis</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Análisis exploratorio</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04 - descripcion de variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Descripción de variables</span></a>
+  <a href="./05 - tablas de frecuencias.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tablas de frecuencias</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05 - visualizacion.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Visualización de datos</span></a>
+  <a href="./06 - descripcion de variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Descripción de variables</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./06 - origen y recoleccion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Origen y recolección de datos</span></a>
+  <a href="./07 - visualizacion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Visualización de datos</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Análisis inferencial</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./07 - probabilidad aplicada.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Probabilidad aplicada</span></a>
+  <a href="./08 - origen y recoleccion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Origen y recolección de datos</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./08 - estimacion puntual y por intervalos.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estimación puntual y por intervalos de confianza</span></a>
+  <a href="./10 - probabilidad aplicada.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Probabilidad aplicada</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09 - tests de hipotesis.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tests de hipótesis</span></a>
+  <a href="./11 - estimacion puntual y por intervalos.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estimación puntual y por intervalos de confianza</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./10 - estadistica no parametrica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estadística NO paramétrica</span></a>
+  <a href="./12 - tests de hipotesis.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tests de hipótesis</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./11 - tecnicas de muestreo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Técnicas de muestreo</span></a>
+  <a href="./13 - estadistica no parametrica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estadística NO paramétrica</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./12 - anova.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">ANOVA: Análisis de la varianza</span></a>
+  <a href="./14 - tecnicas de muestreo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Técnicas de muestreo</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./13 - regresion lineal.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Lineal</span></a>
+  <a href="./15 - anova.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">ANOVA: Análisis de la varianza</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./14 - regresion logistica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Logística</span></a>
+  <a href="./16 - regresion lineal.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Lineal</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./15 - knn y cart.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">KNN y CART</span></a>
+  <a href="./17 - regresion logistica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Logística</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./18 - knn y cart.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">KNN y CART</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -193,7 +228,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">Visualización de datos</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Probabilidad aplicada</span></h1>
 </div>
 
 
@@ -211,38 +246,35 @@ ul.task-list li input[type="checkbox"] {
 <section id="lectura" class="level2">
 <h2 class="anchored" data-anchor-id="lectura">Lectura</h2>
 <ul>
-<li><p>Vizualización de cantidades, proporciones y distribuciones</p>
-<ul>
-<li><a href="https://clauswilke.com/dataviz">Fundamentals of Data Visualization (Part I: Cap. 2, 5, 6, 7 y 10)</a> (complementar con el resto de la bibliografía habitual de ser necesario)</li>
-</ul></li>
-<li><p>Conceptos básicos de storytelling y presentaciones efectivas</p>
-<ul>
-<li><a href="https://clauswilke.com/dataviz">Fundamentals of Data Visualization (Part III: Cap. 28 y 29)</a></li>
-</ul></li>
+<li><a href="https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link">Epílogo: Estadística y Probabilidad (<em>Estadística para Todos</em>: pág. 245 a 247)</a></li>
+<li><a href="https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link">Estudio de los conceptos de la probabilidad (<em>Estadística Aplicada a los Negocios y la Economía</em>: pág. 144 a 151)</a></li>
+<li><a href="https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link">Distribuciones de Probabilidad Discreta (<em>Estadística Aplicada a los Negocios y la Economía</em>: pág. 186 a 202)</a></li>
+<li><a href="https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link">Distribuciones de Probabilidad Continua (<em>Estadística Aplicada a los Negocios y la Economía</em>: pág. 222 a 242)</a></li>
+<li><a href="https://online.stat.psu.edu/stat500/lesson/2">Probability (<em>STAT 500 | Applied Statistics</em>: lesson 2)</a></li>
+<li><a href="https://online.stat.psu.edu/stat500/lesson/3">Probability Distributions (<em>STAT 500 | Applied Statistics</em>: lesson 3)</a></li>
+<li><a href="https://online.stat.psu.edu/stat500/lesson/4">Sampling Distributions (<em>STAT 500 | Applied Statistics</em>: lesson 4)</a></li>
 </ul>
 </section>
 <section id="actividades" class="level2">
 <h2 class="anchored" data-anchor-id="actividades">Actividades</h2>
 <ul>
-<li>Considere el dataset <em>French Bakery Daily Sales</em>. Realice visualizaciones que puedan responder a las siguientes preguntas:
+<li>Considere el dataset <a href="https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link">Pokemon</a>. Proponga 3 experimentos sobre dicha población para obtener como resultado una variable aleatoria cuya distribución sea: (1) binomial, (2) normal y (3) chi cuadrado.</li>
+<li>Responda las siguientes preguntas:
 <ul>
-<li>¿Cuál fue el total de baguettes tradicionales vendidas en el período Sep-2022?</li>
-<li>¿Cuánto representa la anterior cantidad respecto a todo tipo de baguettes?</li>
-<li>¿Ha habido cambios en esas proporciones respecto a Sep-2021?</li>
-<li>¿Cuál fue el día de semana y horario de mayor ganancia?</li>
-<li>¿Cuánto representa la venta de baguettes tradicionales en dicha ganancia?</li>
-<li>¿Cuál es la variación respecto a unidades vendidas para todo tipo de baguette a lo largo del año 2021?</li>
-<li>¿Cuál es el mayor incremento intermensual de baguettes tradicionales vendidas?</li>
-<li>¿En qué precio se encuentran la mayoría de los productos? ¿y el 80% de los productos?</li>
+<li>¿Cuál es la probabilidad de obtener un pokemon cuya velocidad sea mayor a 100?</li>
+<li>¿Cuál es la probabilidad de obtener un pokemon cuyo ataque sea igual a 60?</li>
+<li>¿Cuál es la probabilidad de obtener un pokemon de aire al realizar una muestra aleatoria de 10 pokemones?</li>
+<li>¿Cuál es la probabilidad de obtener un pokemon de generación 3 al seleccionar un sólo pokemon?</li>
+<li>Dado que un pokemon es de tierra, ¿cuál es la probabilidad que su defensa sea menor a 50?</li>
+<li>¿Cuál es la probabilidad de obtener un pokemon de tierra y con defensa menor a 50?</li>
+<li>¿Cuál es la probabilidad de que un pokemon sea de tierra suponiendo que en una muestra de 10 unidades obtuvo sólo 1 pokemon de este tipo?</li>
 </ul></li>
-<li>(<span style="color:red"><strong>ENTREGA OBLIGATORIA</strong></span>) Considere el dataset <a href="https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link">French Bakery Daily Sales</a>. Asuma que usted es un analista de datos recientemente contratada/o por la panadería francesa. El dueño busca entender el potencial de venta de la baguette tradicional. Realice una presentación de negocio con las visualizaciones anteriores que considere relevantes (modifíque ó cree otras si considera necesario) con el objetivo de describir la situación histórica y actual de la venta de dicho producto. No utilice más de 5 gráficos/diapositivas, debe ser breve y comunicar sólo cuestiones claves. Extraiga una conclusión / recomendación para el dueño.</li>
 </ul>
 </section>
 <section id="resumen" class="level2">
 <h2 class="anchored" data-anchor-id="resumen">Resumen</h2>
-<p>En el área de análisis de datos, puede llegar a ser un rol aparte el de aquel que realiza visualizaciones. Es un área que <strong>implica no sólo conocimiento técnico en datos, sino en diseño</strong>. Sino se tiene esta formación puntual, muchas veces se adquiere con la experiencia, y aún así, frente a una presentación, el contenido y la forma <strong>dependerá de quién reciba la información</strong>. Lo recomendable es inicialmente <strong>partir de un diseño mínimo, replicable y tomar referencias de otras presentaciones</strong>. Complementar y mejorar luego en función de la asimilación de principios básicos del diseño, colores e incluso tendencias.</p>
-<p>En cuanto a los datos, las visualizaciones estarán dadas por la <strong>cantidad de variables y su tipo</strong>. Suele ser buen hábito recurrir a una <em>galería de visualizaciones</em> para corrobar cuál gráfico encaja con lo que se tiene disponible o se quiere mostrar (ej: <a href="https://www.python-graph-gallery.com/">Python Graph Gallery</a>). Siempre adecuar la visualización a la <strong>pregunta que debe responder</strong> y evitar la sobrecarga / repetición de datos. Acompañar con el correspondiente título, referencias y leyenda, así como eventualmente, si fuese necesario, con una breve y sencilla explicación coloquial.</p>
-<p>Dicho esto, es posible realizar visualizaciones tanto con herramientas pensadas para tal fin (Tableau, PowerBI, Looker), otras más genéricas de presentaciòn (PowerPoint, Google Slides) o con Python / R / Javascript (a través de las librerías adecuadas). En ese sentido, lo recomendable es <strong>adoptar una en particular y profundizar en su uso</strong>.</p>
+<p>La probabilidad es una herramienta fundamental para el análisis de datos, no tanto por su uso directo, sino porque <strong>es el sustento matemático de muchas demostraciones de procesos y fórmulas que habitualmente se aplican</strong>. Por tanto, conocer los conceptos y definiciones básicos es una puerta a comprender mejor tanto el análisis como las conclusiones obtenidas.</p>
+<p>Será particularmente útil asimilar las distribuciones más relevantes que surgen como resultado del análisis de variables aleatorias; éstas son: <strong>la distribución binomial, la distribución normal y la distribución chi-cuadrado</strong>. Cada una estará asociada al estudio de medidas de posición, dispersión y relación, vistas anteriormente. Es decir, estas medidas, si se dan las adecuadas condiciones, tendrán un <strong>comportamiento teóricamente definido y demostrado</strong>, lo cual posibilita enormemente su análisis. También será útil el conocimiento y cálculo de <strong>probabilidades conjuntas y condicionales</strong>, habituales en el análisis multivariado.</p>
 
 
 </section>
@@ -383,13 +415,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./04 - descripcion de variables.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Descripción de variables</span></span>
+      <a href="./08 - origen y recoleccion.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Origen y recolección de datos</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./06 - origen y recoleccion.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Origen y recolección de datos</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./11 - estimacion puntual y por intervalos.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Estimación puntual y por intervalos de confianza</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

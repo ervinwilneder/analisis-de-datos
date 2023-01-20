@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Análisis de datos - 7&nbsp; Probabilidad aplicada</title>
+<title>Análisis de datos - 15&nbsp; Regresión Logística</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./08 - estimacion puntual y por intervalos.html" rel="next">
-<link href="./06 - origen y recoleccion.html" rel="prev">
+<link href="./18 - knn y cart.html" rel="next">
+<link href="./16 - regresion lineal.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Probabilidad aplicada</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Regresión Logística</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -98,81 +98,116 @@ ul.task-list li input[type="checkbox"] {
   <a href="./index.html" class="sidebar-item-text sidebar-link">Prefacio</a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Fundamentos</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./01 - conceptos y definiciones.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Conceptos y definiciones</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02 - datos unidades y variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Datos, unidades y variables de análisis</span></a>
+  <a href="./02 - entorno de trabajo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Entorno de trabajo</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03 - tablas de frecuencias.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tablas de frecuencias</span></a>
+  <a href="./04 - datos unidades y variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Datos, unidades y variables de análisis</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Análisis exploratorio</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04 - descripcion de variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Descripción de variables</span></a>
+  <a href="./05 - tablas de frecuencias.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tablas de frecuencias</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05 - visualizacion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Visualización de datos</span></a>
+  <a href="./06 - descripcion de variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Descripción de variables</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./06 - origen y recoleccion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Origen y recolección de datos</span></a>
+  <a href="./07 - visualizacion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Visualización de datos</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Análisis inferencial</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./07 - probabilidad aplicada.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Probabilidad aplicada</span></a>
+  <a href="./08 - origen y recoleccion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Origen y recolección de datos</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./08 - estimacion puntual y por intervalos.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estimación puntual y por intervalos de confianza</span></a>
+  <a href="./10 - probabilidad aplicada.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Probabilidad aplicada</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09 - tests de hipotesis.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tests de hipótesis</span></a>
+  <a href="./11 - estimacion puntual y por intervalos.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estimación puntual y por intervalos de confianza</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./10 - estadistica no parametrica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estadística NO paramétrica</span></a>
+  <a href="./12 - tests de hipotesis.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tests de hipótesis</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./11 - tecnicas de muestreo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Técnicas de muestreo</span></a>
+  <a href="./13 - estadistica no parametrica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estadística NO paramétrica</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./12 - anova.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">ANOVA: Análisis de la varianza</span></a>
+  <a href="./14 - tecnicas de muestreo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Técnicas de muestreo</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./13 - regresion lineal.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Lineal</span></a>
+  <a href="./15 - anova.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">ANOVA: Análisis de la varianza</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./14 - regresion logistica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Logística</span></a>
+  <a href="./16 - regresion lineal.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Lineal</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./15 - knn y cart.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">KNN y CART</span></a>
+  <a href="./17 - regresion logistica.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Regresión Logística</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./18 - knn y cart.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">KNN y CART</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -193,7 +228,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">Probabilidad aplicada</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Regresión Logística</span></h1>
 </div>
 
 
@@ -211,35 +246,23 @@ ul.task-list li input[type="checkbox"] {
 <section id="lectura" class="level2">
 <h2 class="anchored" data-anchor-id="lectura">Lectura</h2>
 <ul>
-<li><a href="https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link">Epílogo: Estadística y Probabilidad (<em>Estadística para Todos</em>: pág. 245 a 247)</a></li>
-<li><a href="https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link">Estudio de los conceptos de la probabilidad (<em>Estadística Aplicada a los Negocios y la Economía</em>: pág. 144 a 151)</a></li>
-<li><a href="https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link">Distribuciones de Probabilidad Discreta (<em>Estadística Aplicada a los Negocios y la Economía</em>: pág. 186 a 202)</a></li>
-<li><a href="https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link">Distribuciones de Probabilidad Continua (<em>Estadística Aplicada a los Negocios y la Economía</em>: pág. 222 a 242)</a></li>
-<li><a href="https://online.stat.psu.edu/stat500/lesson/2">Probability (<em>STAT 500 | Applied Statistics</em>: lesson 2)</a></li>
-<li><a href="https://online.stat.psu.edu/stat500/lesson/3">Probability Distributions (<em>STAT 500 | Applied Statistics</em>: lesson 3)</a></li>
-<li><a href="https://online.stat.psu.edu/stat500/lesson/4">Sampling Distributions (<em>STAT 500 | Applied Statistics</em>: lesson 4)</a></li>
+<li><a href="https://hastie.su.domains/ISLR2/ISLRv2_website.pdf">Logistic Regression (<em>Introduction to Statistical Learning</em>: pág. 133 a 139)</a></li>
+<li><a href="https://christophm.github.io/interpretable-ml-book/logistic.html">Logistic Regression (<em>Interpretable Machine Learning</em>: Cap. 5.2)</a></li>
+<li><a href="https://openintro-ims.netlify.app/model-logistic.html">Logistic Regression (<em>Introduction to Modern Statistics</em>: Cap. 9)</a></li>
+<li><a href="https://realpython.com/logistic-regression-python/">Logistic Regression in Python (<em>Real Python site</em>)</a></li>
 </ul>
 </section>
 <section id="actividades" class="level2">
 <h2 class="anchored" data-anchor-id="actividades">Actividades</h2>
 <ul>
-<li>Considere el dataset <a href="https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link">Pokemon</a>. Proponga 3 experimentos sobre dicha población para obtener como resultado una variable aleatoria cuya distribución sea: (1) binomial, (2) normal y (3) chi cuadrado.</li>
-<li>Responda las siguientes preguntas:
-<ul>
-<li>¿Cuál es la probabilidad de obtener un pokemon cuya velocidad sea mayor a 100?</li>
-<li>¿Cuál es la probabilidad de obtener un pokemon cuyo ataque sea igual a 60?</li>
-<li>¿Cuál es la probabilidad de obtener un pokemon de aire al realizar una muestra aleatoria de 10 pokemones?</li>
-<li>¿Cuál es la probabilidad de obtener un pokemon de generación 3 al seleccionar un sólo pokemon?</li>
-<li>Dado que un pokemon es de tierra, ¿cuál es la probabilidad que su defensa sea menor a 50?</li>
-<li>¿Cuál es la probabilidad de obtener un pokemon de tierra y con defensa menor a 50?</li>
-<li>¿Cuál es la probabilidad de que un pokemon sea de tierra suponiendo que en una muestra de 10 unidades obtuvo sólo 1 pokemon de este tipo?</li>
-</ul></li>
+<li>Considere el dataset <a href="https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link">Real State Pricing</a> y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Transforme los datos de tal manera que pueda construir un modelo de regresión logística múltiple y luego estimar si el precio (por unidad de superficie) de las casas estará por encima o por debajo de los 50 USD. Evalúe los resultados utilizando una matriz de confusión y concluya cuáles podrían ser las consecuencias de aplicar el modelo en un caso real de estimación de precios. Utilice la librería <em>sklearn</em> de Python para el desarrollo de este análisis.</li>
 </ul>
 </section>
 <section id="resumen" class="level2">
 <h2 class="anchored" data-anchor-id="resumen">Resumen</h2>
-<p>La probabilidad es una herramienta fundamental para el análisis de datos, no tanto por su uso directo, sino porque <strong>es el sustento matemático de muchas demostraciones de procesos y fórmulas que habitualmente se aplican</strong>. Por tanto, conocer los conceptos y definiciones básicos es una puerta a comprender mejor tanto el análisis como las conclusiones obtenidas.</p>
-<p>Será particularmente útil asimilar las distribuciones más relevantes que surgen como resultado del análisis de variables aleatorias; éstas son: <strong>la distribución binomial, la distribución normal y la distribución chi-cuadrado</strong>. Cada una estará asociada al estudio de medidas de posición, dispersión y relación, vistas anteriormente. Es decir, estas medidas, si se dan las adecuadas condiciones, tendrán un <strong>comportamiento teóricamente definido y demostrado</strong>, lo cual posibilita enormemente su análisis. También será útil el conocimiento y cálculo de <strong>probabilidades conjuntas y condicionales</strong>, habituales en el análisis multivariado.</p>
+<p>La regresión logística es, en esencia, un <strong>modelo de clasificación binaria</strong> (al menos en su forma básica), utilizado ampliamente en la industria crediticia desde hace muchos años y que cuenta con la particularidad de ser, al igual que la regresión lineal, <strong>interpretable en cuanto a la toma de decisiones</strong>. Es un modelo intrínsecamente lineal y las estimaciones de los parámetros obtenidos son accesibles, pudiendo establecerse conclusiones individuables sobre la importancia que conlleva cada variable sobre la estimación final de la variable dependiente así como también aplicar pruebas estadísticas sobre dichos parámetros.</p>
+<p>A diferencia de la regresión lineal, el resultado del modelo no será una cantidad en unidades medibles, sino más bien una <strong>probabilidad</strong>, estando ésta entre 0 y 1. En ese sentido, se pueden establecer diferentes criterios para finalmente optar por un valor u otro, utilizando habitualmente el punto medio (0.5) como punto de corte. Así también, suele presentarse el escenario en el cual se busca <strong>clasificar correctamente en pos de una u otra categoría</strong> (por ejemplo, en medicina donde es preferible decirle a un paciente que está enfermo a que no lo está) y para ello se buscará que el modelo se ajuste a obtener resultados propensos en una u otra dirección. Las medidas más utilizadas para ello son <strong>la precisión, el recall</strong>, la tasa de falsos y verdaderos positivos, y varias otras medidas disponibles a través de la construcción de la <strong>matriz de confusión</strong>, herramienta por excelencia para la evaluación, no sólo de la regresión logística, sino de los modelos de clasificación (o clasificadores) en general.</p>
+<p>Con el auge de la ciencia de datos / machine learning, la regresión logística ha ido dando lugar a otros modelos más sencillos de calcular / interpretar como los árboles de decisión ó random forests y que además no necesitan de supuestos sobre la distribución de los datos (el modelo en sí) para su uso y posterior elaboración de conclusiones. En el siguiente capítulo, se verán algunos de ellos.</p>
 
 
 </section>
@@ -380,13 +403,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./06 - origen y recoleccion.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Origen y recolección de datos</span></span>
+      <a href="./16 - regresion lineal.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Regresión Lineal</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./08 - estimacion puntual y por intervalos.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Estimación puntual y por intervalos de confianza</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./18 - knn y cart.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">KNN y CART</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

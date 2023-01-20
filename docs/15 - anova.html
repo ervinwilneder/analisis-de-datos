@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Análisis de datos - 4&nbsp; Descripción de variables</title>
+<title>Análisis de datos - 13&nbsp; ANOVA: Análisis de la varianza</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./05 - visualizacion.html" rel="next">
-<link href="./03 - tablas de frecuencias.html" rel="prev">
+<link href="./16 - regresion lineal.html" rel="next">
+<link href="./14 - tecnicas de muestreo.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Descripción de variables</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">ANOVA: Análisis de la varianza</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -98,81 +98,116 @@ ul.task-list li input[type="checkbox"] {
   <a href="./index.html" class="sidebar-item-text sidebar-link">Prefacio</a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Fundamentos</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./01 - conceptos y definiciones.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Conceptos y definiciones</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02 - datos unidades y variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Datos, unidades y variables de análisis</span></a>
+  <a href="./02 - entorno de trabajo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Entorno de trabajo</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03 - tablas de frecuencias.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tablas de frecuencias</span></a>
+  <a href="./04 - datos unidades y variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Datos, unidades y variables de análisis</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Análisis exploratorio</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04 - descripcion de variables.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Descripción de variables</span></a>
+  <a href="./05 - tablas de frecuencias.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tablas de frecuencias</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05 - visualizacion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Visualización de datos</span></a>
+  <a href="./06 - descripcion de variables.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Descripción de variables</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./06 - origen y recoleccion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Origen y recolección de datos</span></a>
+  <a href="./07 - visualizacion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Visualización de datos</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Análisis inferencial</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./07 - probabilidad aplicada.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Probabilidad aplicada</span></a>
+  <a href="./08 - origen y recoleccion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Origen y recolección de datos</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./08 - estimacion puntual y por intervalos.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estimación puntual y por intervalos de confianza</span></a>
+  <a href="./10 - probabilidad aplicada.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Probabilidad aplicada</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09 - tests de hipotesis.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tests de hipótesis</span></a>
+  <a href="./11 - estimacion puntual y por intervalos.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estimación puntual y por intervalos de confianza</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./10 - estadistica no parametrica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estadística NO paramétrica</span></a>
+  <a href="./12 - tests de hipotesis.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Tests de hipótesis</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./11 - tecnicas de muestreo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Técnicas de muestreo</span></a>
+  <a href="./13 - estadistica no parametrica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Estadística NO paramétrica</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./12 - anova.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">ANOVA: Análisis de la varianza</span></a>
+  <a href="./14 - tecnicas de muestreo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Técnicas de muestreo</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./13 - regresion lineal.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Lineal</span></a>
+  <a href="./15 - anova.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">ANOVA: Análisis de la varianza</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./14 - regresion logistica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Logística</span></a>
+  <a href="./16 - regresion lineal.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Lineal</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./15 - knn y cart.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">KNN y CART</span></a>
+  <a href="./17 - regresion logistica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Logística</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./18 - knn y cart.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">KNN y CART</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -193,7 +228,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">Descripción de variables</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">ANOVA: Análisis de la varianza</span></h1>
 </div>
 
 
@@ -211,39 +246,23 @@ ul.task-list li input[type="checkbox"] {
 <section id="lectura" class="level2">
 <h2 class="anchored" data-anchor-id="lectura">Lectura</h2>
 <ul>
-<li><p>Medidas de posición: promedio, mediana, cuantiles y moda</p>
-<ul>
-<li><a href="https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link">Medidas Resumen (<em>Estadística para Todos</em>: pág. 120 a 125)</a></li>
-<li><a href="https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link">Los valores que caracterizan al conjunto de datos (<em>Estadística Aplicada a las Ciencias Sociales y Humanas</em>: pág. 59 a 79)</a></li>
-<li><a href="https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link">Descripción de datos (<em>Estadística Aplicada a los Negocios y la Economía</em>: pág. 57 a 75)</a></li>
-<li><a href="https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link">Medidas numéricas descriptivas (<em>Probabilidad y Estadística | Aplicaciones y Métodos</em>: pág. 11 a 14)</a></li>
-</ul></li>
-<li><p>Medidas de dispersión: desviación estándar, coeficiente de variación y rango</p>
-<ul>
-<li><a href="https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link">Medidas Resumen (<em>Estadística para Todos</em>: pág. 125 a 135)</a></li>
-<li><a href="https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link">Análisis de la variación y asimetría (<em>Estadística Aplicada a las Ciencias Sociales y Humanas</em>: pág. 85 a 97)</a></li>
-<li><a href="https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link">Descripción de datos (<em>Estadística Aplicada a los Negocios y la Economía</em>: pág. 75 a 84)</a></li>
-<li><a href="https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link">Medidas numéricas descriptivas (<em>Probabilidad y Estadística | Aplicaciones y Métodos</em>: pág. 15 a 22)</a></li>
-</ul></li>
-<li><p>Medidas de relación: razones, tasas y proporciones</p>
-<ul>
-<li><a href="https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link">Razón, tasas y porcentajes (<em>Estadística para Todos</em>: pág. 15 a 19)</a></li>
-</ul></li>
+<li><a href="https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link">Análisis de la varianza (<em>Estadística Aplicada a los Negocios y la Economía</em>: pág. 410 a 440)</a></li>
+<li><a href="https://online.stat.psu.edu/stat500/lesson/10">Introduction to ANOVA (<em>STAT 500 | Applied Statistics</em>: lesson 10)</a></li>
 </ul>
 </section>
 <section id="actividades" class="level2">
 <h2 class="anchored" data-anchor-id="actividades">Actividades</h2>
 <ul>
-<li>Considere el dataset <a href="https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link">Best Movie by Year Netflix</a>. Calcule medidas de posición y dispersión para la variable <em>score</em>. Divida el set de datos a partir de algún criterio que considere de interés, calcule medidas de relación entre los grupos resultantes.</li>
+<li>Considere el dataset <a href="https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link">CNC turning Experiment</a>. Identifique aquellos factores para los cuales la media de la fuerza (<em>force</em>), en al menos un grupo, sea significativamente diferente. Evalué en todos los casos los supuestos del análisis. Si para un grupo de factores encuentra diferencias, determine entre cuáles. Concluya cuáles factores son los que determinan la mayor fuerza posible alcanzada.</li>
+<li>Lleve adelante una transformación de los datos tal que las réplicas de cada corrida (<em>run_id</em>) pasen a conformar las columnas r1 a r6 y además calcule la media y desvío estándar asociadas a las mismas.</li>
 </ul>
 </section>
 <section id="resumen" class="level2">
 <h2 class="anchored" data-anchor-id="resumen">Resumen</h2>
-<p>En el proceso de caracterización / resumen de variables, el <strong>análisis exploratorio de datos</strong>, participan medidas de 3 cuestiones fundamentales: <strong>posición, dispersión y relación</strong>.</p>
-<p>La posición esencialmente permite conocer <strong>dónde se encuentran la mayor parte de los datos</strong> y la dispersión, saber si los datos que conforman esa mayoría se encuentran <em>cerca</em> unos de otros. Cuando la dispersión aumenta, las medidas de posición realmente no dicen mucho (aunque parezca que sí); por esto mismo, siempre deben estar ambas presentes. Justamente, como la dispersión impacta sobre la posición, se cuenta con una batería de posibles medidas que son más <em>robustas</em> frente a una situación de gran dispersión ó dispersión particular de algunos datos. La más utilizada es la mediana, que a diferencia del promedio (media) logra mantenerse firme frente a <strong>valores extremos</strong>.</p>
-<p>La <strong>dispersión así también puede ser engañosa</strong>, porque depende de las unidades en la que está medida. Por esto mismo, es recomendable el uso del coeficiente de variación, que es una relativización del desvío estándar frente al valor del promedio. Como su nombre lo indica, es un coeficiente y no tiene unidades. Un valor menor a 0.3 (30%) indica baja dispersión y, por ende, las medidas de posición serán <em>confiables</em>.</p>
-<p>Aún así, se verá en el próximo capítulo, que aún dándose esta última situación, <strong>contar sólo con las medidas de posición no es 100% seguro</strong>. Siempre debe recurrise a la <strong>visualización</strong> para lograr entender el comportamiento de una variable o conjunto de datos, acompañada de una tabla de frecuencias.</p>
-<p>Más allá del análisis de una variable por si sola, también puede presentarse la situación en la que se quiere comparar con otra o incluso comparar consigo misma en otra circunstancia (o en otro momento). Para ello, existen medidas de relación, que son habituales en todo tipo de informes. No se menciona en este capítulo el coeficiente de correlación, que merece un desarrollo más profundo de su uso e implicancias, lo cual se verá más adelante.</p>
+<p>En la práctica, la comparación de promedios (a través de pruebas estadísticas) suele implicar <strong>más de dos categorías, grupos y/o variables</strong>. Consideren, por ejemplo, un experimento con 6 diferentes tratamientos, el resultado de cada uno de ellos variará, en mayor o menor medida, y como investigador se intentará conocer esa <strong>variación</strong>, concluyendo si uno o más son realmente diferentes al resto en cuanto a sus efectos. Justamente, el análisis de dicha variación es lo que se conoce como ANOVA (análisis de la varianza).</p>
+<p>Esta técnica es muy simple en esencia. Se compara la <strong>variación dentro de cada grupo</strong>, respecto a la <strong>variación entre grupos</strong>. Si la última es <em>considerablemente</em> grande (y la primera considerablemente chica) se estará en condiciones de decir que los grupos son diferentes. Dicho eso, según se quiera poner a prueba diferentes variables (factores) que afectan el resultado, el ANOVA como tal puede llegar a ser bastante complejo. Sea cual fuere el escenario, es muy importante tener presente qué es lo que implicará la introducción como tal de más componentes al análisis, consideración clave para obtener conclusiones válidas. Un caso importante en ese aspecto es el uso de <strong>factores de bloqueo</strong>, los cuales serán instrumentaciones del experimento realizadas a propósito para controlar la variación de la respuesta.</p>
+<p>Posteriormente a las conclusiones del ANOVA, suelen darse otros <strong>procedimientos para específicamente conocer cuál tratamiento / grupo es diferente al resto</strong>. Esto es lo que se conoce como análisis <em>post hoc</em>.</p>
+<p>ANOVA, siendo una prueba estadística, es un procedimiento muy utilizado en investigación científica; pero es destacable que no debe vérselo simplemente como un test sino como una forma de <strong>estimar una variable continua en función de una o más variables categóricas</strong>, lo que se denomina, en términos generales, como una <em>regresión</em> (tema que se verá en el próximo capítulo). También es importante señalar que el análisis de la varianza, tal como se presenta aquí, es un <strong>método paramétrico</strong>, teniendo su contrapartida no paramétrica para el caso donde no se cumplan los supuestos (o bien se investigue otro parámetro que no sea el promedio).</p>
 
 
 </section>
@@ -384,13 +403,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./03 - tablas de frecuencias.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Tablas de frecuencias</span></span>
+      <a href="./14 - tecnicas de muestreo.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Técnicas de muestreo</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./05 - visualizacion.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Visualización de datos</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./16 - regresion lineal.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Regresión Lineal</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

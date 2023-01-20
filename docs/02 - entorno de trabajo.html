@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ervin Wilneder">
-<meta name="dcterms.date" content="2023-01-18">
 
-<title>Análisis de datos</title>
+<title>Análisis de datos - 2&nbsp; Entorno de trabajo</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./01 - conceptos y definiciones.html" rel="next">
+<link href="./04 - datos unidades y variables.html" rel="next">
+<link href="./01 - conceptos y definiciones.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Análisis de datos</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Entorno de trabajo</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -96,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Prefacio</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Prefacio</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -114,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02 - entorno de trabajo.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Entorno de trabajo</span></a>
+  <a href="./02 - entorno de trabajo.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Entorno de trabajo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -218,7 +217,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#prefacio" id="toc-prefacio" class="nav-link active" data-scroll-target="#prefacio">Prefacio</a></li>
+  <li><a href="#lectura" id="toc-lectura" class="nav-link active" data-scroll-target="#lectura">Lectura</a></li>
+  <li><a href="#actividades" id="toc-actividades" class="nav-link" data-scroll-target="#actividades">Actividades</a></li>
+  <li><a href="#resumen" id="toc-resumen" class="nav-link" data-scroll-target="#resumen">Resumen</a></li>
   </ul>
 </nav>
     </div>
@@ -227,26 +228,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Análisis de datos</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Entorno de trabajo</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Ervin Wilneder </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">January 18, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -254,11 +243,72 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="prefacio" class="level1 unnumbered">
-<h1 class="unnumbered">Prefacio</h1>
-<p>El presente libro es un compilado de lecturas y actividades sobre diferentes temas que son considerados fundamentales para el análisis de datos. Cada capítulo corresponde a un tema e incluye un resumen con ideas y conclusiones a destacar. Donde corresponda, se dispone además un apartado con implementaciones en diversos lenguajes/herramientas, principalmente utilizando Python.</p>
-<p>Este material fue desarrollado exclusivamente para las materias <em>Análisis de Datos (I</em> y <em>II</em>) y <em>Python</em> de la <a href="https://www.frh.utn.edu.ar/cursoscursos_diplomatura">Diplomatura Universitaria en Programación</a> de la UTN HAEDO, dictada inicialmente en 2023.</p>
-<p>Por recomendaciones, correcciones u otras propuestas, por favor escribir a <a href="mailto:ervinwilneder@gmail.com" class="email">ervinwilneder@gmail.com</a> o a través de mi <a href="https://linkedin.com/in/ervinwilneder">LinkedIn</a>.</p>
+<section id="lectura" class="level2">
+<h2 class="anchored" data-anchor-id="lectura">Lectura</h2>
+<ul>
+<li>Planillas de cálculo
+<ul>
+<li><a href="https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca">Tareas básicas en Excel (<em>Microsoft Support</em>)</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/196">Google Sheets (<em>Google Cloud Skills Boost</em>)</a></li>
+</ul></li>
+<li>Jupyter Notebooks y otras plataformas similares
+<ul>
+<li><a href="https://wesmckinney.com/book/python-basics.html">Python Language Basics, IPython, and Jupyter Notebooks (<em>Python for Data Analysis</em>: cap. 2.1 y 2.2)</a></li>
+<li><a href="https://docs.jupyter.org/en/latest/use/using.html" class="uri">https://docs.jupyter.org/en/latest/use/using.html</a></li>
+<li><a href="https://colab.research.google.com/" class="uri">https://colab.research.google.com/</a></li>
+<li><a href="https://posit.co/" class="uri">https://posit.co/</a></li>
+<li><a href="https://code.visualstudio.com/" class="uri">https://code.visualstudio.com/</a></li>
+<li><a href="https://deepnote.com/" class="uri">https://deepnote.com/</a></li>
+<li><a href="https://www.datacamp.com/workspace" class="uri">https://www.datacamp.com/workspace</a></li>
+<li><a href="https://observablehq.com/" class="uri">https://observablehq.com/</a></li>
+</ul></li>
+<li>Herramientas de visualización y consulta de datos
+<ul>
+<li><a href="https://powerbi.microsoft.com/en-au/" class="uri">https://powerbi.microsoft.com/en-au/</a></li>
+<li><a href="https://www.tableau.com/" class="uri">https://www.tableau.com/</a></li>
+<li><a href="https://www.metabase.com/" class="uri">https://www.metabase.com/</a></li>
+</ul></li>
+<li>Suites de analítica de datos
+<ul>
+<li><a href="https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform" class="uri">https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform</a></li>
+<li><a href="https://aws.amazon.com/es/sagemaker/" class="uri">https://aws.amazon.com/es/sagemaker/</a></li>
+<li><a href="https://www.paperspace.com/gradient" class="uri">https://www.paperspace.com/gradient</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning" class="uri">https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning</a></li>
+</ul></li>
+<li>Versionado
+<ul>
+<li><a href="https://git-scm.com/" class="uri">https://git-scm.com/</a></li>
+<li><a href="https://docs.github.com/en/get-started/quickstart/hello-world" class="uri">https://docs.github.com/en/get-started/quickstart/hello-world</a></li>
+<li><a href="https://dvc.org/" class="uri">https://dvc.org/</a></li>
+</ul></li>
+<li>Gestores de ambientes
+<ul>
+<li><a href="https://www.anaconda.com/" class="uri">https://www.anaconda.com/</a></li>
+</ul></li>
+<li>Conteinerización
+<ul>
+<li><a href="https://www.docker.com/" class="uri">https://www.docker.com/</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/el-ecosistema-de-docker-una-vision-general-de-la-contenerizacion-es" class="uri">https://www.digitalocean.com/community/tutorials/el-ecosistema-de-docker-una-vision-general-de-la-contenerizacion-es</a></li>
+<li><a href="https://aws.amazon.com/es/docker/" class="uri">https://aws.amazon.com/es/docker/</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="actividades" class="level2">
+<h2 class="anchored" data-anchor-id="actividades">Actividades</h2>
+<ul>
+<li>Instale Docker Desktop (<a href="https://www.docker.com/products/docker-desktop/" class="uri">https://www.docker.com/products/docker-desktop/</a>) en su computadora. Luego clone el siguiente repositorio <a href="https://github.com/ervinwilneder-untref/statistics-playground" class="uri">https://github.com/ervinwilneder-untref/statistics-playground</a> y levante el servicio de JupyterLab.</li>
+</ul>
+</section>
+<section id="resumen" class="level2">
+<h2 class="anchored" data-anchor-id="resumen">Resumen</h2>
+<p>Uno de los puntos de fricción más habituales para quien comienza con análisis de datos es la <strong>abrumadora cantidad de herramientas y entornos de trabajo</strong> disponibles. Incluso habiéndose decidido, suele no ser tarea sencilla su configuración y la curva de aprendizaje es lenta, particularmente para el caso de aquellas personas sin un background en programación. Sin embargo, junto con el claro entendimiento de la teoría y práctica, <strong>el buen uso de las herramientas es un factor clave</strong> en el éxito profesional.</p>
+<p>Por lo tanto, antes de comenzar a realizar tareas propias de un/a analista de datos, se hace necesario transitar el panorama de plataformas destacadas, en cada una de las distintas cuestiones relacionadas a un correcto desarrollo/trabajo.</p>
+<p>Comenzando con las <strong>planillas de cálculo</strong>, éstas son las herramientas con más trayectoria dentro del ámbito. Más allá de que hoy hay un sinfín de tareas complejas y volumen de datos que no pueden manejar, suele ser en el tramo final de un proyecto (la disponibilización de resultados para usuarios finales) donde están presentes, tanto por su sencillez así como también porque los mismos usuarios están acostumbrados a su uso.</p>
+<p>Luego están las <em>notebooks</em>, generalmente asociadas Jupyter, que son esencialmente <strong>documentos con la capacidad de volcar texto y código</strong> (python, r, etc.), con una <strong>dinámica de ejecución por celdas</strong>, haciendo de las mismas la herramientas por excelencia para lo/as científicos de datos. Su uso actualmente se ha ido extendiendo y prácticamente <strong>cualquier rol involucrado a datos comprende su uso y características</strong>, considerándose algo así como un estándar. Mediante la implementación de diferentes <em>kernels</em>, las notebooks integran varios lenguajes, aunque su uso suele estar más asociado a Python. Para aquellos que programan en R, el uso de RStudio (ahora llamado Posit) resulta más cómodo, aunque ahora se está volviendo una plataforma con soporte para más lenguajes y puede llegar a ser una excelente opción como entorno de trabajo.</p>
+<p>También hay otras herramientas que copian la misma dinámica de las notebooks y/o la extienden con nuevas funcionalidades. En ese sentido, el abanico de opciones es bastante amplio, destacándose principalemente Colab, por ser gratuita y con una capacidad de procesamiento generosa; o <em>JupyterLab</em>, que es una <em>IDE</em> que permite la gestión de notebooks, instalación de plugins y más funcionalidades. Ésta última de hecho es adoptada por varias empresas para montar sobre la misma <strong>servicios mucho más potentes e integrados a servicios cloud</strong> como GCP, AWS y Azure, conformando <em>suites</em> de analítica de datos, en constante adopción por las empresas y organizaciones de hoy.</p>
+<p>A lo anterior, debe sumarme las herramientas exclusivamente pensadas para <strong>visualización de datos</strong>, que comienzan actualmente a integrar capacidades de consulta (antes sólo atribuibles a un <strong>cliente de bases de datos</strong>) y transformación de datos (más allá de las <strong>herramientas de ETL</strong> propiamente dichas) dentro del mismo entorno.</p>
+<p>Como se habrá podido concluir, este primer vistazo ya trajo consigo bastantes nuevas cosas para investigar y comprender. Lo importante, a fin de cuentas, es tener suficiente <strong>flexibilidad</strong> para adoptar sobre la marcha las herramientas que se dispongan en el trabajo o proyectos particulares. No se tiene que dejar pasar que habrá ciertas funcionalidades comunes a todas aquellas así como también ciertas propiedades deseables (no sólo para las herramientas, sino para cualquier análisis de datos en sí): <strong>transparencia, replicabilidad, interoperabilidad y escalabilidad</strong>.</p>
+<p>Teniendo en cuenta ello, entran en juego otra batería de herramientas importantes. Se destacan principalmente: Git para la transparencia (versionado y experimentación) y Docker / Anaconda para la replicabilidad (definición y gestión de dependencias). Considerar que no vale de nada un desarrollo que no pueda ser replicado o utilizado correctamente por otros colaboradores o incluso usuarios finales, en la era del trabajo colaborativo estas herramientas son prácticamente mandatorias.</p>
 
 
 </section>
@@ -399,10 +449,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./01 - conceptos y definiciones.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Conceptos y definiciones</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./01 - conceptos y definiciones.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Conceptos y definiciones</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./04 - datos unidades y variables.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Datos, unidades y variables de análisis</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

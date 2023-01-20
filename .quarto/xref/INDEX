@@ -118,5 +118,86 @@
   },
   "resources.qmd": {
     "resources.html": "8445b358"
+  },
+  "07 - manipulacion de datos.qmd": {
+    "07 - manipulacion de datos.html": "38ba4e29"
+  },
+  "08 - probabilidad aplicada.qmd": {
+    "08 - probabilidad aplicada.html": "39ebc584"
+  },
+  "09 - estimacion puntual y por intervalos.qmd": {
+    "09 - estimacion puntual y por intervalos.html": "06403bcd"
+  },
+  "10 - tests de hipotesis.qmd": {
+    "10 - tests de hipotesis.html": "bb216986"
+  },
+  "11 - estadistica no parametrica.qmd": {
+    "11 - estadistica no parametrica.html": "4cae717c"
+  },
+  "12 - tecnicas de muestreo.qmd": {
+    "12 - tecnicas de muestreo.html": "710f138b"
+  },
+  "13 - anova.qmd": {
+    "13 - anova.html": "bf6585e0"
+  },
+  "14 - regresion lineal.qmd": {
+    "14 - regresion lineal.html": "47f5e688"
+  },
+  "15 - regresion logistica.qmd": {
+    "15 - regresion logistica.html": "060c01d8"
+  },
+  "16 - knn y cart.qmd": {
+    "16 - knn y cart.html": "10588b95"
+  },
+  "02 - entorno de trabajo.qmd": {
+    "02 - entorno de trabajo.html": "ae03260e"
+  },
+  "03 - lenguajes de programación.qmd": {
+    "03 - lenguajes de programación.html": "52eed7ab"
+  },
+  "04 - datos unidades y variables.qmd": {
+    "04 - datos unidades y variables.html": "e62e3dac"
+  },
+  "05 - tablas de frecuencias.qmd": {
+    "05 - tablas de frecuencias.html": "01e3863d"
+  },
+  "06 - descripcion de variables.qmd": {
+    "06 - descripcion de variables.html": "66c8fb5f"
+  },
+  "07 - visualizacion.qmd": {
+    "07 - visualizacion.html": "760401b7"
+  },
+  "08 - origen y recoleccion.qmd": {
+    "08 - origen y recoleccion.html": "8eb0913f"
+  },
+  "09 - manipulacion de datos.qmd": {
+    "09 - manipulacion de datos.html": "a5ff313a"
+  },
+  "10 - probabilidad aplicada.qmd": {
+    "10 - probabilidad aplicada.html": "e6c926b3"
+  },
+  "11 - estimacion puntual y por intervalos.qmd": {
+    "11 - estimacion puntual y por intervalos.html": "dadc5735"
+  },
+  "12 - tests de hipotesis.qmd": {
+    "12 - tests de hipotesis.html": "72d52b0b"
+  },
+  "13 - estadistica no parametrica.qmd": {
+    "13 - estadistica no parametrica.html": "d7a8033f"
+  },
+  "14 - tecnicas de muestreo.qmd": {
+    "14 - tecnicas de muestreo.html": "ddc9f99f"
+  },
+  "15 - anova.qmd": {
+    "15 - anova.html": "32605c4b"
+  },
+  "16 - regresion lineal.qmd": {
+    "16 - regresion lineal.html": "01f1a8b7"
+  },
+  "17 - regresion logistica.qmd": {
+    "17 - regresion logistica.html": "6c5df104"
+  },
+  "18 - knn y cart.qmd": {
+    "18 - knn y cart.html": "94ea411d"
   }
 }
