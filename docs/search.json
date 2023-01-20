@@ -182,6 +182,27 @@
     "text": "Resumen\nEl origen y recolección de los datos determina las conclusiones que pueden extraerse de los mismos. Tener un censo (un relevamiento completo de las unidades de análisis) no será lo mismo que tener una muestra (un relevamiento parcial); la segunda lleva consigo la incertidumbre propia de no contar con todos los datos. Pero justamente será ese el escenario donde el análisis de datos estará más presente.\nUna muestra será habitualmente la opción más viable para conseguir datos. Incluso en la era del big data, por más datos que se tengan, suelen ser representaciones parciales de la realidad, de los procesos que los generan. La muestra es la regla, no la excepción.\nEs un procedimiento mediante el cual se extrae, de forma aleatoria, una serie de unidades de análisis de un conjunto mayor (finito o infinito) de unidades. En su versión más simple, consiste en extraerlas directamente, aunque ésta puede no ser la mejor forma de hacerlo. Más adelante se verán otras metodologías que, en esencia, buscan mejorar la representatividad de los datos obtenidos respecto del conjunto total, o lo que es igual, disminuir los errores debidos al muestreo mismo. La aleatoriedad juega aquí un rol fundamental, siendo el canal por el cual se busca eliminar todo otro tipo de errores debido a la subjetividad, mientras que además se debe evitar otros errores por cuestiones operacionales.\nUn muestreo (de acá en adelante siempre entendido como aleatorio) dará como resultado variables necesariamente aleatorias; el objetivo será caracterizarlas, pero teniendo en cuenta su naturaleza azarosa. Porque cada vez que se tome una muestra, los resultados de un promedio o una desviación estándar (u otra medida) para determinada variable, serán distintos. Todas y cada una de las veces, siempre será distinto. Estos resultados en sí, pueden asimismo considerarse nuevas variables y también caracterizarse. Justamente este es uno de los grandes pilares del análisis de datos.\nRecapitulando, lo que será de interés de aquí en adelante, es la capacidad de lidiar con una muestra y obtener conclusiones de las variables a partir de la misma. En el siguiente capítulo, se hará una introducción a la teoría y conceptos de probabilidad, que serán de gran ayuda."
   },
   {
+    "objectID": "09 - manipulacion de datos.html#lectura",
+    "href": "09 - manipulacion de datos.html#lectura",
+    "title": "Manipulación de datos",
+    "section": "Lectura",
+    "text": "Lectura\n\nPython for Data Analysis (cap. 7, 8 y 10)"
+  },
+  {
+    "objectID": "09 - manipulacion de datos.html#actividades",
+    "href": "09 - manipulacion de datos.html#actividades",
+    "title": "Manipulación de datos",
+    "section": "Actividades",
+    "text": "Actividades"
+  },
+  {
+    "objectID": "09 - manipulacion de datos.html#resumen",
+    "href": "09 - manipulacion de datos.html#resumen",
+    "title": "Manipulación de datos",
+    "section": "Resumen",
+    "text": "Resumen\nLa manipulación de datos (o data wrangling) implica la unión, transformación, agregación y/o filtrado de los datos, no necesariamente en ese orden. Es habitual encontrarse con el dicho de que el 80% del tipo o más que dedica un analista de datos es a tareas relacionadas a esta cuestión, y posiblemente no sea una mala estimación.\nComenzando con la detección valores faltantes (que no siempre significarán lo mismo), atípicos o outliers (que no necesariamente siempre lo serán), registros duplicados (que no necesariamente siempre será incorrecto que estén duplicados), son sólo los primeros pasos en una serie de tareas complejas tanto en lo técnico como en lo conceptual, que efectivamente demandan mucho tiempo. A ello, se le sumará la necesidad de integrar diferentes fuentes de datos, realizando operaciones de unión y concatenación entre datasets (o tablas en una base de datos), y un anterior/posterior filtrado y/o agregación de los datos, no sólo para resumir la información o trabajar con unidades de análisis diferentes, sino también quizás para la creación de nuevas variables (lo cual se conoce como feature engineering y merece un capítulo completo aparte).\nLo importante a señalar es que el proceso en sí (todas las operaciones realizadas) debe ser conocido y comprendido por el/la analista de datos porque los resultados del análisis, principalmente cuando se trabaja con inferencia, dependerá fuertemente de lo realizado, por supuesto incluyendo el origen mismo de los datos.\nEn fin, en el mejor de los casos, dentro de las empresas/organizaciones con procesos de analítica bien consolidados, el rol del ingeniero/a de datos atacará estos aspectos y disponibilizará la información como se necesita. Sin embargo, más allá de que esto se cumpla, inevitablemente se requerirá de cierto grado de manipulación en los datos."
+  },
+  {
     "objectID": "10 - probabilidad aplicada.html#lectura",
     "href": "10 - probabilidad aplicada.html#lectura",
     "title": "Probabilidad aplicada",

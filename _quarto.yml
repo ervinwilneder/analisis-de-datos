@@ -26,7 +26,7 @@ book:
     - part: "Análisis inferencial"
       chapters:
         - 08 - origen y recoleccion.qmd
-        # - 09 - manipulacion de datos.qmd
+        - 09 - manipulacion de datos.qmd
         - 10 - probabilidad aplicada.qmd
         - 11 - estimacion puntual y por intervalos.qmd
         - 12 - tests de hipotesis.qmd

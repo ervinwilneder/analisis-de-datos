@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Análisis de datos - 16&nbsp; Regresión Lineal</title>
+<title>Análisis de datos - 9&nbsp; Manipulación de datos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./17 - regresion logistica.html" rel="next">
-<link href="./15 - anova.html" rel="prev">
+<link href="./10 - probabilidad aplicada.html" rel="next">
+<link href="./08 - origen y recoleccion.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Regresión Lineal</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Manipulación de datos</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -168,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09 - manipulacion de datos.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Manipulación de datos</span></a>
+  <a href="./09 - manipulacion de datos.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Manipulación de datos</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -203,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./16 - regresion lineal.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Regresión Lineal</span></a>
+  <a href="./16 - regresion lineal.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Regresión Lineal</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -238,7 +238,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">Regresión Lineal</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Manipulación de datos</span></h1>
 </div>
 
 
@@ -256,40 +256,18 @@ ul.task-list li input[type="checkbox"] {
 <section id="lectura" class="level2">
 <h2 class="anchored" data-anchor-id="lectura">Lectura</h2>
 <ul>
-<li>Conceptos generales
-<ul>
-<li><a href="https://drive.google.com/file/d/1oe0BDy9U1l-H54Ry_mkVC5hxGE-Z5rGm/view?usp=share_link">Relación entre variables (<em>Estadística para Todos</em>: pág. 168 a 196)</a></li>
-<li><a href="https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link">El estudio de la relación entre variables (<em>Estadística Aplicada a las Ciencias Sociales y Humanas</em>: pág. 105 a 130)</a></li>
-</ul></li>
-<li>Regresión lineal
-<ul>
-<li><a href="https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link">Regresión lineal y correlación (<em>Estadística Aplicada a los Negocios y la Economía</em>: pág. 461 a 494)</a></li>
-<li><a href="https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link">Análisis de regresión múltiple (<em>Estadística Aplicada a los Negocios y la Economía</em>: pág. 513 a 542)</a></li>
-<li><a href="https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link">Análisis de regresión: el modelo lineal simple (<em>Probabilidad y Estadística | Aplicaciones y Métodos</em>: pág. 443 a 478)</a></li>
-<li><a href="https://clauswilke.com/dataviz">Fundamentals of Data Visualization (Part I: Cap. 12)</a></li>
-<li><a href="https://online.stat.psu.edu/stat500/lesson/9">Linear Regression Foundations (<em>STAT 500 | Applied Statistics</em>: lesson 9)</a></li>
-<li><a href="https://christophm.github.io/interpretable-ml-book/limo.html">Linear Regression (<em>Interpretable Machine Learning</em>: Cap. 5.1)</a></li>
-</ul></li>
-<li>Implementación en Python
-<ul>
-<li><a href="https://wesmckinney.com/book/modeling.html#modeling-scikit-learn">Introduction to scikit-learn (<em>Python for Data Analysis</em>: cap. 12)</a></li>
-<li><a href="https://realpython.com/linear-regression-in-python/">Linear Regression in Python (<em>Real Python site</em>)</a></li>
-<li><a href="https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.06-Linear-Regression.ipynb">In Depth: Linear Regression (Python Data Science Handbook)</a></li>
-</ul></li>
+<li><a href="https://wesmckinney.com/book"><em>Python for Data Analysis</em> (cap. 7, 8 y 10)</a></li>
 </ul>
 </section>
 <section id="actividades" class="level2">
 <h2 class="anchored" data-anchor-id="actividades">Actividades</h2>
-<ul>
-<li>Considere el dataset <a href="https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link">Real State Pricing</a> y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Construya un modelo de regresión lineal múltiple para estimar el precio (por unidad de superficie) de las casas. Realice el correspondiente análisis exploratorio de los datos, identifique posibles problemáticas y evalúe los resultados, tanto de las estimaciones como de los residuos de las mismas. Utilice la librería <em>sklearn</em> de Python para el desarrollo de este análisis.</li>
-</ul>
 </section>
 <section id="resumen" class="level2">
 <h2 class="anchored" data-anchor-id="resumen">Resumen</h2>
-<p>Uno de los modelos más ampliamente difundidos, utilizado para la <strong>estimación de una variable continua a partir de variables continuas y/o variables cualitativas (binarias)</strong>. Implica, primeramente, la estimación de ciertos <strong>parámetros asociados a cada variable independiente</strong>, que constituyen una expresión matemática a partir de la cual, estimados esos valores, se llega a una aproximación de la variable independiente.</p>
-<p>Sobre esta aproximación, será relevante evaluar cuán <em>cerca</em> se encuentra de los valores efectivamente observados y si los <strong>residuos</strong> resultantes de esa evaluación presentan un comportamiento particular, lo cual será una señal de cuán <em>bueno</em> es dicho modelo, buscando ser una representación lo más completa posible del verdadero modelo que subyace a los datos.</p>
-<p>Cabe destacar que, como todo modelo, es una <strong>simplificación matemática de la realidad</strong>, con lo cual no necesariamente se llegue a los resultados esperados. Las estimaciones pueden estar lejos de ser las observadas, posiblemente porque se está dejando de lado otras variables que tienen impacto o bien porque la naturaleza del fenónemo en sí no es <strong>lineal en sus parámetros</strong> (una incorrecta especificación del modelo), entre varias otras razones. Retomando lo dicho al principio, es un modelo ampliamente utilizado, pero no por eso de manera correcta. <strong>Los datos pueden presentar un conjunto de problemáticas</strong> tales como multicolinealidad, heterocedasticidad, autocorrelación, que deben abordarse debidamente y con ello ahorrar tiempo en concluir que el modelo de regresión lineal en verdad no será adecuado.</p>
-<p>Se pueden encontrar <strong>implementaciones muy completas tanto en python y R</strong>, en múltiples librerías. En el ámbito de ciencia de datos / machine learning, es habitual el uso de <em>sklearn</em>, considerado incluso un estándar en cuanto a su formato de construcción de modelos. Esta librería será justamente la que se utilizará de aquí en adelante para el resto de los capítulos.</p>
+<p>La manipulación de datos (o <em>data wrangling</em>) implica la <strong>unión, transformación, agregación y/o filtrado de los datos</strong>, no necesariamente en ese orden. Es habitual encontrarse con el dicho de que <em>el 80% del tipo o más que dedica un analista de datos es a tareas relacionadas a esta cuestión</em>, y posiblemente no sea una mala estimación.</p>
+<p>Comenzando con la detección <strong>valores faltantes</strong> (que no siempre significarán lo mismo), <strong>atípicos</strong> o <em>outliers</em> (que no necesariamente siempre lo serán), <strong>registros duplicados</strong> (que no necesariamente siempre será incorrecto que estén duplicados), son sólo los primeros pasos en una serie de <strong>tareas complejas tanto en lo técnico como en lo conceptual</strong>, que efectivamente demandan mucho tiempo. A ello, se le sumará la necesidad de <strong>integrar diferentes fuentes de datos</strong>, realizando operaciones de unión y concatenación entre datasets (o tablas en una base de datos), y un anterior/posterior filtrado y/o agregación de los datos, no sólo para resumir la información o trabajar con unidades de análisis diferentes, sino también quizás para la <strong>creación de nuevas variables</strong> (lo cual se conoce como <em>feature engineering</em> y merece un capítulo completo aparte).</p>
+<p>Lo importante a señalar es que <strong>el proceso en sí (todas las operaciones realizadas) debe ser conocido y comprendido por el/la analista de datos</strong> porque los resultados del análisis, principalmente cuando se trabaja con inferencia, dependerá fuertemente de lo realizado, por supuesto incluyendo el origen mismo de los datos.</p>
+<p>En fin, en el mejor de los casos, dentro de las empresas/organizaciones con procesos de analítica bien consolidados, el rol del <strong>ingeniero/a de datos</strong> atacará estos aspectos y disponibilizará la información como se necesita. Sin embargo, más allá de que esto se cumpla, inevitablemente se requerirá de cierto grado de manipulación en los datos.</p>
 
 
 </section>
@@ -430,13 +408,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./15 - anova.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">ANOVA: Análisis de la varianza</span></span>
+      <a href="./08 - origen y recoleccion.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Origen y recolección de datos</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./17 - regresion logistica.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Regresión Logística</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./10 - probabilidad aplicada.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Probabilidad aplicada</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
