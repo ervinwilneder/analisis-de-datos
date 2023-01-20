@@ -16,7 +16,7 @@ book:
       chapters:
         - 01 - conceptos y definiciones.qmd
         - 02 - entorno de trabajo.qmd
-        # - 03 - lenguajes de programación.qmd
+        - 03 - lenguajes de programación.qmd
         - 04 - datos unidades y variables.qmd
     - part: "Análisis exploratorio"
       chapters:

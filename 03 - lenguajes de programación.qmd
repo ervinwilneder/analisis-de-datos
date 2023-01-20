@@ -1,7 +1,23 @@
 # Lenguajes de programación
 
 ## Lectura
-        
+
+- Python
+    - [_Python for Data Analysis_](https://wesmckinney.com/book)
+    - [_CS50’s Introduction to Programming with Python_](https://cs50.harvard.edu/python/2022/)
+    - [Intro a Python (_Repositorio de cursos de Python del Instituto Humai_)](https://github.com/institutohumai/cursos-python)
+    - [Programación en Python (_Repositorio de curso de Python de la UNSAM_)](https://github.com/python-unsam/Programacion_en_Python_UNSAM/tree/master/Notas)
+    - [_Real Python_](https://realpython.com/)
+
+- Otros
+    - [_R for Data Science_](https://r4ds.had.co.nz/)
+    - [_Learning SQL_](https://www.r-5.org/files/books/computers/languages/sql/mysql/Alan_Beaulieu-Learning_SQL-EN.pdf)
+    - [_BigQuery SQL Syntax Documentation_](https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax)
+    - [_Julia Data Science_](https://juliadatascience.io/)
+    - [_Observable Tutorials_ (Javascript)](https://observablehq.com/tutorials)
+
 ## Actividades
+
+- Utilice el entorno de trabajo previamente instalado y comience a realizar operaciones básicas en cada lenguaje. Esta actividad no tiene una propuesta puntual, pero se sugiere seleccionar algún [dataset](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link) y resolver cómo llevar adelante su ingesta en cada herramienta disponible.
 
 ## Resumen
