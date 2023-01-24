@@ -3,6 +3,9 @@
 ## Lectura
 
 - [_Python for Data Analysis_ (cap. 7, 8 y 10)](https://wesmckinney.com/book)
+- [Encoding Categorical Predictors (_Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 5_)](http://www.feat.engineering/encoding-categorical-predictors.html)
+- [Engineering Numeric Predictors (_Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 6_)](http://www.feat.engineering/engineering-numeric-predictors.html)
+- [Handling Missing Data (_Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 8_)](http://www.feat.engineering/handling-missing-data.html)
 
 ## Actividades
 
@@ -11,7 +14,7 @@
 
 La manipulación de datos (o _data wrangling_) implica la **unión, transformación, agregación y/o filtrado de los datos**, no necesariamente en ese orden. Es habitual encontrarse con el dicho de que _el 80% del tiempo que dedica un analista de datos es a tareas relacionadas a esta cuestión_, y posiblemente no sea una mala estimación. 
 
-Comenzando con la detección **valores faltantes** (que no siempre significarán lo mismo), **atípicos** o _outliers_ (que no necesariamente siempre lo serán), **registros duplicados** (que no necesariamente siempre será incorrecto que estén duplicados), son sólo los primeros pasos en una serie de **tareas complejas tanto en lo técnico como en lo conceptual**, que efectivamente demandan mucho tiempo. A ello, se le sumará la necesidad de **integrar diferentes fuentes de datos**, realizando operaciones de unión y concatenación entre datasets (o tablas en una base de datos), y un anterior/posterior filtrado y/o agregación de los datos, no sólo para resumir la información o trabajar con unidades de análisis diferentes, sino también quizás para la **creación de nuevas variables** (lo cual se conoce como _feature engineering_ y merece un capítulo completo aparte).
+Comenzando con la detección **valores faltantes** (que no siempre significarán lo mismo), **atípicos** o _outliers_ (que no necesariamente siempre lo serán), **registros duplicados** (que no necesariamente siempre será incorrecto que estén duplicados), son sólo los primeros pasos en una serie de **tareas complejas tanto en lo técnico como en lo conceptual**, que efectivamente demandan mucho tiempo. A ello, se le sumará la necesidad de **integrar diferentes fuentes de datos**, realizando operaciones de unión y concatenación entre datasets (o tablas en una base de datos), y un anterior/posterior filtrado y/o agregación de los datos, no sólo para resumir la información o trabajar con unidades de análisis diferentes, sino también quizás para la **creación de nuevas variables** y/o transformación de las ya disponibles (lo cual se conoce como _feature engineering_ y merece un capítulo completo aparte).
 
 Lo importante a señalar es que **el proceso en sí (todas las operaciones realizadas) debe ser conocido y comprendido por el/la analista de datos** porque los resultados del análisis, principalmente cuando se trabaja con inferencia, dependerá fuertemente de lo realizado, por supuesto incluyendo el origen mismo de los datos.
 
