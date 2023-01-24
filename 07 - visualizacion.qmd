@@ -5,6 +5,7 @@
 - Vizualización de cantidades, proporciones y distribuciones
 
     - [Fundamentals of Data Visualization (Part I: Cap. 2, 5, 6, 7 y 10)](https://clauswilke.com/dataviz) (complementar con el resto de la bibliografía habitual de ser necesario)
+    - [Visualización (_Laboratorio de Datos – 1er Cuatrimestre 2021: Clase 5_)](http://materias.df.uba.ar/lda2021c1/171-2/)
 
 - Conceptos básicos de storytelling y presentaciones efectivas
 

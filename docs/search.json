@@ -53,7 +53,7 @@
     "href": "03 - lenguajes de programación.html#lectura",
     "title": "Lenguajes de programación",
     "section": "Lectura",
-    "text": "Lectura\n\nPython\n\nPython for Data Analysis\nCS50’s Introduction to Programming with Python\nIntro a Python (Repositorio de cursos de Python del Instituto Humai)\nProgramación en Python (Repositorio de curso de Python de la UNSAM)\nReal Python\n\nOtros\n\nR for Data Science\nLearning SQL\nBigQuery SQL Syntax Documentation\nJulia Data Science\nObservable Tutorials (Javascript)"
+    "text": "Lectura\n\nPython\n\nPython for Data Analysis\nCS50’s Introduction to Programming with Python\nIntro a Python (Repositorio de cursos de Python del Instituto Humai)\nProgramación en Python (Repositorio de curso de Python de la UNSAM)\nReal Python\nAprendiendo Python | Curso de Python 2020 desde cero…\n\nOtros\n\nR for Data Science\nLearnR4Free\nLearning SQL\nBigQuery SQL Syntax Documentation\nJulia Data Science\nObservable Tutorials (Javascript)"
   },
   {
     "objectID": "03 - lenguajes de programación.html#actividades",
@@ -144,7 +144,7 @@
     "href": "07 - visualizacion.html#lectura",
     "title": "Visualización de datos",
     "section": "Lectura",
-    "text": "Lectura\n\nVizualización de cantidades, proporciones y distribuciones\n\nFundamentals of Data Visualization (Part I: Cap. 2, 5, 6, 7 y 10) (complementar con el resto de la bibliografía habitual de ser necesario)\n\nConceptos básicos de storytelling y presentaciones efectivas\n\nFundamentals of Data Visualization (Part III: Cap. 28 y 29)"
+    "text": "Lectura\n\nVizualización de cantidades, proporciones y distribuciones\n\nFundamentals of Data Visualization (Part I: Cap. 2, 5, 6, 7 y 10) (complementar con el resto de la bibliografía habitual de ser necesario)\nVisualización (Laboratorio de Datos – 1er Cuatrimestre 2021: Clase 5)\n\nConceptos básicos de storytelling y presentaciones efectivas\n\nFundamentals of Data Visualization (Part III: Cap. 28 y 29)"
   },
   {
     "objectID": "07 - visualizacion.html#actividades",
@@ -207,7 +207,7 @@
     "href": "10 - probabilidad aplicada.html#lectura",
     "title": "Probabilidad aplicada",
     "section": "Lectura",
-    "text": "Lectura\n\nEpílogo: Estadística y Probabilidad (Estadística para Todos: pág. 245 a 247)\nEstudio de los conceptos de la probabilidad (Estadística Aplicada a los Negocios y la Economía: pág. 144 a 151)\nDistribuciones de Probabilidad Discreta (Estadística Aplicada a los Negocios y la Economía: pág. 186 a 202)\nDistribuciones de Probabilidad Continua (Estadística Aplicada a los Negocios y la Economía: pág. 222 a 242)\nProbability (STAT 500 | Applied Statistics: lesson 2)\nProbability Distributions (STAT 500 | Applied Statistics: lesson 3)\nSampling Distributions (STAT 500 | Applied Statistics: lesson 4)"
+    "text": "Lectura\n\nEpílogo: Estadística y Probabilidad (Estadística para Todos: pág. 245 a 247)\nEstudio de los conceptos de la probabilidad (Estadística Aplicada a los Negocios y la Economía: pág. 144 a 151)\nDistribuciones de Probabilidad Discreta (Estadística Aplicada a los Negocios y la Economía: pág. 186 a 202)\nDistribuciones de Probabilidad Continua (Estadística Aplicada a los Negocios y la Economía: pág. 222 a 242)\nProbability (STAT 500 | Applied Statistics: lesson 2)\nProbability Distributions (STAT 500 | Applied Statistics: lesson 3)\nSampling Distributions (STAT 500 | Applied Statistics: lesson 4)\nIntroducción a conceptos de probabilidad y estadística descriptiva (Laboratorio de Datos – 1er Cuatrimestre 2021: Clase 4)"
   },
   {
     "objectID": "10 - probabilidad aplicada.html#actividades",
@@ -333,7 +333,7 @@
     "href": "16 - regresion lineal.html#lectura",
     "title": "Regresión Lineal",
     "section": "Lectura",
-    "text": "Lectura\n\nConceptos generales\n\nRelación entre variables (Estadística para Todos: pág. 168 a 196)\nEl estudio de la relación entre variables (Estadística Aplicada a las Ciencias Sociales y Humanas: pág. 105 a 130)\n\nRegresión lineal\n\nRegresión lineal y correlación (Estadística Aplicada a los Negocios y la Economía: pág. 461 a 494)\nAnálisis de regresión múltiple (Estadística Aplicada a los Negocios y la Economía: pág. 513 a 542)\nAnálisis de regresión: el modelo lineal simple (Probabilidad y Estadística | Aplicaciones y Métodos: pág. 443 a 478)\nFundamentals of Data Visualization (Part I: Cap. 12)\nLinear Regression Foundations (STAT 500 | Applied Statistics: lesson 9)\nLinear Regression (Interpretable Machine Learning: Cap. 5.1)\n\nImplementación en Python\n\nIntroduction to scikit-learn (Python for Data Analysis: cap. 12)\nLinear Regression in Python (Real Python site)\nIn Depth: Linear Regression (Python Data Science Handbook)"
+    "text": "Lectura\n\nConceptos generales\n\nRelación entre variables (Estadística para Todos: pág. 168 a 196)\nEl estudio de la relación entre variables (Estadística Aplicada a las Ciencias Sociales y Humanas: pág. 105 a 130)\n\nRegresión lineal\n\nRegresión lineal y correlación (Estadística Aplicada a los Negocios y la Economía: pág. 461 a 494)\nAnálisis de regresión múltiple (Estadística Aplicada a los Negocios y la Economía: pág. 513 a 542)\nAnálisis de regresión: el modelo lineal simple (Probabilidad y Estadística | Aplicaciones y Métodos: pág. 443 a 478)\nFundamentals of Data Visualization (Part I: Cap. 12)\nLinear Regression Foundations (STAT 500 | Applied Statistics: lesson 9)\nLinear Regression (Interpretable Machine Learning: Cap. 5.1)\nRegresión Lineal (Laboratorio de Datos – 1er Cuatrimestre 2021: Clase 6)\n\nImplementación en Python\n\nIntroduction to scikit-learn (Python for Data Analysis: cap. 12)\nLinear Regression in Python (Real Python site)\nIn Depth: Linear Regression (Python Data Science Handbook)"
   },
   {
     "objectID": "16 - regresion lineal.html#actividades",
@@ -354,7 +354,7 @@
     "href": "17 - regresion logistica.html#lectura",
     "title": "Regresión Logística",
     "section": "Lectura",
-    "text": "Lectura\n\nLogistic Regression (Introduction to Statistical Learning: pág. 133 a 139)\nLogistic Regression (Interpretable Machine Learning: Cap. 5.2)\nLogistic Regression (Introduction to Modern Statistics: Cap. 9)\nLogistic Regression in Python (Real Python site)"
+    "text": "Lectura\n\nLogistic Regression (Introduction to Statistical Learning: pág. 133 a 139)\nLogistic Regression (Interpretable Machine Learning: Cap. 5.2)\nLogistic Regression (Introduction to Modern Statistics: Cap. 9)\nLogistic Regression in Python (Real Python site)\nRegresión Logística (Laboratorio de Datos – 1er Cuatrimestre 2021: Clase 8)"
   },
   {
     "objectID": "17 - regresion logistica.html#actividades",

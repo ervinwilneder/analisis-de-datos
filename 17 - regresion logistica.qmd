@@ -6,6 +6,7 @@
 - [Logistic Regression (_Interpretable Machine Learning_: Cap. 5.2)](https://christophm.github.io/interpretable-ml-book/logistic.html)
 - [Logistic Regression (_Introduction to Modern Statistics_: Cap. 9)](https://openintro-ims.netlify.app/model-logistic.html)
 - [Logistic Regression in Python (_Real Python site_)](https://realpython.com/logistic-regression-python/)
+- [Regresión Logística (_Laboratorio de Datos – 1er Cuatrimestre 2021: Clase 8_)](http://materias.df.uba.ar/lda2021c1/171-2/)
 
 ## Actividades
 

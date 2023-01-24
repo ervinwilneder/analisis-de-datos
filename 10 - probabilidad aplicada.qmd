@@ -9,6 +9,7 @@
 - [Probability (_STAT 500 | Applied Statistics_: lesson 2)](https://online.stat.psu.edu/stat500/lesson/2)
 - [Probability Distributions (_STAT 500 | Applied Statistics_: lesson 3)](https://online.stat.psu.edu/stat500/lesson/3)
 - [Sampling Distributions (_STAT 500 | Applied Statistics_: lesson 4)](https://online.stat.psu.edu/stat500/lesson/4)
+- [Introducción a conceptos de probabilidad y estadística descriptiva (_Laboratorio de Datos – 1er Cuatrimestre 2021: Clase 4_)](http://materias.df.uba.ar/lda2021c1/171-2/)
     
 ## Actividades 
 
