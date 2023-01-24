@@ -12,21 +12,35 @@ book:
   date: "1/18/2023"
   chapters:
     - index.qmd
-    - 01 - conceptos y definiciones.qmd
-    - 02 - datos unidades y variables.qmd
-    - 03 - tablas de frecuencias.qmd
-    - 04 - descripcion de variables.qmd
-    - 05 - visualizacion.qmd
-    - 06 - origen y recoleccion.qmd
-    - 07 - probabilidad aplicada.qmd
-    - 08 - estimacion puntual y por intervalos.qmd
-    - 09 - tests de hipotesis.qmd
-    - 10 - estadistica no parametrica.qmd
-    - 11 - tecnicas de muestreo.qmd
-    - 12 - anova.qmd
-    - 13 - regresion lineal.qmd
-    - 14 - regresion logistica.qmd
-    - 15 - knn y cart.qmd
+    - part: "Fundamentos"
+      chapters:
+        - 01 - conceptos y definiciones.qmd
+        - 02 - entorno de trabajo.qmd
+        - 03 - lenguajes de programación.qmd
+        - 04 - datos unidades y variables.qmd
+    - part: "Análisis exploratorio"
+      chapters:
+        - 05 - tablas de frecuencias.qmd
+        - 06 - descripcion de variables.qmd
+        - 07 - visualizacion.qmd
+    - part: "Análisis inferencial"
+      chapters:
+        - 08 - origen y recoleccion.qmd
+        - 09 - manipulacion de datos.qmd
+        - 10 - probabilidad aplicada.qmd
+        - 11 - estimacion puntual y por intervalos.qmd
+        - 12 - tests de hipotesis.qmd
+        - 13 - estadistica no parametrica.qmd
+        - 14 - tecnicas de muestreo.qmd
+        - 15 - anova.qmd
+        - 16 - regresion lineal.qmd
+        - 17 - regresion logistica.qmd
+        - 18 - knn y cart.qmd
+    - part: "Anexo"
+      chapters:
+        - a01 - fundamentos de programacion.qmd
+    # - part: "Machine Learning"
+    # - part: "DataOps / MLOps"
   page-navigation: true
 
 format:

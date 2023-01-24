@@ -390,5 +390,26 @@
     "title": "KNN y CART",
     "section": "Resumen",
     "text": "Resumen\nEstos modelos, aplicables tanto para regresión como clasificación, son excelentes aproximaciones a los datos, sin contar necesariamente con conocimiento previo de su comportamiento ni realizar suposiciones acerca del modelo subyacente. Son útiles tanto en la etapa de exploración de datos o para construir modelos de base (porque en la práctica no son los suficimiente performantes como para implementar de manera productiva, por tanto sirven como punto de comparación para construir modelos que los superen).\nAl igual que la regresión lineal y logística, sus resultados son interpretables, aunque no cuentan con parámetros estimados que puedan analizarse posteriormente. Para el caso de los árboles de decisión, cuentan además con la ventaja de poder ingestar cualquier tipo de datos, ya que, en esencia, son reglas de “si o no” en función del poder discriminativo de los datos disponibles. En ese sentido, siendo que dependen exclusivamente de los datos, son muy sensibles a la calidad de los mismos y además al azar respecto al punto de partida seteado por el analista. Por tanto, debe tenerse en cuenta no establecer conclusiones apresuradas solamente a partir de estos modelos.\nMás adelante se verá que éstos son bloques a partir de los cuales se pueden construir modelos más complejos (muy utilizados en la industria, como random forests), con las mismas características, pero salvando las desventajas mencionadas. ."
+  },
+  {
+    "objectID": "a01 - fundamentos de programacion.html#lectura",
+    "href": "a01 - fundamentos de programacion.html#lectura",
+    "title": "Fundamentos de programación",
+    "section": "Lectura",
+    "text": "Lectura"
+  },
+  {
+    "objectID": "a01 - fundamentos de programacion.html#actividades",
+    "href": "a01 - fundamentos de programacion.html#actividades",
+    "title": "Fundamentos de programación",
+    "section": "Actividades",
+    "text": "Actividades"
+  },
+  {
+    "objectID": "a01 - fundamentos de programacion.html#resumen",
+    "href": "a01 - fundamentos de programacion.html#resumen",
+    "title": "Fundamentos de programación",
+    "section": "Resumen",
+    "text": "Resumen"
   }
 ]

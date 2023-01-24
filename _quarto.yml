@@ -36,6 +36,9 @@ book:
         - 16 - regresion lineal.qmd
         - 17 - regresion logistica.qmd
         - 18 - knn y cart.qmd
+    - part: "Anexo"
+      chapters:
+        - a01 - fundamentos de programacion.qmd
     # - part: "Machine Learning"
     # - part: "DataOps / MLOps"
   page-navigation: true

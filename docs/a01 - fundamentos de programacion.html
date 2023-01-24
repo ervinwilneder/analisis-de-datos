@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Análisis de datos - 9&nbsp; Manipulación de datos</title>
+<title>Análisis de datos - 19&nbsp; Fundamentos de programación</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./10 - probabilidad aplicada.html" rel="next">
-<link href="./08 - origen y recoleccion.html" rel="prev">
+<link href="./18 - knn y cart.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Manipulación de datos</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Fundamentos de programación</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -168,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09 - manipulacion de datos.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Manipulación de datos</span></a>
+  <a href="./09 - manipulacion de datos.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Manipulación de datos</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -228,7 +227,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./a01 - fundamentos de programacion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Fundamentos de programación</span></a>
+  <a href="./a01 - fundamentos de programacion.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Fundamentos de programación</span></a>
   </div>
 </li>
       </ul>
@@ -253,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">Manipulación de datos</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Fundamentos de programación</span></h1>
 </div>
 
 
@@ -270,22 +269,12 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="lectura" class="level2">
 <h2 class="anchored" data-anchor-id="lectura">Lectura</h2>
-<ul>
-<li><a href="https://wesmckinney.com/book"><em>Python for Data Analysis</em> (cap. 7, 8 y 10)</a></li>
-<li><a href="http://www.feat.engineering/encoding-categorical-predictors.html">Encoding Categorical Predictors (<em>Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 5</em>)</a></li>
-<li><a href="http://www.feat.engineering/engineering-numeric-predictors.html">Engineering Numeric Predictors (<em>Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 6</em>)</a></li>
-<li><a href="http://www.feat.engineering/handling-missing-data.html">Handling Missing Data (<em>Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 8</em>)</a></li>
-</ul>
 </section>
 <section id="actividades" class="level2">
 <h2 class="anchored" data-anchor-id="actividades">Actividades</h2>
 </section>
 <section id="resumen" class="level2">
 <h2 class="anchored" data-anchor-id="resumen">Resumen</h2>
-<p>La manipulación de datos (o <em>data wrangling</em>) implica la <strong>unión, transformación, agregación y/o filtrado de los datos</strong>, no necesariamente en ese orden. Es habitual encontrarse con el dicho de que <em>el 80% del tiempo que dedica un analista de datos es a tareas relacionadas a esta cuestión</em>, y posiblemente no sea una mala estimación.</p>
-<p>Comenzando con la detección <strong>valores faltantes</strong> (que no siempre significarán lo mismo), <strong>atípicos</strong> o <em>outliers</em> (que no necesariamente siempre lo serán), <strong>registros duplicados</strong> (que no necesariamente siempre será incorrecto que estén duplicados), son sólo los primeros pasos en una serie de <strong>tareas complejas tanto en lo técnico como en lo conceptual</strong>, que efectivamente demandan mucho tiempo. A ello, se le sumará la necesidad de <strong>integrar diferentes fuentes de datos</strong>, realizando operaciones de unión y concatenación entre datasets (o tablas en una base de datos), y un anterior/posterior filtrado y/o agregación de los datos, no sólo para resumir la información o trabajar con unidades de análisis diferentes, sino también quizás para la <strong>creación de nuevas variables</strong> y/o transformación de las ya disponibles (lo cual se conoce como <em>feature engineering</em> y merece un capítulo completo aparte).</p>
-<p>Lo importante a señalar es que <strong>el proceso en sí (todas las operaciones realizadas) debe ser conocido y comprendido por el/la analista de datos</strong> porque los resultados del análisis, principalmente cuando se trabaja con inferencia, dependerá fuertemente de lo realizado, por supuesto incluyendo el origen mismo de los datos.</p>
-<p>En fin, en el mejor de los casos, dentro de las empresas/organizaciones con procesos de analítica bien consolidados, el rol del <strong>ingeniero/a de datos</strong> atacará estos aspectos y disponibilizará la información como se necesita. Sin embargo, más allá de que esto se cumpla, inevitablemente se requerirá de cierto grado de manipulación en los datos.</p>
 
 
 </section>
@@ -426,14 +415,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./08 - origen y recoleccion.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Origen y recolección de datos</span></span>
+      <a href="./18 - knn y cart.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">KNN y CART</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./10 - probabilidad aplicada.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Probabilidad aplicada</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
