@@ -14,7 +14,7 @@
     - Escriba una función que permita convertir un número romano a números decimales (los números que usamos habitualmente).
     - Dada una oración (compuesta de palabras y espacios), escriba una función que permita obtener el largo (cantidad de caracteres) de la última palabra.
     - Escriba una función para obtener la moda de una lista de números. Debe devolver como resultado una tupla con el número y su frecuencia.
-    - Escriba una función que devuelva True o False si un texto (un string) presenta palabras repetidas.
+    - Escriba una función que devuelva `True` o `False` si un texto (un string) presenta palabras repetidas.
     - Implemente una clase llamada `Notebook` con un método denominado `write()` que permita almacenar notas (un string cualquiera) con su correspondiente título y otro método `list()` que devuelva el listado completo de notas almacenadas. Considere la estructura de datos más adecuada según su criterio.
 
 ## Resumen
