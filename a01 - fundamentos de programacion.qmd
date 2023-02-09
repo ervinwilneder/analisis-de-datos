@@ -2,8 +2,20 @@
 
 ## Lectura
 
+- [Python for Everybody (Cap. 3 a 11 y 15)](https://www.py4e.com/lessons)
+- [Python Tutorial (_w3schools_)](https://www.w3schools.com/python/)
+- [Python Built-in Methods (_Efficient Python Tricks and Tools for Data Scientists: Cap. 2_)](https://khuyentran1401.github.io/Efficient_Python_tricks_and_tools_for_data_scientists/README.html)
+
 ## Actividades
 
+- Realice en Python (o en el lenguaje que usted prefiera) el siguiente listado de ejercicios, poniendo en práctica el uso de estructuras básicas de datos, operaciones y funciones:
+    - Dada una lista de números y un número cualquiera, escriba un función que permita identificar dentro de la lista 2 elementos cuya suma sea dicho número.
+    - Dado un número, escriba una función que permita identificar si el mismo es palíndromo (un número que se lee igual al derecho o al revés).
+    - Escriba una función que permita convertir un número romano a números decimales (los números que usamos habitualmente).
+    - Dada una oración (compuesta de palabras y espacios), escriba una función que permita obtener el largo (cantidad de caracteres) de la última palabra.
+    - Escriba una función para obtener la moda de una lista de números. Debe devolver como resultado una tupla con el número y su frecuencia.
+    - Escriba una función que devuelva True o False si un texto (un string) presenta palabras repetidas.
+    - Implemente una clase llamada `Notebook` con un método denominado `write()` que permita almacenar notas (un string cualquiera) con su correspondiente título y otro método `list()` que devuelva el listado completo de notas almacenadas. Considere la estructura de datos más adecuada según su criterio.
 
 ## Resumen
 

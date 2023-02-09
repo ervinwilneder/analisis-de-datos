@@ -144,7 +144,7 @@
     "href": "07 - visualizacion.html#lectura",
     "title": "Visualización de datos",
     "section": "Lectura",
-    "text": "Lectura\n\nVizualización de cantidades, proporciones y distribuciones\n\nFundamentals of Data Visualization (Part I: Cap. 2, 5, 6, 7 y 10) (complementar con el resto de la bibliografía habitual de ser necesario)\nVisualización (Laboratorio de Datos – 1er Cuatrimestre 2021: Clase 5)\nExploratory Visualizations (Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 4)\n\nConceptos básicos de storytelling y presentaciones efectivas\n\nFundamentals of Data Visualization (Part III: Cap. 28 y 29)"
+    "text": "Lectura\n\nVizualización de cantidades, proporciones y distribuciones\n\nFundamentals of Data Visualization (Part I: Cap. 2, 5, 6, 7 y 10) (complementar con el resto de la bibliografía habitual de ser necesario)\nVisualización (Laboratorio de Datos – 1er Cuatrimestre 2021: Clase 5)\nExploratory Visualizations (Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 4)\nData Visualization (Python for Everybody: cap. 17)\n\nConceptos básicos de storytelling y presentaciones efectivas\n\nFundamentals of Data Visualization (Part III: Cap. 28 y 29)\nData Visualization - A practical introduction (Cap. 1)"
   },
   {
     "objectID": "07 - visualizacion.html#actividades",
@@ -396,14 +396,14 @@
     "href": "a01 - fundamentos de programacion.html#lectura",
     "title": "Fundamentos de programación",
     "section": "Lectura",
-    "text": "Lectura"
+    "text": "Lectura\n\nPython for Everybody (Cap. 3 a 11 y 15)\nPython Tutorial (w3schools)\nPython Built-in Methods (Efficient Python Tricks and Tools for Data Scientists: Cap. 2)"
   },
   {
     "objectID": "a01 - fundamentos de programacion.html#actividades",
     "href": "a01 - fundamentos de programacion.html#actividades",
     "title": "Fundamentos de programación",
     "section": "Actividades",
-    "text": "Actividades"
+    "text": "Actividades\n\nRealice en Python (o en el lenguaje que usted prefiera) el siguiente listado de ejercicios, poniendo en práctica el uso de estructuras básicas de datos, operaciones y funciones:\n\nDada una lista de números y un número cualquiera, escriba un función que permita identificar dentro de la lista 2 elementos cuya suma sea dicho número.\nDado un número, escriba una función que permita identificar si el mismo es palíndromo (un número que se lee igual al derecho o al revés).\nEscriba una función que permita convertir un número romano a números decimales (los números que usamos habitualmente).\nDada una oración (compuesta de palabras y espacios), escriba una función que permita obtener el largo (cantidad de caracteres) de la última palabra.\nEscriba una función para obtener la moda de una lista de números. Debe devolver como resultado una tupla con el número y su frecuencia.\nEscriba una función que devuelva True o False si un texto (un string) presenta palabras repetidas.\nImplemente una clase llamada Notebook con un método denominado write() que permita almacenar notas (un string cualquiera) con su correspondiente título y otro método list() que devuelva el listado completo de notas almacenadas. Considere la estructura de datos más adecuada según su criterio."
   },
   {
     "objectID": "a01 - fundamentos de programacion.html#resumen",
