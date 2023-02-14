@@ -186,7 +186,7 @@
     "href": "09 - manipulacion de datos.html#lectura",
     "title": "Manipulación de datos",
     "section": "Lectura",
-    "text": "Lectura\n\nPython for Data Analysis (cap. 7, 8 y 10)\nEncoding Categorical Predictors (Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 5)\nEngineering Numeric Predictors (Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 6)\nHandling Missing Data (Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 8)"
+    "text": "Lectura\n\nPython for Data Analysis (cap. 7, 8 y 10)\nEncoding Categorical Predictors (Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 5)\nEngineering Numeric Predictors (Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 6)\nHandling Missing Data (Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 8)\nA Beginner’s Guide to Clean Data"
   },
   {
     "objectID": "09 - manipulacion de datos.html#actividades",
@@ -375,7 +375,7 @@
     "href": "18 - knn y cart.html#lectura",
     "title": "KNN y CART",
     "section": "Lectura",
-    "text": "Lectura\n\nConceptos generales\n\nModel-Agnostic Methods (Interpretable Machine Learning: Cap. 6)\nExample-Based Explanations (Interpretable Machine Learning: Cap. 7)\n\nKNN\n\nK-Nearest Neighbors (Introduction to Statistical Learning: pág. 39 a 42)\nNearest Neighbors (sklearn User Guide)\nThe k-Nearest Neighbors (kNN) Algorithm in Python (Real Python site)\nComparison of Linear Regression with K-Nearest Neighbors (Introduction to Statistical Learning: pág. 105 a 110)\n\nCART\n\nDecision Tree (Interpretable Machine Learning: Cap. 5.4)\nTree-Based Methods (Introduction to Statistical Learning: pág. 327 a 339)\nDecision Trees (sklearn User Guide)"
+    "text": "Lectura\n\nConceptos generales\n\nModel-Agnostic Methods (Interpretable Machine Learning: Cap. 6)\nExample-Based Explanations (Interpretable Machine Learning: Cap. 7)\n\nKNN\n\nK-Nearest Neighbors (Introduction to Statistical Learning: pág. 39 a 42)\nNearest Neighbors (sklearn User Guide)\nThe k-Nearest Neighbors (kNN) Algorithm in Python (Real Python site)\nComparison of Linear Regression with K-Nearest Neighbors (Introduction to Statistical Learning: pág. 105 a 110)\n\nCART\n\nDecision Tree (Interpretable Machine Learning: Cap. 5.4)\nTree-Based Methods (Introduction to Statistical Learning: pág. 327 a 339)\nDecision Trees (sklearn User Guide)\nÁrboles de Decisión y Random Forest"
   },
   {
     "objectID": "18 - knn y cart.html#actividades",

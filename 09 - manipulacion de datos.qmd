@@ -6,6 +6,7 @@
 - [Encoding Categorical Predictors (_Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 5_)](http://www.feat.engineering/encoding-categorical-predictors.html)
 - [Engineering Numeric Predictors (_Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 6_)](http://www.feat.engineering/engineering-numeric-predictors.html)
 - [Handling Missing Data (_Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 8_)](http://www.feat.engineering/handling-missing-data.html)
+- [A Beginner's Guide to Clean Data](https://b-greve.gitbook.io/beginners-guide-to-clean-data/)
 
 ## Actividades
 

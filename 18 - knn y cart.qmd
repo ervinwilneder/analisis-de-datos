@@ -16,11 +16,11 @@
     - [Decision Tree (_Interpretable Machine Learning_: Cap. 5.4)](https://christophm.github.io/interpretable-ml-book/tree.html)
     - [Tree-Based Methods (_Introduction to Statistical Learning_: pág. 327 a 339)](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
     - [Decision Trees (_sklearn User Guide_)](https://scikit-learn.org/stable/modules/tree.html)
+    - [Árboles de Decisión y Random Forest](https://bookdown.org/content/2031/)
 
 ## Actividades
 
 - (<span style="color:red">**ENTREGA OBLIGATORIA**</span>) Considere el dataset [Real State Pricing](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link) y asuma que es resultado de un muestreo aleatorio en determinada zona urbana. Estime el precio (por unidad de superficie) de las casas usando KNN y CART. Realice las transformaciones de datos que considere necesarias. Compare los resultados con los modelos previamente realizados (regresión lineal y logística). Utilice la librería _sklearn_ de Python para el desarrollo de este análisis. El entregable de este trabajo debe ser una Jupyter notebook con los siguientes apartados: EDA, transformación de los datos, construcción de los modelos, comparación de resultados y conclusiones.
-
 
 ## Resumen
 
