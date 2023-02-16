@@ -15,7 +15,7 @@
 
 Hacia principios de 2023, el auge y popularidad de estas _herramientas_ está a la orden del día. Como toda novedad tecnológica contemporánea, parece consolidarse en **un crecimiento exponencial que es difícil de asimilar de manera exhaustiva y de entender en términos de aplicaciones y consecuencias**. El impacto puede llegar a ser sustancial en muchos rubros, principalmente en aquellos relacionados a la programación, actividad en la cual se está viendo que su potencial y desempeño es asombroso.
 
-Desde la perspectiva del rol profesional en análisis de datos, lo importante recae en **estar al tanto de los avances en esta primera etapa** de descubrimiento y desarrollo, e ir adquiriendo de manera progresiva la capacidad para utilizar el amplio abanico de plataformas**, herramientas, librerías, etc. que surgirán a partir de ello. Actualmente, se destacan al menos dos: 
+Desde la perspectiva del rol profesional en análisis de datos, lo importante recae en **estar al tanto de los avances en esta primera etapa de descubrimiento y desarrollo, e ir adquiriendo de manera progresiva la capacidad para utilizar el amplio abanico de plataformas**, herramientas, librerías, etc. que surgirán a partir de ello. Actualmente, se destacan al menos dos: 
 
 - [chatGPT](https://chat.openai.com/)
 - [GitHub Copilot](https://github.com/features/copilot)
