@@ -7,6 +7,7 @@
 - [Problema de Trabajo e Investigación Estadística (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 12 y 13)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
 - [El Análisis de la Matriz de Datos (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 28)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
 - [Las Distribuciones de Frecuencias en el Análisis Univariado (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 29 a 45)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
+- [Frecuencia, tablas de frecuencia y niveles de medición (_Introducción a la Estadística_: cap. 1.3)](https://openstax.org/books/introducci%C3%B3n-estad%C3%ADstica/pages/1-3-frecuencia-tablas-de-frecuencia-y-niveles-de-medicion)
 
 ## Actividades
 

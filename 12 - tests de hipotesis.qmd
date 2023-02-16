@@ -7,6 +7,7 @@
 - [Pruebas de hipótesis estadísticas (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 303 a 346)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
 - [Hypothesis Testing for One-Sample Proportion (_STAT 500 | Applied Statistics_: lesson 6a)](https://online.stat.psu.edu/stat500/lesson/6a)
 - [Hypothesis Testing for One-Sample Mean (_STAT 500 | Applied Statistics_: lesson 6b)](https://online.stat.psu.edu/stat500/lesson/6b)
+- [Pruebas de hipótesis con una muestra (_Introducción a la Estadística_: cap. 9)](https://openstax.org/books/introducci%C3%B3n-estad%C3%ADstica/pages/9-introduccion)
     
 ## Actividades
  

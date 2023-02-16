@@ -14,6 +14,7 @@
     - [Linear Regression Foundations (_STAT 500 | Applied Statistics_: lesson 9)](https://online.stat.psu.edu/stat500/lesson/9)
     - [Linear Regression (_Interpretable Machine Learning_: Cap. 5.1)](https://christophm.github.io/interpretable-ml-book/limo.html)
     - [Regresión Lineal (_Laboratorio de Datos – 1er Cuatrimestre 2021: Clase 6_)](http://materias.df.uba.ar/lda2021c1/171-2/)
+    - [Regresión lineal y correlación (_Introducción a la Estadística_: cap. 12)](https://openstax.org/books/introducci%C3%B3n-estad%C3%ADstica/pages/12-introduccion)
 
 - Implementación en Python
     - [Introduction to scikit-learn (_Python for Data Analysis_: cap. 12)](https://wesmckinney.com/book/modeling.html#modeling-scikit-learn)

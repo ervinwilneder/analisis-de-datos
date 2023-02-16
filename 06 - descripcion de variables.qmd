@@ -8,6 +8,7 @@
     - [Los valores que caracterizan al conjunto de datos (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 59 a 79)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
     - [Descripción de datos (_Estadística Aplicada a los Negocios y la Economía_: pág. 57 a 75)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
     - [Medidas numéricas descriptivas (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 11 a 14)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
+    - [Medidas del centro de los datos (_Introducción a la Estadística_: cap. 2.5)](https://openstax.org/books/introducci%C3%B3n-estad%C3%ADstica/pages/2-5-medidas-del-centro-de-los-datos)
 
 - Medidas de dispersión: desviación estándar, coeficiente de variación y rango
 
@@ -15,6 +16,7 @@
     - [Análisis de la variación y asimetría (_Estadística Aplicada a las Ciencias Sociales y Humanas_: pág. 85 a 97)](https://drive.google.com/file/d/1rayM3pmKjnPR8BvKyU8ZGDo8o_2ZuPZR/view?usp=share_link)
     - [Descripción de datos (_Estadística Aplicada a los Negocios y la Economía_: pág. 75 a 84)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
     - [Medidas numéricas descriptivas (_Probabilidad y Estadística | Aplicaciones y Métodos_: pág. 15 a 22)](https://drive.google.com/file/d/1VCLbf-N79MIcStIe35XzL5NF-DTGENo_/view?usp=share_link)
+    - [Medidas de la dispersión de los datos (_Introducción a la Estadística_: cap. 2.7)](https://openstax.org/books/introducci%C3%B3n-estad%C3%ADstica/pages/2-7-medidas-de-la-dispersion-de-los-datos)
 
 - Medidas de relación: razones, tasas y proporciones
 

@@ -4,6 +4,7 @@
 
 - [Análisis de la varianza (_Estadística Aplicada a los Negocios y la Economía_: pág. 410 a 440)](https://drive.google.com/file/d/1FX-LDq_MY3dD6UkhpktQVN6iDgNKug0N/view?usp=share_link)
 - [Introduction to ANOVA (_STAT 500 | Applied Statistics_: lesson 10)](https://online.stat.psu.edu/stat500/lesson/10)
+- [Distribución F y análisis de varianza anova de una vía (_Introducción a la Estadística_: cap. 13)](https://openstax.org/books/introducci%C3%B3n-estad%C3%ADstica/pages/13-introduccion)
 
 ## Actividades
 

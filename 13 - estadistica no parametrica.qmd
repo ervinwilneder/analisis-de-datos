@@ -21,6 +21,7 @@
     - [The Wilcoxon Tests (_STAT 415 | Introduction to Mathematical Statistics_: lesson 20)](https://online.stat.psu.edu/stat415/lesson/20)
     - [Run Test and Test for Randomness (_STAT 415 | Introduction to Mathematical Statistics_: lesson 21)](https://online.stat.psu.edu/stat415/lesson/21)
     - [Kolmogorov-Smirnov Goodness-of-Fit Test (_STAT 415 | Introduction to Mathematical Statistics_: lesson 22)](https://online.stat.psu.edu/stat415/lesson/22)
+    - [La distribución chi-cuadrado (_Introducción a la Estadística_: cap. 11)](https://openstax.org/books/introducci%C3%B3n-estad%C3%ADstica/pages/11-introduccion)
 
 - Bootstrapping
 
