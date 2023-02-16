@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Análisis de datos - 7&nbsp; Visualización de datos</title>
+<title>Análisis de datos - 20&nbsp; Copilotos y bots conversacionales</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./08 - origen y recoleccion.html" rel="next">
-<link href="./06 - descripcion de variables.html" rel="prev">
+<link href="./a01 - fundamentos de programacion.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Visualización de datos</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Copilotos y bots conversacionales</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -148,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./07 - visualizacion.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Visualización de datos</span></a>
+  <a href="./07 - visualizacion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Visualización de datos</span></a>
   </div>
 </li>
       </ul>
@@ -233,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./a03 - copilotos y bots conversacionales.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Copilotos y bots conversacionales</span></a>
+  <a href="./a03 - copilotos y bots conversacionales.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Copilotos y bots conversacionales</span></a>
   </div>
 </li>
       </ul>
@@ -258,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">Visualización de datos</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Copilotos y bots conversacionales</span></h1>
 </div>
 
 
@@ -276,42 +275,30 @@ ul.task-list li input[type="checkbox"] {
 <section id="lectura" class="level2">
 <h2 class="anchored" data-anchor-id="lectura">Lectura</h2>
 <ul>
-<li><p>Vizualización de cantidades, proporciones y distribuciones</p>
-<ul>
-<li><a href="https://clauswilke.com/dataviz">Fundamentals of Data Visualization (Part I: Cap. 2, 5, 6, 7 y 10)</a> (complementar con el resto de la bibliografía habitual de ser necesario)</li>
-<li><a href="http://materias.df.uba.ar/lda2021c1/171-2/">Visualización (<em>Laboratorio de Datos – 1er Cuatrimestre 2021: Clase 5</em>)</a></li>
-<li><a href="http://www.feat.engineering/exploratory-visualizations.html">Exploratory Visualizations (<em>Feature Engineering and Selection: A Practical Approach for Predictive Models: cap. 4</em>)</a></li>
-<li><a href="https://www.py4e.com/lessons/dataviz">Data Visualization (<em>Python for Everybody: cap. 17</em>)</a></li>
-</ul></li>
-<li><p>Conceptos básicos de storytelling y presentaciones efectivas</p>
-<ul>
-<li><a href="https://clauswilke.com/dataviz">Fundamentals of Data Visualization (Part III: Cap. 28 y 29)</a></li>
-<li><a href="https://socviz.co/lookatdata.html#lookatdata">Data Visualization - A practical introduction (Cap. 1)</a></li>
-</ul></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2023/02/harnessing-the-power-of-chatgpt-for-data-science/" class="uri">https://www.analyticsvidhya.com/blog/2023/02/harnessing-the-power-of-chatgpt-for-data-science/</a></li>
+<li><a href="https://www.kaggle.com/discussions/general/370775" class="uri">https://www.kaggle.com/discussions/general/370775</a></li>
+<li><a href="https://datavizcatalogue.com/blog/how-useful-is-chatgpt-for-data-visualisation-work/" class="uri">https://datavizcatalogue.com/blog/how-useful-is-chatgpt-for-data-visualisation-work/</a></li>
+<li><a href="https://machinelearningknowledge.ai/github-copilot-examples-can-ai-actually-help-you-code/" class="uri">https://machinelearningknowledge.ai/github-copilot-examples-can-ai-actually-help-you-code/</a></li>
 </ul>
 </section>
 <section id="actividades" class="level2">
 <h2 class="anchored" data-anchor-id="actividades">Actividades</h2>
 <ul>
-<li>Considere el dataset <em>French Bakery Daily Sales</em>. Realice visualizaciones que puedan responder a las siguientes preguntas:
-<ul>
-<li>¿Cuál fue el total de baguettes tradicionales vendidas en el período Sep-2022?</li>
-<li>¿Cuánto representa la anterior cantidad respecto a todo tipo de baguettes?</li>
-<li>¿Ha habido cambios en esas proporciones respecto a Sep-2021?</li>
-<li>¿Cuál fue el día de semana y horario de mayor ganancia?</li>
-<li>¿Cuánto representa la venta de baguettes tradicionales en dicha ganancia?</li>
-<li>¿Cuál es la variación respecto a unidades vendidas para todo tipo de baguette a lo largo del año 2021?</li>
-<li>¿Cuál es el mayor incremento intermensual de baguettes tradicionales vendidas?</li>
-<li>¿En qué precio se encuentran la mayoría de los productos? ¿y el 80% de los productos?</li>
-</ul></li>
-<li>(<span style="color:red"><strong>ENTREGA OBLIGATORIA</strong></span>) Considere el dataset <a href="https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link">French Bakery Daily Sales</a>. Asuma que usted es un analista de datos recientemente contratada/o por la panadería francesa. El dueño busca entender el potencial de venta de la baguette tradicional. Realice una presentación de negocio con las visualizaciones anteriores que considere relevantes (modifíque ó cree otras si considera necesario) con el objetivo de describir la situación histórica y actual de la venta de dicho producto. No utilice más de 5 gráficos/diapositivas, debe ser breve y comunicar sólo cuestiones claves. Extraiga una conclusión / recomendación para el dueño.</li>
+<li>Explore casos de uso relacionados a la implementación de copilotos o bots conversacionales en algún punto del flujo de análisis de datos.</li>
 </ul>
 </section>
 <section id="resumen" class="level2">
 <h2 class="anchored" data-anchor-id="resumen">Resumen</h2>
-<p>En el área de análisis de datos, puede llegar a ser un rol aparte el de aquel que realiza visualizaciones. Es un área que <strong>implica no sólo conocimiento técnico en datos, sino en diseño</strong>. Sino se tiene esta formación puntual, muchas veces se adquiere con la experiencia, y aún así, frente a una presentación, el contenido y la forma <strong>dependerá de quién reciba la información</strong>. Lo recomendable es inicialmente <strong>partir de un diseño mínimo, replicable y tomar referencias de otras presentaciones</strong>. Complementar y mejorar luego en función de la asimilación de principios básicos del diseño, colores e incluso tendencias.</p>
-<p>En cuanto a los datos, las visualizaciones estarán dadas por la <strong>cantidad de variables y su tipo</strong>. Suele ser buen hábito recurrir a una <em>galería de visualizaciones</em> para corrobar cuál gráfico encaja con lo que se tiene disponible o se quiere mostrar (ej: <a href="https://www.python-graph-gallery.com/">Python Graph Gallery</a>). Siempre adecuar la visualización a la <strong>pregunta que debe responder</strong> y evitar la sobrecarga / repetición de datos. Acompañar con el correspondiente título, referencias y leyenda, así como eventualmente, si fuese necesario, con una breve y sencilla explicación coloquial.</p>
-<p>Dicho esto, es posible realizar visualizaciones tanto con herramientas pensadas para tal fin (Tableau, PowerBI, Looker), otras más genéricas de presentaciòn (PowerPoint, Google Slides) o con Python / R / Javascript (a través de las librerías adecuadas). En ese sentido, lo recomendable es <strong>adoptar una en particular y profundizar en su uso</strong>.</p>
+<p>Hacia principios de 2023, el auge y popularidad de estas <em>herramientas</em> está a la orden del día. Como toda novedad tecnológica contemporánea, parece consolidarse en <strong>un crecimiento exponencial que es difícil de asimilar de manera exhaustiva y de entender en términos de aplicaciones y consecuencias</strong>. El impacto puede llegar a ser sustancial en muchos rubros, principalmente en aquellos relacionados a la programación, actividad en la cual se está viendo que su potencial y desempeño es asombroso.</p>
+<p>Desde la perspectiva del rol profesional en análisis de datos, lo importante recae en <strong>estar al tanto de los avances en esta primera etapa</strong> de descubrimiento y desarrollo, e <strong>ir adquiriendo de manera progresiva la capacidad</strong> para utilizar el amplio abanico de plataformas, herramientas, librerías, etc. que surgirán a partir de ello. Actualmente, se destacan al menos dos:</p>
+<ul>
+<li><a href="https://chat.openai.com/">chatGPT</a></li>
+<li><a href="https://github.com/features/copilot">GitHub Copilot</a>.</li>
+</ul>
+<p>La primera de ellas es un bot conversacional, una interfaz sobre la cual se pueden realizar todo tipo de preguntas, afirmaciones y/o expresiones en lenguaje natural (el utilizado para comunicarnos entre humanos), y obtener una respuesta acorde (que puede incluir lenguaje natural, código, imágenes, entre otros). Dicho esto, mucho se habla acerca de que podría ser una nueva forma de búsqueda, dejando atrás el viejo hábito de <em>googlear</em>, la cual es una habilidad tácitamente requerida para cualquier analista de datos.</p>
+<p>La segunda es una implementación pensada para utilizar en el contexto de una IDE (por ejemplo, VScode), con el objetivo de acelerar el proceso de <em>coding</em> mediante: la solicitud (en lenguaje natural) de crear funciones u otras piezas de código con requerimientos específicos; la predicción, basada en contexto, de qué quiere uno codear a continuación; y la sugerencia en corrección de errores y mejoras. Como analogía de un vuelo, siendo nosotros los pilotos de un avión, esta herramienta nos brinda una asistencia considerable como copiloto. La responsabilidad para definir, pensar y ser creativos en el desarrollo de soluciones y anticipación de errores por fuera del ámbito del código (o aterrizar un avión con cientos de pasajeros a bordo), entre muchas otras cuestiones, aún recae en la habilidad humana (al menos por ahora).</p>
+<p>Una característica común a estas herramientas (y al resto de las que están surgiendo) es la utilización de lenguaje natural. Esto es posible gracias a la creación de una novedosa arquitectura de aprendizaje de máquina (<em>machine learning</em>) llamada <strong>Transformers</strong>. Para quienes quieran profundizar en este tema, pueden comenzar con la lectura del famosísimo paper de 2017 titulado <a href="https://arxiv.org/pdf/1706.03762.pdf"><em>Attention Is All You Need</em></a>. Mucho se habla también acerca de la evolución en la manera que programamos actualmente, turnándose ésta cada vez más <em>humanamente expresiva</em>, esto es, que los lenguajes de programación serán cada vez más parecidos a una conversación entre personas.</p>
+<p>Finalizando, en lo que respecta a este libro y la resolución de actividades, desde ya, para quieran utilizar estas herramientas (u otras similares) pueden hacerlo a discreción, sin ninguna limitación. Sin embargo, en términos pedagógicos, si así fuese, se sugiere acompañar su uso con mayor lectura sobre los diversos temas y reflexiones escritas (por ustedes) acerca de los resultados obtenidos. Se supone que, al disponer de estas herramientas, están ahorrando tiempo, con lo cual termina siendo una cuestión de aprovechar el tiempo de sobra en potenciar el aprendizaje. En las entregas obligatorias, también es libre su uso, pero se anima a los estudiantes a comunicar cuál y para qué las han usado, con una breve descripción del proceso.</p>
 
 
 </section>
@@ -452,14 +439,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./06 - descripcion de variables.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Descripción de variables</span></span>
+      <a href="./a01 - fundamentos de programacion.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Fundamentos de programación</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./08 - origen y recoleccion.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Origen y recolección de datos</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

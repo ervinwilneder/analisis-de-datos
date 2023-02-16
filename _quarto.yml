@@ -39,6 +39,7 @@ book:
     - part: "Anexo"
       chapters:
         - a01 - fundamentos de programacion.qmd
+        - a03 - copilotos y bots conversacionales.qmd
     # - part: "Machine Learning"
     # - part: "DataOps / MLOps"
   page-navigation: true

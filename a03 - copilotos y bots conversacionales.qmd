@@ -1,0 +1,32 @@
+# Copilotos y bots conversacionales
+
+## Lectura
+
+- <https://www.analyticsvidhya.com/blog/2023/02/harnessing-the-power-of-chatgpt-for-data-science/>
+- <https://www.kaggle.com/discussions/general/370775>
+- <https://datavizcatalogue.com/blog/how-useful-is-chatgpt-for-data-visualisation-work/>
+- <https://machinelearningknowledge.ai/github-copilot-examples-can-ai-actually-help-you-code/>
+
+## Actividades
+
+- Explore casos de uso relacionados a la implementación de copilotos o bots conversacionales en algún punto del flujo de análisis de datos.
+
+## Resumen
+
+Hacia principios de 2023, el auge y popularidad de estas _herramientas_ está a la orden del día. Como toda novedad tecnológica contemporánea, parece consolidarse en **un crecimiento exponencial que es difícil de asimilar de manera exhaustiva y de entender en términos de aplicaciones y consecuencias**. El impacto puede llegar a ser sustancial en muchos rubros, principalmente en aquellos relacionados a la programación, actividad en la cual se está viendo que su potencial y desempeño es asombroso.
+
+Desde la perspectiva del rol profesional en análisis de datos, lo importante recae en **estar al tanto de los avances en esta primera etapa** de descubrimiento y desarrollo, e **ir adquiriendo de manera progresiva la capacidad** para utilizar el amplio abanico de plataformas, herramientas, librerías, etc. que surgirán a partir de ello. Actualmente, se destacan al menos dos: 
+
+- [chatGPT](https://chat.openai.com/)
+- [GitHub Copilot](https://github.com/features/copilot).
+
+La primera de ellas es un bot conversacional, una interfaz sobre la cual se pueden realizar todo tipo de preguntas, afirmaciones y/o expresiones en lenguaje natural (el utilizado para comunicarnos entre humanos), y obtener una respuesta acorde (que puede incluir lenguaje natural, código, imágenes, entre otros). Dicho esto, mucho se habla acerca de que podría ser una nueva forma de búsqueda, dejando atrás el viejo hábito de _googlear_, la cual es una habilidad tácitamente requerida para cualquier analista de datos. 
+
+La segunda es una implementación pensada para utilizar en el contexto de una IDE (por ejemplo, VScode), con el objetivo de acelerar el proceso de _coding_ mediante: la solicitud (en lenguaje natural) de crear funciones u otras piezas de código con requerimientos específicos; la predicción, basada en contexto, de qué quiere uno codear a continuación; y la sugerencia en corrección de errores y mejoras. Como analogía de un vuelo, siendo nosotros los pilotos de un avión, esta herramienta nos brinda una asistencia considerable como copiloto. La responsabilidad para definir, pensar y ser creativos en el desarrollo de soluciones y anticipación de errores por fuera del ámbito del código (o aterrizar un avión con cientos de pasajeros a bordo), entre muchas otras cuestiones, aún recae en la habilidad humana (al menos por ahora).
+
+Una característica común a estas herramientas (y al resto de las que están surgiendo) es la utilización de lenguaje natural. Esto es posible gracias a la creación de una novedosa arquitectura de aprendizaje de máquina (_machine learning_) llamada **Transformers**. Para quienes quieran profundizar en este tema, pueden comenzar con la lectura del famosísimo paper de 2017 titulado [_Attention Is All You Need_](https://arxiv.org/pdf/1706.03762.pdf). Mucho se habla también acerca de la evolución en la manera que programamos actualmente, turnándose ésta cada vez más _humanamente expresiva_, esto es, que los lenguajes de programación serán cada vez más parecidos a una conversación entre personas.
+
+Finalizando, en lo que respecta a este libro y la resolución de actividades, desde ya, para quieran utilizar estas herramientas (u otras similares) pueden hacerlo a discreción, sin ninguna limitación. Sin embargo, en términos pedagógicos, si así fuese, se sugiere acompañar su uso con mayor lectura sobre los diversos temas y reflexiones escritas (por ustedes) acerca de los resultados obtenidos. Se supone que, al disponer de estas herramientas, están ahorrando tiempo, con lo cual termina siendo una cuestión de aprovechar el tiempo de sobra en potenciar el aprendizaje. En las entregas obligatorias, también es libre su uso, pero se anima a los estudiantes a comunicar cuál y para qué las han usado, con una breve descripción del proceso.
+
+
+
