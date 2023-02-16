@@ -14,7 +14,7 @@
 - Mencione al menos 3 herramientas vinculadas al análisis de datos
 - ¿Qué tipo de análisis de datos se pueden hacer?
 - Relacione la anterior respuesta con los siguientes conceptos: _raw data_, _information_, _knowledge_, _insight_, _actionable insight_, _decision-making_, _model_
-- Diferencie brevemente _Machine Learning_, _Data Mining_, _Data Science_, _Business Intelligence_, _Data Analysis_ y _Data Analytics_
+- Diferencie brevemente _Machine Learning_, _Data Mining_, _Data Science_, _Business Intelligence_, _Statistics_, _Data Analysis_ y _Data Analytics_
 
 ## Resumen
 
