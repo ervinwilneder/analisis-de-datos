@@ -1,6 +1,6 @@
 # Prefacio {.unnumbered}
 
-El presente libro es un compilado de lecturas y actividades sobre diferentes temas que son considerados fundamentales para el análisis de datos. Cada capítulo corresponde a un tema e incluye un resumen con ideas y conclusiones a destacar. Donde corresponda, se dispone además un apartado con implementaciones en diversos lenguajes/herramientas, principalmente utilizando Python.
+El presente libro es un compilado de lecturas y actividades sobre diferentes temas que son considerados fundamentales para el análisis de datos. Cada capítulo corresponde a un tema e incluye un resumen con ideas y conclusiones a destacar.
 
 Este material fue desarrollado exclusivamente para las materias _Análisis de Datos (I_ y _II_) y _Python_ de la [Diplomatura Universitaria en Programación](https://www.frh.utn.edu.ar/cursoscursos_diplomatura) de la UTN HAEDO, dictada inicialmente en 2023.
 
