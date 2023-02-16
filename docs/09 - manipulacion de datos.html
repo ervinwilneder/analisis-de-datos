@@ -286,7 +286,14 @@ ul.task-list li input[type="checkbox"] {
 <section id="actividades" class="level2">
 <h2 class="anchored" data-anchor-id="actividades">Actividades</h2>
 <ul>
-<li>Considere el dataset <a href="https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link">Pokemon</a>. Señale las posibles razones por las cuales se encuentran valores perdidos en la variable <em>type_2</em></li>
+<li>Considere el dataset <a href="https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link">Pokemon</a>. Señale las posibles razones por las cuales se encuentran valores perdidos en la variable <code>type_2</code> así como también las posibles alternativas para <em>imputar</em> esos datos.</li>
+<li>Realice una limpieza y transformación del dataset, llevando adelante lo siguiente:
+<ul>
+<li>Elimine los registros donde la variable <code>type_2</code> donde la misma sea nula o <code>legendary</code> sea verdadero</li>
+<li>Construya <a href="https://bookdown.org/max/FES/creating-dummy-variables-for-unordered-categories.html">variables <em>dummies</em></a> para <code>type_1</code></li>
+<li>Escale las variables numéricas de tal manera que sus valores se encuentren entre -1 y 1</li>
+<li>Recodifique la variable <code>type_2</code> de tal manera que <code>Psychic</code> sea igual a 1, de lo contrario 0.</li>
+</ul></li>
 </ul>
 </section>
 <section id="resumen" class="level2">

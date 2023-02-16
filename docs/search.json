@@ -186,7 +186,7 @@
     "href": "09 - manipulacion de datos.html#actividades",
     "title": "Manipulación de datos",
     "section": "Actividades",
-    "text": "Actividades\n\nConsidere el dataset Pokemon. Señale las posibles razones por las cuales se encuentran valores perdidos en la variable type_2"
+    "text": "Actividades\n\nConsidere el dataset Pokemon. Señale las posibles razones por las cuales se encuentran valores perdidos en la variable type_2 así como también las posibles alternativas para imputar esos datos.\nRealice una limpieza y transformación del dataset, llevando adelante lo siguiente:\n\nElimine los registros donde la variable type_2 donde la misma sea nula o legendary sea verdadero\nConstruya variables dummies para type_1\nEscale las variables numéricas de tal manera que sus valores se encuentren entre -1 y 1\nRecodifique la variable type_2 de tal manera que Psychic sea igual a 1, de lo contrario 0."
   },
   {
     "objectID": "09 - manipulacion de datos.html#resumen",

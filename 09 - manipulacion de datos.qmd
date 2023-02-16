@@ -10,7 +10,12 @@
 
 ## Actividades
 
-- Considere el dataset [Pokemon](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Señale las posibles razones por las cuales se encuentran valores perdidos en la variable _type_2_
+- Considere el dataset [Pokemon](https://drive.google.com/drive/folders/1Lprg5DfAXRnUcmYi5TdzfpKIzQ49ITuq?usp=share_link). Señale las posibles razones por las cuales se encuentran valores perdidos en la variable `type_2` así como también las posibles alternativas para _imputar_ esos datos. 
+- Realice una limpieza y transformación del dataset, llevando adelante lo siguiente:
+    - Elimine los registros donde la variable `type_2` donde la misma sea nula o `legendary` sea verdadero
+    - Construya [variables _dummies_](https://bookdown.org/max/FES/creating-dummy-variables-for-unordered-categories.html) para `type_1`
+    - Escale las variables numéricas de tal manera que sus valores se encuentren entre -1 y 1
+    - Recodifique la variable `type_2` de tal manera que `Psychic` sea igual a 1, de lo contrario 0.
 
 ## Resumen
 
